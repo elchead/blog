@@ -1,1 +1,14 @@
 theme: jekyll-theme-minimal
+title: Welcome to the elchead's homepage!
+description: The place where I share my thoughts and learning process
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
