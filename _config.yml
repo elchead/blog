@@ -7,13 +7,13 @@ permalink:        pretty
 
 # Setup
 title:            Elchead's site
-tagline:          ''
+tagline:          'Sharing my thoughts with the world'
 description:      'The place where I share my thoughts and learning process'
 baseurl:          /
 author:
   name:           'Adrian Stobbe'
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate:         5
 paginate_path: "page:num"
 
