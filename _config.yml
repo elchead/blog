@@ -8,7 +8,6 @@ permalink:        pretty
 title:            Elchead's site
 tagline:          'Sharing my thoughts with the world'
 description:      'The place where I share my thoughts and learning process'
-baseurl:          /
 author:
   name:           'Adrian Stobbe'
 include: [personal]
