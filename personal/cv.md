@@ -72,14 +72,14 @@ Experience through different software repos for projects and university courses.
 
 ***TU Munich,** Oct 2020 - Oct 2022*
 
-## **Bachelor's Degree in Engineering Science**
-
 ## Exchange Semester in Computer Science and Mandarin
 
 ***Tsinghua University,** Beijing**,** Sept 2019 - Feb 2020*
 
 - focus on Chinese language
 - attended courses: Combinatorics & Algorithm design, Big Data & Machine learning
+
+## **Bachelor's Degree in Engineering Science**
 
 ***TU Berlin,** Oct 2017 - Oct* *2020*
 
