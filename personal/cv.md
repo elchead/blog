@@ -13,13 +13,13 @@ title: Resume
 
 ---
 
-# 👨‍💻 ****Work experience
+# 👨‍💻 Work experience
 
 ## Development of a Postprocessing tool for Combustion Experiments
 
 ***Working student**, TU Berlin - Institute of Fluid Dynamics, (Oct 2018 - Sept 2019)*
 
-Built an automated **Python** script ****for postprocessing experimental data. The tool can read entire measurement campaigns, create individual plots, and evaluate the success rate (detonation detection) for different configurations. I was in main-charge of the development, but collaborated with the research group through **Git.** 
+Built an automated **Python** script for postprocessing experimental data. The tool can read entire measurement campaigns, create individual plots, and evaluate the success rate (detonation detection) for different configurations. I was in main-charge of the development, but collaborated with the research group through **Git.** 
 
 ## Insights into manufacturing
 
