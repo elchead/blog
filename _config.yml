@@ -12,7 +12,7 @@ description:      'The place where I share my thoughts and learning process'
 baseurl:          /
 author:
   name:           'Adrian Stobbe'
-
+include: [personal]
 plugins: [jekyll-paginate]
 paginate:         5
 paginate_path: "page:num"
