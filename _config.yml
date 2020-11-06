@@ -2,13 +2,12 @@
 highlighter:      rouge
 
 # Permalinks
-permalink:        pretty
+# permalink:        pretty
 
 # Setup
 title:            Elchead's site
 tagline:          'Sharing my thoughts with the world'
 description:      'The place where I share my thoughts and learning process'
-baseurl:          /
 author:
   name:           'Adrian Stobbe'
 include: [personal]
@@ -18,6 +17,3 @@ paginate_path: "page:num"
 
 # Custom vars
 version:          2.1.0
-
-github:
-  repo:           https://github.com/elchead/hyde
