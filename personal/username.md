@@ -2,7 +2,7 @@
 layout: default
 title: Why elchead?
 ---
-
+# Why elchead?
 While searching for a username that would peculiarly reflect me, this turned out to be the most encompassing cipher.
 It stems from my interest in the second-brain idea, which has transformed me and how I organize significantly. I immediately saw the connection to the interesting word composition of the Chinese word for computer - electrical brain. Substituting the latter with the more modest word head lead me to elechead. Finally, I couldn't resist incorporating my German roots by making a reference to the animal Elch, i.e., moose in English.
 
