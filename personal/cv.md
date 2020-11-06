@@ -15,18 +15,6 @@ title: Resume
 
 # 👨‍💻 Work experience
 
-## Development of a Postprocessing tool for Combustion Experiments
-
-***Working student**, TU Berlin - Institute of Fluid Dynamics, (Oct 2018 - Sept 2019)*
-
-Built an automated **Python** script for postprocessing experimental data. The tool can read entire measurement campaigns, create individual plots, and evaluate the success rate (detonation detection) for different configurations. I was in main-charge of the development, but collaborated with the research group through **Git.** 
-
-## Insights into manufacturing
-
-***Technical intern,** Ingenieurbetrieb Bickert, (Apr 2019- Jun 2019)*
-
-Assisted production and was introduced to company management and working procedures at a local milling engineering company.
-
 ## CFD development with FEM and SPH
 
 ***Intern, Bachelor thesis, working student,** dive solutions GmbH,  (since May 2020)*
@@ -34,6 +22,19 @@ Assisted production and was introduced to company management and working procedu
 I learned about the theory of **porous media** and a particle-based CFD method called SPH and developed a 1D solver for porous media in **Python** to solidify my understanding. Furthermore, I supported an industrial cooperation project. I conducted complex simulations by preparing the geometry using **CAD** software, building the setup in the company's **Python** interface, and evaluated the results in presentations for the client. I got involved in the **C++** solver development and integrated additional physical models.
 
 As part of my thesis, I developed a **FEM** porous media solver from scratch with **C++.** After that, I coupled FEM-SPH for simulating free-fluid-flow and porous-flow interactions. After validating the solver, I demonstrated the industrial capability by simulating a rotating 3D washing drum.
+
+## Insights into manufacturing
+
+***Technical intern,** Ingenieurbetrieb Bickert, (Apr 2019- Jun 2019)*
+
+Assisted production and was introduced to company management and working procedures at a local milling engineering company.
+
+## Development of a Postprocessing tool for Combustion Experiments
+
+***Working student**, TU Berlin - Institute of Fluid Dynamics, (Oct 2018 - Sept 2019)*
+
+Built an automated **Python** script for postprocessing experimental data. The tool can read entire measurement campaigns, create individual plots, and evaluate the success rate (detonation detection) for different configurations. I was in main-charge of the development, but collaborated with the research group through **Git.** 
+
 
 ---
 
