@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome to the Site!
+slug: home_page
 ---
 Congratuations to being one of the first visitors on this new blog. Unfortunately, there is not a lot of content yet, but feel free to check it later again :)
 
