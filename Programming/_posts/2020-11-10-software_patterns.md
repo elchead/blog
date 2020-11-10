@@ -43,7 +43,7 @@ After that, I thought about a problem by myself and how I could apply the patter
 > teach me and I remember,  
 > involve me and I learn.
 
-[Sidenote]: *If you want to learn more about the origin of this Confucian wisdom, check [here](https://quoteinvestigator.com/2019/02/27/tell/).*
+Sidenote: *If you want to learn more about the origin of this Confucian wisdom, check [here](https://quoteinvestigator.com/2019/02/27/tell/).*
 
 ## Where to get started
 Finally, most of the book's content is available for free on [Refactoring Guru](https://refactoring.guru/design-patterns/)! So you can check out if it serves you at no cost. I bought the book for a better reading experience, to take notes, and to practice with the source code solutions. It's also a good way to appreciate the author's work, into which clearly a lot of thought and love went (there are so many nice drawings!).
