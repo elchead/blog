@@ -28,7 +28,7 @@ The main motivation for these patterns is **code reusability** and easier **main
     Using a common language can simplify communication among developers. This is what lingo should be used for: precise communication of complex ideas.
 
 ## The book
-I found "Dive Into Design Pattern" by Alexander Shvets to be a great resource to learn about this topic. It initially lays out general principles to guide design and briefly introduces UML diagrams. The main focus is then on explaining the 22 classical design patterns from the ["Gang of Four"](https://www.goodreads.com/book/show/85009.Design_Patterns).
+I found [Dive Into Design Patterns](https://refactoring.guru/design-patterns/book) by Alexander Shvets to be a great resource to learn about this topic. It initially lays out general principles to guide design and briefly introduces UML diagrams. The main focus is then on explaining the 22 classical design patterns from the ["Gang of Four"](https://www.goodreads.com/book/show/85009.Design_Patterns).
 
 ### What I especially like about the book
 I found the writing style fluent and concise. It doesn't remain abstract but instead tries to relate it to practice. I found the real-world analogies to the patterns sometimes quite amusing. Moreover, the book has a clear structure for each design. It starts with a problem that the pattern addresses. The pattern structure is explained (with UML diagram), and pseudo-code is given.
