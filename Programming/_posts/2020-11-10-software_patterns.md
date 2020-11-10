@@ -6,9 +6,12 @@ excerpt_separator: <!--more-->
 # summary: |
 ---
 
-Learning to write proper code is hard. Who doesn't know it, after having an initial spark on how to solve a problem, it is tentative to immediately start coding. I guess most of us did so initially and almost always ended up on dead-end roads. Taking the time to think a design through before writing the first line is indispensable for larger projects but even makes things easier for smaller undertakings.
+Learning to write proper code is hard. Who doesn't know it, after having an initial spark on how to solve a problem, it is tentative to immediately start coding.
+
+I guess most of us did so initially and almost always ended up on dead-end roads. Taking the time to think a design through before writing the first line is indispensable for larger projects but even makes things easier for smaller undertakings.
 <!--more-->
-Object-oriented programming is a very common and powerful paradigm to write code. The patterns I refer to are based on this principle and give guidelines on how to design classes and interfaces.
+
+**Object-oriented programming** is a very common and powerful paradigm to write code. The patterns I refer to are based on this principle and give guidelines on how to design classes and interfaces.
 The main motivation for these patterns is **code reusability** and easier **maintenance**. Code shouldn't break after adjusting a single line. Also, extending the functionality shouldn't need a big refactor.
 
 ## Why bother learning patterns?
@@ -46,5 +49,5 @@ After that, I thought about a problem by myself and how I could apply the patter
 Sidenote: *If you want to learn more about the origin of this Confucian wisdom, check [here](https://quoteinvestigator.com/2019/02/27/tell/).*
 
 ## Where to get started
-Finally, most of the book's content is available for free on [Refactoring Guru](https://refactoring.guru/design-patterns/)! So you can check out if it serves you at no cost. I bought the book for a better reading experience, to take notes, and to practice with the source code solutions. It's also a good way to appreciate the author's work, into which clearly a lot of thought and love went (there are so many nice drawings!).
+Finally, most of the book's content is available for **free** on [Refactoring Guru](https://refactoring.guru/design-patterns/)! So you can check out if it serves you at no cost. I bought the book for a better reading experience, to take notes, and to practice with the source code solutions. It's also a good way to appreciate the author's work, into which clearly a lot of thought and love went (there are so many nice drawings!).
 
