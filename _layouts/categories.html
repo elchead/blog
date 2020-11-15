@@ -5,6 +5,7 @@ layout: default
     <h1 class="h1 category-title">
       {{ page.category-name }}
     </h1>
+    {{ page.cat_summary }}
     <ul>
     <div class="posts">
       {% for post in site.categories[page.category-name] %}
