@@ -1,19 +1,20 @@
 # Dependencies
-highlighter:      rouge
+highlighter: rouge
 
 # Permalinks
 #permalink:        pretty
 
 # Setup
-title:            Elchead's site
-tagline:          'Sharing my thoughts with the world'
-description:      'The place where I share my thoughts and learning process'
+title: Elchead's site
+tagline: "Sharing my thoughts with the world"
+description: ""
+#'The place where I share my thoughts and learning process'
 author:
-  name:           'Adrian Stobbe'
+  name: "Adrian Stobbe"
 include: [personal]
 plugins: [jekyll-paginate]
-paginate:         5
+paginate: 5
 paginate_path: "page:num"
 
 # Custom vars
-version:          2.1.0
+version: 2.1.0

@@ -1,18 +1,21 @@
 ---
 layout: post
-title: Welcome to the Site!
+title: Hello World
 slug: home_page
 ---
-Congratulations on being one of the first visitors to this new blog. Unfortunately, there is not a lot of content yet, but feel free to check it later again :)
 
-The goal is to share content I'm interested in with you. If any topic speaks to you, I'd be happy to get in touch and hear about your thoughts and suggestions!
+Congratulations on being one of the first visitors to this new blog.
+
+If any topic speaks to you, I'd be happy to get in touch and hear about your thoughts and suggestions!
 
 I've planned to post stuff concerning the following topics:
+
 - Programming
 - Learning Chinese
 - Productivity
 
 Stay tuned!
+
 ## Quick intro
 
 I'm Adrian, currently pursuing a Master's degree in Computational Science & Engineering at TU Munich.
@@ -21,4 +24,4 @@ Also, this year I got super hyped about productivity and personal knowledge mana
 
 To see more about what I've been up for, you can check my [Resume](/personal/cv).
 
-PS: If you're curious about the name *elchead* see [here]( /personal/username).
+PS: If you're curious about the name _elchead_ see [here](/personal/username).
