@@ -9,7 +9,9 @@ title: Resume
 
 📧 Email address: [adrian.stobbe@tum.de](mailto:adrian.stobbe@tum.de)
 
-🔗 LinkedIn: [https://www.linkedin.com/in/adrian-stobbe/](https://www.linkedin.com/in/adrian-stobbe/)
+🔗 LinkedIn: [linkedin.com/in/adrian-stobbe/](https://www.linkedin.com/in/adrian-stobbe/)
+
+🐱 GitHub: [github.com/elchead](https://github.com/elchead)
 
 ---
 
@@ -41,6 +43,8 @@ Built an automated **Python** script for postprocessing experimental data. The t
 
 ## 💻 Technology
 
+<!-- Link projects -->
+
 ### C++⭐️⭐️⭐️
 
 ### Python⭐️⭐️⭐️
@@ -48,6 +52,10 @@ Built an automated **Python** script for postprocessing experimental data. The t
 ### MATLAB⭐️⭐️
 
 Basic skills through university courses, such as CFD and numerical analysis homework and projects.
+
+### Web ⭐️
+
+Basic HTML, CSS, JavaScript. Backend-Basics with Node.Js. REST API design
 
 ### UNIX ⭐️
 
@@ -57,13 +65,13 @@ Experience through different software repos for projects and university courses.
 
 ## 🗣 Languages
 
-**German** _(mother-tongue)_ : ⭐️⭐️⭐️⭐️
+**German** _(mother-tongue)_ : ⭐️⭐️⭐️⭐️⭐️
 
-**English** : ⭐️⭐️⭐️
+**English** : ⭐️⭐️⭐️⭐️
 
-**Spanish** : ⭐️⭐️⭐️
+**Spanish** : ⭐️⭐️⭐️⭐️
 
-**Mandarin** : ⭐️⭐️ (B2)
+**Mandarin** : ⭐️⭐️⭐️ (B2)
 
 ---
 
@@ -71,17 +79,17 @@ Experience through different software repos for projects and university courses.
 
 ## Master's Degree in Computational Engineering & Science
 
-**\*TU Munich,** Oct 2020 - Oct 2022\*
+**TU Munich,** Oct 2020 - Oct 2022
 
 ## Exchange Semester in Computer Science and Mandarin
 
-**\*Tsinghua University,** Beijing**,** Sept 2019 - Feb 2020\*
+**Tsinghua University, Beijing,** Sept 2019 - Feb 2020
 
 - focus on Chinese language
 - attended courses: Combinatorics & Algorithm design, Big Data & Machine learning
 
-## **Bachelor's Degree in Engineering Science**
+## Bachelor's Degree in Engineering Science
 
-**\*TU Berlin,** Oct 2017 - Oct\* _2020_
+**TU Berlin,** Oct 2017 - Oct _2020_
 
 - focus on fluid mechanics and numerical simulation
