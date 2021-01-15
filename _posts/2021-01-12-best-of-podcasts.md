@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 9300 minutes - According to Spotify, I spent this much time listening to podcasts last year. It was the first year where I started to prefer it consistently over listening to music. In the beginning, it was mainly for practicing Chinese ([Speak Chinese Naturally](https://speakchinesenaturally.com/), [GuShiFM](https://storyfm.cn/), [DaPeng Speak Chinese](https://www.youtube.com/channel/UCNmZr4WBw71bdJYjaycLodA)), and they helped me a lot! I still remember how I occasionally trapped myself evading from them because it was demanding, and the stories were not always very exciting. Now, this has gone away and I even listen to doze off.
 
 But it was only until the second half of the year when I found them as a source of inspiration and realized how much I enjoy listening to philosophical and deeply personal conversations. I first shared the episodes of Derek Sivers and Naval Ravikant with my mentor. He was also excited by them and I really like how we now sometimes cite the episodes to explain our ideas or make a point. I would love to have more of this, so feel free to reach out if any of this also speaks to you :)
-
+<!--more-->
 Without further ado, here are my Top 3 of this year in chronological order.
 
 # 1. [Derek Sivers: Versus Imitation [The Knowledge Project Ep. #88]](https://fs.blog/knowledge-project/derek-sivers/)
