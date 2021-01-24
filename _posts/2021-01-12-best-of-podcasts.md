@@ -12,7 +12,7 @@ But it was only until the second half of the year when I found them as a source 
 
 Without further ado, here are my Top 3 of this year in chronological order.
 
-# 1. [Derek Sivers: Versus Imitation [The Knowledge Project Ep. #88]](https://fs.blog/knowledge-project/derek-sivers/)
+# 1. [Derek Sivers: Innovation Versus Imitation [The Knowledge Project Ep. #88]](https://fs.blog/knowledge-project/derek-sivers/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JNkqvi29LBs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
