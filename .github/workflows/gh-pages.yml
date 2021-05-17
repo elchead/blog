@@ -1,0 +1,48 @@
+name: hugo-latest-cd
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+  HUGO_ARGS: "--minify"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🛎 Check out master
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: 🚀 Build and deploy
+        uses: victoriadrake/hugo-latest-cd@master
+## old version that deletes src files:
+# name: Publish Site
+
+# on:
+#   push:
+#     branches:
+#       - master
+
+# jobs:
+#   build-deploy:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout Repo
+#         uses: actions/checkout@master
+#         with:
+#           submodules: false
+#       - name: Publish Site
+#         uses: chabad360/hugo-gh-pages@master
+#         with:
+#           githubToken: ${{ secrets.PERSONAL_TOKEN }}
+#           cname: elchead.me # Or anything else
+#           repo: elchead/elchead.github.io
+#           args: --gc --minify
+#           # hugoVersion: extended_0.68.3
+#           siteDir: /github/workspace/site
