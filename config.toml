@@ -1,0 +1,327 @@
+baseURL = "http://elchead.me/"
+# [en, zh-cn, fr, ...] determines default content language
+defaultContentLanguage = "en"
+# language code
+languageCode = "en"
+title = "Elcheads Site"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "uBlogger"
+
+[params]
+  # uBlogger theme version
+  version = "2.0.X"
+    # site default theme ("light", "dark", "auto")
+  defaultTheme = "auto"
+
+  [params.search]
+    enable = true
+    # type of search engine ("lunr", "algolia")
+    type = "lunr"
+    # max index length of the chunked content
+    contentLength = 4000
+    # placeholder of the search bar
+    placeholder = ""
+    # uBlogger NEW | 0.2.1 max number of results length
+    maxResultLength = 10
+    # uBlogger NEW | 0.2.3 snippet length of the result
+    snippetLength = 30
+    # uBlogger NEW | 0.2.1 HTML tag name of the highlight part in results
+    highlightTag = "em"
+    # uBlogger NEW | 0.2.4 whether to use the absolute URL based on the baseURL in search index
+    absoluteURL = false
+    # [params.search.algolia]
+    #   index = ""
+    #   appID = ""
+    #   searchKey = ""
+
+    # Home page config
+  [params.home]
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = "/images/profile_photo_s.png"
+      # uBlogger CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+      title = "Adrian Stobbe"
+      # subtitle shown in home page
+      # subtitle = "aspiring software developer"
+      # whether to show social links
+      social = true
+
+      # uBlogger NEW | 0.2.0 disclaimer (HTML format is supported)
+      disclaimer = "I'm currently pursuing a Master's degree in Computational Science & Engineering at TU Munich. Besides my newly discovered passion for programming, I've been an enthusiastic language learner since my early teenage-times. After English and Spanish, my latest endeavor has been learning Chinese. Also, last year I got excited about productivity and personal knowledge management (PKR). My motivation for this tiny blog is to share my learnings and spark interesting discussions, so I invite you to reach out!"
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+      # uBlogger DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      # defaultHiddenFromHomePage = false
+
+  # Social config about the author
+  [params.social]
+    GitHub = "elchead"
+    Linkedin = "adrian-stobbe"
+    Email = "stobbe.adrian@gmail.com"
+    Paypal = "AdrianStobbe"
+
+   # uBlogger CHANGED | 0.2.0 Page config
+  [params.page]
+    # uBlogger NEW | 1.0.0 main subject for articles, by default classic. more on themes}
+    theme = "classic"
+    # uBlogger NEW | 0.2.0 whether to hide a page from home page
+    hiddenFromHomePage = false
+    # uBlogger NEW | 0.2.0 whether to hide a page from search results
+    hiddenFromSearch = false
+    # uBlogger NEW | 1.2.0 Allows you to hide the preview image on the article page
+    hiddenFeaturedImage = false
+    # uBlogger NEW | 0.2.0 whether to enable twemoji
+    twemoji = false
+    # whether to enable lightgallery
+    lightgallery = true
+    # uBlogger NEW | 0.2.0 whether to enable the ruby extended syntax
+    ruby = true
+    # uBlogger NEW | 0.2.0 whether to enable the fraction extended syntax
+    fraction = true
+    # uBlogger NEW | 0.2.0 whether to enable the fontawesome extended syntax
+    fontawesome = true
+    # whether to show link to Raw Markdown content of the content
+    linkToMarkdown = true
+    # uBlogger NEW | 0.2.4 whether to show the full text content in RSS
+    rssFullText = false
+    # uBlogger NEW | 1.1.0 Post display settings on the page
+    [params.summary]
+      # uBlogger NEW | 1.1.0 Display previews on the page of posts
+      hiddenImage = false
+      # uBlogger NEW | 1.1.0 Allows you to hide the description
+      hiddenDescription = false
+      # uBlogger NEW | 1.1.0 Allows you to hide the title
+      hiddenTitle = false
+    # uBlogger NEW | 1.1.0 Tag display settings
+    [params.summary.tags]
+      # uBlogger NEW | 1.1.0 One of the options for displaying tags
+      theme = "image"
+      # uBlogger NEW | 1.1.0 Text color
+      color = "white"
+      # uBlogger NEW | 1.1.0 Backing color
+      background = "black"
+      # uBlogger NEW | 1.1.0 Tag transparency
+      transparency = 0.9
+    # uBlogger NEW | 1.2.0 Fasting time display
+    [params.timeAgo]
+      enable = "false"
+      lang = "en"
+    # uBlogger NEW | 0.2.0 Table of the contents config
+    # [params.page.toc]
+    #   # whether to enable the table of the contents
+    #   enable = true
+    #   # uBlogger NEW | 0.2.9 whether to keep the static table of the contents in front of the post
+    #   keepStatic = true
+    #   # whether to make the table of the contents in the sidebar automatically collapsed
+    #   auto = true
+    # # uBlogger CHANGED | 0.2.0 KaTeX mathematical formulas
+    # [params.page.math]
+    #   enable = true
+    #   # default block delimiter is $$ ... $$ and \\[ ... \\]
+    #   blockLeftDelimiter = ""
+    #   blockRightDelimiter = ""
+    #   # default inline delimiter is $ ... $ and \\( ... \\)
+    #   inlineLeftDelimiter = ""
+    #   inlineRightDelimiter = ""
+    #   # KaTeX extension copy_tex
+    #   copyTex = true
+    #   # KaTeX extension mhchem
+    #   mhchem = true
+    # # uBlogger NEW | 0.2.0 Code config
+    # [params.page.code]
+    #   # whether to show the copy button of the code block
+    #   copy = true
+    #   # the maximum number of lines of displayed code by default
+    #   maxShownLines = 10
+    # # uBlogger NEW | 0.2.0 Mapbox GL JS config
+    # [params.page.mapbox]
+    #   # access token of Mapbox GL JS
+    #   accessToken = ""
+    #   # style for the light theme
+    #   lightStyle = "mapbox://styles/mapbox/light-v9"
+    #   # style for the dark theme
+    #   darkStyle = "mapbox://styles/mapbox/dark-v9"
+    #   # whether to add NavigationControl
+    #   navigation = true
+    #   # whether to add GeolocateControl
+    #   geolocate = true
+    #   # whether to add ScaleControl
+    #   scale = true
+    #   # whether to add FullscreenControl
+    #   fullscreen = true
+    # uBlogger CHANGED | 0.2.0 social share links in post page
+    [params.page.share]
+      enable = false
+      Twitter = true
+      Linkedin = false
+      Whatsapp = true
+      Instapaper = false
+    # uBlogger NEW | 0.2.7 Third-party library config
+    # [params.page.library]
+    #   [params.page.library.css]
+    #     # someCSS = "some.css"
+    #     # located in "assets/"
+    #     # Or
+    #     # someCSS = "https://cdn.example.com/some.css"
+    #   [params.page.library.js]
+    #     # someJavascript = "some.js"
+    #     # located in "assets/"
+    #     # Or
+    #     # someJavascript = "https://cdn.example.com/some.js"
+    # # uBlogger CHANGED | 0.2.10 Page SEO config
+    # [params.page.seo]
+    #   # image URL
+    #   images = []
+    #   # Publisher info
+    #   [params.page.seo.publisher]
+    #     name = ""
+    #     logoUrl = ""
+
+    # uBlogger CHANGED | 1.1.0 Comment config
+    # [params.comment]
+    #   enable = false
+    #   # uBlogger NEW | 1.0.0
+    #   # Remark42 comment config
+    #   [params.comment.remark42]
+    #     enable = false
+    #     # the location of your server with Remark42
+    #     host = "https://remark.example.com"
+    #     # remark42 supports comments for several sites at once, this identifier indicates which site to display comments for.
+    #     site = "you_site_key"
+    #     # design theme
+    #     theme = "light"
+    #     # language
+    #     locale = "en"
+    #     # enable or disable smiley support
+    #     emailSubscribe = "true"
+    #   # Disqus comment config
+    #   [params.comment.disqus]
+    #     # uBlogger NEW | 0.1.1
+    #     enable = false
+    #     # Disqus shortname to use Disqus in posts
+    #     shortname = ""
+    #   # uBlogger NEW | 0.2.0 Commento comment config
+    #   [params.comment.commento]
+    #     enable = false # TODO comment plugin
+    #   # uBlogger NEW | 0.2.5 Utterances comment config
+    #   [params.comment.utterances]
+    #     enable = false
+    #     # owner/repo
+    #     repo = ""
+    #     issueTerm = "pathname"
+    #     label = ""
+    #     lightTheme = "github-light"
+    #     darkTheme = "github-dark"
+
+# [languages]
+#   [languages.en]
+#     weight = 1
+#     title = "Adrians site"
+#     languageCode = "en"
+#     languageName = "English"
+    # [[languages.en.menu.main]]
+    #   identifier = "posts"
+    #   pre = ""
+    #   post = ""
+    #   name = "Posts"
+    #   url = "/posts/"
+    #   title = ""
+    #   weight = 1
+    # [[languages.en.menu.main]]
+    #   identifier = "tags"
+    #   pre = ""
+    #   post = ""
+    #   name = "Tags"
+    #   url = "/tags/"
+    #   title = ""
+    #   weight = 2
+    # [[languages.en.menu.main]]
+    #   identifier = "categories"
+    #   pre = ""
+    #   post = ""
+    #   name = "Categories"
+    #   url = "/categories/"
+    #   title = ""
+    #   weight = 3
+
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+  # [[menu.main]]
+  #   identifier = "tags"
+  #   pre = ""
+  #   post = ""
+  #   name = "Tags"
+  #   url = "/tags/"
+  #   title = ""
+  #   weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 3
+  [[menu.main]]
+    identifier = "cv"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Resume"
+    url = "/cv/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 4
+
+[outputs] # add json for search
+  home = ["HTML", "RSS", "JSON"]
+
+# Markup related config in Hugo
+[markup]
+  # Syntax Highlighting
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    # false is a necessary configuration
+    noClasses = false
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
+      unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
