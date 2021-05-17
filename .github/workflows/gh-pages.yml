@@ -20,6 +20,7 @@ jobs:
           fetch-depth: 1
       - name: 🚀 Build and deploy
         uses: victoriadrake/hugo-latest-cd@master
+      - name: cp CNAME ./docs
 ## old version that deletes src files:
 # name: Publish Site
 
