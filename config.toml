@@ -47,12 +47,14 @@ theme = "uBlogger"
       # uBlogger CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = "Adrian Stobbe"
       # subtitle shown in home page
-      # subtitle = "aspiring software developer"
+      subtitle = "I'm an aspiring software developer, linguaphile and wanna-be salsero 🕺 .\nCurrently, I'm pursuing a Master's degree in Computational Science & Engineering at TU Munich and part of the SAP STAR program (trainee).\nSee here what I'm doing <a href='./now'>now</a>"
       # whether to show social links
       social = true
 
       # uBlogger NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = "I'm currently pursuing a Master's degree in Computational Science & Engineering at TU Munich. Besides my newly discovered passion for programming, I've been an enthusiastic language learner since my early teenage-times. After English and Spanish, my latest endeavor has been learning Chinese. Also, last year I got excited about productivity and personal knowledge management (PKR). My motivation for this tiny blog is to share my learnings and spark interesting discussions, so I invite you to reach out!"
+      # disclaimer = "I'm an aspiring software developer, linguaphile and wanna-be salsero 🕺 . Currently, I'm pursuing a Master's degree in Computational Science & Engineering at TU Munich and part of the SAP STAR program (trainee).\nSee here what I'm doing [now]()"
+      
+      # Besides my newly discovered passion for programming, I've been an enthusiastic language learner since my early teenage-times. After English and Spanish, my latest endeavor has been learning Chinese. Also, last year I got excited about productivity and personal knowledge management (PKR). My motivation for this tiny blog is to share my learnings and spark interesting discussions, so I invite you to reach out!"
     # Home page posts
     [params.home.posts]
       enable = true
