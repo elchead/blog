@@ -47,7 +47,7 @@ theme = "uBlogger"
       # uBlogger CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = "Adrian Stobbe"
       # subtitle shown in home page
-      subtitle = "I'm an aspiring software developer, linguaphile and wanna-be salsero 🕺 .\nCurrently, I'm pursuing a Master's degree in Computational Science & Engineering at TU Munich and am part of the SAP STAR program (trainee).\nSee here what I'm doing <a href='./now'>now</a>"
+      subtitle = "I'm an aspiring software developer, linguaphile and wanna-be salsero 🕺 .\nCurrently, I'm pursuing a Master's degree in Computational Science & Engineering at TU Munich and am part of the SAP STAR program (trainee).\nSee here what I'm doing <a href='./now' style='color: blue'>now</a>"
       # whether to show social links
       social = true
 
@@ -276,14 +276,14 @@ theme = "uBlogger"
   #   url = "/tags/"
   #   title = ""
   #   weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
-    weight = 3
+  # [[menu.main]]
+  #   identifier = "categories"
+  #   pre = ""
+  #   post = ""
+  #   name = "Categories"
+  #   url = "/categories/"
+  #   title = ""
+  #   weight = 3
   [[menu.main]]
     identifier = "cv"
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -295,6 +295,17 @@ theme = "uBlogger"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 4
+  [[menu.main]]
+    identifier = "now"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Now"
+    url = "/now/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 5
 
 [outputs] # add json for search
   home = ["HTML", "RSS", "JSON"]
