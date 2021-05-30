@@ -1,9 +1,9 @@
-baseURL = "http://elchead.me/"
+baseURL = "https://astobbe.me/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "Elchead"
+title = "Adrian's Site"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "uBlogger"
