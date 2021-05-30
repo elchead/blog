@@ -3,7 +3,7 @@ baseURL = "http://elchead.me/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "Elcheads Site"
+title = "Elchead"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "uBlogger"

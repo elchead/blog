@@ -20,5 +20,21 @@
 
         {{- /* Comment */ -}}
         {{- partial "comment.html" . -}}
+        {{- with .Site.Params.dateformat | default "2006-01-02" | .Lastmod.Format -}}
+        {{- $updateDate := . -}}
+        {{- if not (eq  . ($.Site.Params.dateformat | default "2006-01-02" | $.PublishDate.Format)) -}}
+        {{- with $params.upd -}}
+        <p class="is-style-explanation">
+            <b>{{- dict "Date" $updateDate | T "updatedOnDate" -}}:</b> {{ $params.upd }}
+        </p>
+        {{- else -}}
+        <div style="margin: 20px 0 20px 0;">
+            <span class="post-update">
+                <b>{{- dict "Date" . | T "updatedOnDate" -}}</b>
+            </span>
+        </div>
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
     </div>
 {{- end -}}
