@@ -27,18 +27,17 @@ header {
 .logo-svg {
   fill: $global-color-accent;
 
-  [theme=dark] & {
+  [theme="dark"] & {
     fill: $global-font-color-dark;
   }
 }
 
 article {
-
   .content-block {
     a:visited {
       color: #70a0b0;
 
-      [theme=dark] & {
+      [theme="dark"] & {
         color: #70a0b0;
       }
     }
@@ -47,20 +46,22 @@ article {
       border-bottom: dashed 1px;
     }
 
-    a[class="header-mark"], .post-footer a {
+    a[class="header-mark"],
+    .post-footer a {
       border-bottom: none;
     }
   }
 
   .content-block {
     border-radius: $article-border-radius;
-    box-shadow: (0 0 1.5rem 0 rgba(0, 0, 0, .1));
+    box-shadow: (0 0 1.5rem 0 rgba(0, 0, 0, 0.1));
 
-    h2:first-child, h3:first-child {
+    h2:first-child,
+    h3:first-child {
       margin-top: 20px;
     }
 
-    [theme=dark] & {
+    [theme="dark"] & {
       background: $global-background-secondary-color-dark;
     }
   }
@@ -80,7 +81,6 @@ article {
       a.header-mark:before {
         content: none;
       }
-
     }
 
     h2 > .content-block-position:first-child {
@@ -95,9 +95,8 @@ article {
       margin-top: 40px;
       border-radius: $article-border-radius;
       width: 100%;
-      box-shadow: (0 0 1.5rem 0 rgba(0, 0, 0, .1));
+      box-shadow: (0 0 1.5rem 0 rgba(0, 0, 0, 0.1));
     }
-
   }
 
   em {
@@ -106,8 +105,8 @@ article {
     padding: 4px 7px 6px;
     box-decoration-break: clone;
 
-    [theme=dark] & {
-      background: #AE8029;
+    [theme="dark"] & {
+      background: #ae8029;
     }
   }
 
@@ -125,24 +124,23 @@ article {
 }
 
 .summary-animation {
-
   box-shadow: none;
   @include transition(all 0.4s ease-out);
 
   &:hover {
-    @include box-shadow(0 0 40px 0 rgba(0, 0, 0, .1));
+    @include box-shadow(0 0 40px 0 rgba(0, 0, 0, 0.1));
     @include transition(all 0.4s ease-out);
   }
 
-  [theme=dark] & {
+  [theme="dark"] & {
     box-shadow: none;
   }
 
-  [theme=dark] &:hover {
+  [theme="dark"] &:hover {
     border: 2px solid $global-background-secondary-color-dark;
     transform: none;
     @include transition(all 0.4s ease);
-    @include box-shadow(0 0 1.5rem rgba(94, 104, 125, .3));
+    @include box-shadow(0 0 1.5rem rgba(94, 104, 125, 0.3));
   }
 }
 
@@ -181,7 +179,6 @@ a.post-tag-summary {
 }
 
 .page {
-
   max-width: 900px;
   width: 100%;
   min-width: 200px;
@@ -191,7 +188,6 @@ a.post-tag-summary {
     margin-top: 6rem;
     padding-top: 0;
   }
-
 }
 
 .content-block-position {
@@ -207,7 +203,6 @@ a.post-tag-summary {
 
 .home {
   .home-profile {
-
     text-align: left;
     padding-bottom: 4rem;
 
@@ -228,21 +223,20 @@ a.post-tag-summary {
       margin-right: 10px;
 
       img {
-
         border-radius: 10px;
         width: 7rem;
 
         &:hover {
-          box-shadow: (0 0 40px rgba(0, 0, 0, .1));
+          box-shadow: (0 0 40px rgba(0, 0, 0, 0.1));
         }
 
-        [theme=dark] & {
-          box-shadow: (0 0 0 .3618em #a9a9b3);
+        [theme="dark"] & {
+          box-shadow: (0 0 0 0.3618em #a9a9b3);
 
           &:hover {
             position: relative;
-            @include transform(translateY(-.75rem));
-            box-shadow: (0 0 40px rgba(94, 104, 125, .3));
+            @include transform(translateY(-0.75rem));
+            box-shadow: (0 0 40px rgba(94, 104, 125, 0.3));
           }
         }
       }
@@ -250,7 +244,7 @@ a.post-tag-summary {
   }
 }
 
-.home[data-home=posts] {
+.home[data-home="posts"] {
   .summary {
     padding-top: 0;
     padding-bottom: 1rem;
@@ -259,7 +253,7 @@ a.post-tag-summary {
     background: $global-background-color;
     border-radius: $article-border-radius;
 
-    [theme=dark] & {
+    [theme="dark"] & {
       border: 2px solid $global-secondary-color-dark;
       background: $global-background-secondary-color-dark;
     }
@@ -275,7 +269,6 @@ a.post-tag-summary {
         transform: none;
       }
     }
-
   }
 }
 
@@ -284,7 +277,6 @@ a.post-tag-summary {
 }
 
 .single {
-
   blockquote {
     margin: auto;
     background: none;
@@ -304,7 +296,6 @@ a.post-tag-summary {
       border: none;
     }
   }
-
 
   figure {
     margin: 0;
@@ -328,11 +319,11 @@ a.post-tag-summary {
     }
   }
 
-  h2[id^=u-],
-  h3[id^=u-],
-  h4[id^=u-],
-  h5[id^=u-],
-  h6[id^=u-] {
+  h2[id^="u-"],
+  h3[id^="u-"],
+  h4[id^="u-"],
+  h5[id^="u-"],
+  h6[id^="u-"] {
     > .header-mark::before {
       content: none;
     }
@@ -341,8 +332,6 @@ a.post-tag-summary {
   h3 {
     font-size: 1.5rem;
   }
-
-
 }
 
 .single {
@@ -356,9 +345,9 @@ a.post-tag-summary {
   border-radius: 30px;
   background: #eee;
   margin-top: 3rem;
-  box-shadow: (0 0 1.5rem 0 rgba(0, 0, 0, .1));
+  box-shadow: (0 0 1.5rem 0 rgba(0, 0, 0, 0.1));
 
-  [theme=dark] & {
+  [theme="dark"] & {
     background: $global-background-secondary-color-dark;
   }
 }
@@ -372,7 +361,7 @@ a.post-tag-summary {
   box-sizing: border-box;
   border-radius: 6px;
 
-  [theme=dark] & {
+  [theme="dark"] & {
     background-color: $global-background-secondary-color;
   }
 
@@ -404,7 +393,6 @@ a.post-tag-summary {
       }
     }
   }
-
 }
 
 .author-avatar {
@@ -419,7 +407,7 @@ a.post-tag-summary {
   }
 }
 
-.author-avatar-comment{
+.author-avatar-comment {
   width: 105px;
   padding: 0 25px 0 0;
 }
@@ -431,7 +419,6 @@ a.post-tag-summary {
 }
 
 .header-post {
-
   box-shadow: 0 -0.9rem 1.5rem 0 rgba(0, 0, 0, 0.1);
   margin: 6rem 1rem 0;
   max-width: 900px;
@@ -440,13 +427,13 @@ a.post-tag-summary {
   box-sizing: border-box;
   border-radius: 20px 20px 0 0;
 
-  [theme=dark] & {
+  [theme="dark"] & {
     background: $global-background-secondary-color-dark;
   }
 
   .single-title {
     margin: 0 !important;
-    border-bottom: 1px solid #DDD;
+    border-bottom: 1px solid #ddd;
     font-size: 1.6rem;
     font-weight: bold;
     line-height: 140%;
@@ -472,7 +459,7 @@ a.post-tag-summary {
   }
 
   .single-subtitle {
-    margin: .4rem 0;
+    margin: 0.4rem 0;
     font-size: 1.2rem;
     font-weight: normal;
     font-style: italic;
@@ -496,11 +483,10 @@ a.post-tag-summary {
       }
     }
   }
-
 }
 
 .post-all-meta {
-  padding: 20px 60px 20px
+  padding: 20px 60px 20px;
 }
 
 .donate-link:after {
@@ -521,8 +507,8 @@ a.post-tag-summary {
     font-size: 18px;
     line-height: 28px;
 
-    [theme=dark] & {
-      color: #DDDDDD;
+    [theme="dark"] & {
+      color: #dddddd;
     }
   }
 
@@ -530,8 +516,8 @@ a.post-tag-summary {
     color: $global-font-color;
     font-size: 24px;
 
-    [theme=dark] & {
-      color: #DDDDDD;
+    [theme="dark"] & {
+      color: #dddddd;
     }
   }
 }
@@ -608,11 +594,14 @@ a.post-tag-summary {
   }
 }
 
-.theme-full, .theme-classic, .theme-wide {
+.theme-full,
+.theme-classic,
+.theme-wide {
   .content-block-first {
     margin-top: 0 !important;
     box-shadow: 0 1.2rem 1.2rem 0 rgba(0, 0, 0, 0.1);
-    border-radius: 0 0 $article-summary-border-radius $article-summary-border-radius;
+    border-radius: 0 0 $article-summary-border-radius
+      $article-summary-border-radius;
   }
 
   .header-post {
@@ -638,8 +627,9 @@ a.post-tag-summary {
   }
 }
 
-
-.theme-classic, .theme-wide, .theme-full {
+.theme-classic,
+.theme-wide,
+.theme-full {
   .header-post {
     margin-top: 6rem;
     margin-right: auto;
@@ -652,9 +642,9 @@ a.post-tag-summary {
   }
 }
 
-
-.theme-classic.page-toc, .theme-wide.page-toc, .theme-full.page-toc {
-
+.theme-classic.page-toc,
+.theme-wide.page-toc,
+.theme-full.page-toc {
   .header-post {
     margin-top: 6rem;
     margin-right: auto;
@@ -691,11 +681,10 @@ a.post-tag-summary {
   color: $global-font-color;
 
   b {
-    [theme=dark] & {
+    [theme="dark"] & {
       color: black !important;
     }
   }
-
 }
 
 .post-navigation {
@@ -708,7 +697,7 @@ a.post-tag-summary {
     display: block;
 
     :hover {
-      color: $single-link-hover-color
+      color: $single-link-hover-color;
     }
   }
 
@@ -722,11 +711,12 @@ a.post-tag-summary {
     display: flex !important;
     justify-content: space-between;
     border-radius: 6px;
-    box-shadow: 0 0 1em 0 rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+    box-shadow: 0 0 1em 0 rgba(10, 10, 10, 0.1),
+      0 0 0 1px rgba(10, 10, 10, 0.02);
     color: $single-link-color;
     padding: 1.25rem;
 
-    [theme=dark] & {
+    [theme="dark"] & {
       background-color: $global-font-color-dark;
       box-shadow: 0 0 20px 2px rgba(94, 104, 125, 0.3);
     }
@@ -738,13 +728,12 @@ a.post-tag-summary {
   }
 
   .nav-text-h {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
-
 }
 
 .post-share {
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .post-tags {
@@ -756,12 +745,12 @@ a.post-tag-summary {
     margin-right: 8px;
     padding: 1px 10px 1px 10px;
     border-radius: 4px;
-    color: #DDD;
+    color: #ddd;
     display: inline-block;
-    border: 2px solid #DDD;
+    border: 2px solid #ddd;
 
-    [theme=dark] & {
-      color: #DDD;
+    [theme="dark"] & {
+      color: #ddd;
     }
   }
 }
@@ -771,18 +760,26 @@ a.post-tag-summary {
 }
 
 .is-style-explanation {
-  padding: .75rem 1rem .75rem 4rem;
+  padding: 0.75rem 1rem 0.75rem 4rem;
   font-size: 1rem;
   position: relative;
   margin: 0 0 1.5rem;
   border-left: 1px solid $global-color-accent;
-  background: linear-gradient(90deg, $global-color-accent, $global-background-secondary-color);
+  background: linear-gradient(
+    90deg,
+    $global-color-accent,
+    $global-background-secondary-color
+  );
   background-size: 100% 1px;
   background-repeat: no-repeat;
   background-position: 0 0;
 
-  [theme=dark] & {
-    background: linear-gradient(90deg, $global-color-accent, $global-background-secondary-color-dark);
+  [theme="dark"] & {
+    background: linear-gradient(
+      90deg,
+      $global-color-accent,
+      $global-background-secondary-color-dark
+    );
     background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -795,10 +792,18 @@ a.post-tag-summary {
     left: 0;
     height: 1px;
     width: 25%;
-    background: linear-gradient(90deg, $global-color-accent, $global-background-secondary-color);
+    background: linear-gradient(
+      90deg,
+      $global-color-accent,
+      $global-background-secondary-color
+    );
 
-    [theme=dark] & {
-      background: linear-gradient(90deg, $global-color-accent, $global-background-secondary-color-dark);
+    [theme="dark"] & {
+      background: linear-gradient(
+        90deg,
+        $global-color-accent,
+        $global-background-secondary-color-dark
+      );
     }
   }
 
@@ -808,7 +813,7 @@ a.post-tag-summary {
     font-weight: 700;
     color: $global-color-accent;
     position: absolute;
-    top: .75rem;
+    top: 0.75rem;
     left: 1rem;
   }
 }
@@ -818,7 +823,6 @@ a.post-tag-summary {
 }
 
 .block-media_column {
-
   display: inline-block;
 
   .content-column {
@@ -831,9 +835,7 @@ a.post-tag-summary {
     img {
       width: 100%;
     }
-
   }
-
 }
 
 .block-media_right {
@@ -854,7 +856,7 @@ a.post-tag-summary {
 }
 
 figure {
-  margin: .5rem;
+  margin: 0.5rem;
   text-align: center;
 
   .image-caption:not(:empty) {
@@ -872,7 +874,7 @@ figure {
     max-width: 80%;
     display: inline-block;
 
-    [theme=dark] & {
+    [theme="dark"] & {
       color: $global-font-secondary-color;
     }
   }
@@ -886,14 +888,14 @@ figure {
 }
 
 .post-meta {
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: $global-font-secondary-color;
 
   span {
     display: inline-block;
   }
 
-  [theme=dark] & {
+  [theme="dark"] & {
     color: $global-font-secondary-color-dark;
   }
 
@@ -933,7 +935,9 @@ figure {
 }
 
 .split-post {
-  .code-header, .table-wrapper, .admonition {
+  .code-header,
+  .table-wrapper,
+  .admonition {
     border-radius: 0 !important;
   }
 
@@ -947,19 +951,18 @@ figure {
   }
 }
 
-
 .theme-hero {
   .header-post {
     max-width: none;
     margin: 0 !important;
-    border-bottom: 1px solid #CDD2D4;
+    border-bottom: 1px solid #cdd2d4;
     padding-bottom: 80px;
     background-color: #fff;
     position: relative;
     display: block;
     box-sizing: border-box;
 
-    [theme=dark] & {
+    [theme="dark"] & {
       background-color: $global-background-secondary-color-dark;
     }
   }
@@ -1001,7 +1004,7 @@ figure {
   margin-top: 24px;
   margin-bottom: 32px;
 
-  [theme=dark] & {
+  [theme="dark"] & {
     color: $global-font-secondary-color-dark;
   }
 }
@@ -1021,7 +1024,7 @@ figure {
   letter-spacing: 0.2px;
   line-height: 32px;
 
-  [theme=dark] & {
+  [theme="dark"] & {
     color: $global-font-color-dark;
   }
 }
@@ -1049,7 +1052,7 @@ figure {
   text-align: left;
   line-height: 24px;
 
-  [theme=dark] & {
+  [theme="dark"] & {
     color: $global-font-color-dark;
   }
 }
@@ -1062,7 +1065,7 @@ figure {
   text-align: left;
   line-height: 24px;
 
-  [theme=dark] & {
+  [theme="dark"] & {
     color: $global-font-color-dark;
   }
 }
@@ -1114,7 +1117,7 @@ figure {
   text-align: left;
   line-height: 24px;
 
-  [theme=dark] & {
+  [theme="dark"] & {
     color: $global-font-color-dark;
   }
 }
@@ -1137,7 +1140,7 @@ figure {
     margin-right: 3rem;
   }
 
-  [theme=dark] & {
+  [theme="dark"] & {
     color: $global-font-color-dark;
   }
 }
@@ -1148,7 +1151,7 @@ figure {
   border: 2.5px dashed $global-color-accent;
   padding: 10px;
 
-  [theme=dark] & {
+  [theme="dark"] & {
     background: #dddddd;
   }
 
@@ -1158,7 +1161,6 @@ figure {
 }
 
 .header-title-share {
-
   text-align: center;
 
   a {
@@ -1172,13 +1174,13 @@ figure {
     margin-right: 4px;
     line-height: 16px;
 
-    [theme=dark] & {
+    [theme="dark"] & {
       color: $global-font-color-dark;
     }
   }
 }
 
-.home[data-home=posts] {
+.home[data-home="posts"] {
   .post-pinned {
     .summary {
       border: 3px solid $global-color-accent;
