@@ -9,7 +9,7 @@ date: 2021-06-01
 ---
 VIM is more than just a text editor for geeks and the cool kids! If you aren't convinced or haven't heard about it - stick with me to see how it's magic might also improve your typing experience. 
 
-Also, VIM is also absolutely worth learning if you don't intend to use the terminal program! Because of its vibrant community, VIM features are also supported in popular IDEs like Visual Studio Code (the best of both worlds imho) or even your Browser! Yes, even your surfing experience can benefit with VIM!
+Also, VIM is absolutely worth learning if you don't intend to use the terminal program! Because of its vibrant community, VIM features are also supported in popular IDEs like Visual Studio Code (the best of both worlds imho) or even your Browser. Yes, even your surfing experience can benefit from VIM!
 
 ## VIM in a nutshell
 In short, VIM is a terminal based text editor for Unix which has been around for almost 30 years now. It's most well known among programmers for its powerful features to navigate and edit code. VIM users belief that it's much smoother to just use the keyboard instead of navigating with a mouse. But besides speed, it is also more ergonomic to rely on the keyboard (you probably heard of the mouse arm, or at least german folks say so)! 
@@ -19,7 +19,7 @@ Being said that the learning curve is rather steep, the reward is deferred until
 
 Short disclaimer, I will not show you the basics (which the linked resources below do much better than I could), but I will show you some examples that demonstrate its power and elegance.
 
-The only thing you need to know is that VIM has a `normal` mode and an `insert` mode. The insert mode is for adding content and the normal mode is for editing and navigating code - what we actually spend most time on. Therefore, it's also the default mode when you open VIM. This is where newbies get confused when they type and apparently nothing happens 😤⌨️ . What is not clear is that the letters are VIM commands which of course can't do anything in an empty document. With this in mind, we can now dive into the examples.
+The only thing you need to know is that VIM has a `normal` mode and an `insert` mode. The insert mode is for adding content and the normal mode is for editing and navigating code - what we actually spend most time on. Therefore, it's also the default mode when you open VIM. This is where newbies get confused when they type and apparently nothing happens 😤⌨️ . What is not clear is that their input are VIM commands which most likely do nothing in an empty document. With this in mind, we can now dive into the examples.
 
 ## How VIM is great
 
