@@ -1,4 +1,5 @@
 ---
+categories: ["Book-notes"]
 title: The Psychology of Money - Morgan Housel
 date: 2021-03-28
 resources:

@@ -324,7 +324,7 @@ theme = "uBlogger"
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
     name = "Book notes"
-    url = "/books"
+    url = "/categories/book-notes/"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 2
