@@ -317,7 +317,17 @@ theme = "uBlogger"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 6
-
+  [[menu.main]]
+    identifier = "books"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Books"
+    url = "/books"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 2
 [outputs] # add json for search
   home = ["HTML", "RSS", "JSON"]
 
