@@ -12,6 +12,7 @@ featuredImagePreview: cover.jpeg
 
 🔗 Link : [Goodreads](https://www.goodreads.com/en/book/show/37786022-storyworthy)
 
+⭐️ Rating: 8/10
 ## 🚀 The Book in 3 Sentences
 
 1. Life is full of story worthy moments
@@ -21,7 +22,7 @@ featuredImagePreview: cover.jpeg
 
 ## ☘️ How the Book Changed Me
 
-- I'm curious to find the story worthy moments in my mundane life
+- I'm curious to find the story worthy moments in my mundane life -> pick one moment and note it down daily
 - Increased awareness to be entertaining and enjoyable to be around with. Be it friends, family, coworkers, meetings... You are stealing other peoples time, make it worthwhile :)
 
 # 📒 Summary + Notes
@@ -31,7 +32,7 @@ featuredImagePreview: cover.jpeg
 - about you and not others. If others are involved, tell your side of the story.
 <!-- (best friend, running on rainy day, kiss - > grudges went away and saved friendship) -->
 - don't tell (boring) vacation stories
-- not spectacular but those that others can relate too.
+- not spectacular but tho1se that others can relate too.
 <!-- (child not eating, take food away, but he suffered hunger when little, wife is understanding and hides it coz she is aware) -->
 - they are about 5 second moments that are transformative. Each part of the story only serves to convey and explain this moment.
 <!-- Jurassic Park is a good movie not because of the fancy animations, but because of the protagonists transformation to realize that child's are a big enrichment. Unconsciously these moments talk to our feelings and make them stick. -->
