@@ -2,10 +2,11 @@
 title: Now
 hiddenFromHomePage: true
 date: 2020-03-04T15:58:26+08:00
-lastmod: 2021-08-21
+lastmod: 2021-09-01
 ---
 ### Location:
-Munich, Germany
+Barcelona, Spain
+<!-- Munich, Germany -->
 
 ### Professional status quo:
 - Computational Science & Engineering (M.Sc.) student at TU Munich

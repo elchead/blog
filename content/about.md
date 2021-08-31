@@ -1,4 +1,4 @@
-# Me in 10 minutes
+# Me in 5 minutes
 
 On this page, I want to shortly introduce my humble self to let you quickly get to know me. I hope that it can be helpful to trigger interesting conversations and maybe it helps you to speed up understanding me better :) 
 
@@ -20,7 +20,7 @@ You can reach me at stobbe.adrian@gmail.com, but I am also happy to talk either 
 - Vim
 
 **Non-technical**
-- Books that can be applied to everyday life (my booknotes will follow, but [Sivers book list](https://sive.rs/book) meets my taste)
+- Books that can be applied to everyday life ([my book notes](/books))
 - Writing & Blogging
 - Language learning: Chinese, Spanish, English, ...
 - Yoga & Meditation
