@@ -1,5 +1,5 @@
 ---
-categories: ["Book-notes"]
+categories: [Book-notes]
 title: Deep Work - Cal Newport
 date: 2021-04-30
 excerpt_separator: <!--more-->

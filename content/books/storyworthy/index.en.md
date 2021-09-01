@@ -1,5 +1,5 @@
 ---
-categories: ["Book-notes"]
+categories: [Book-notes]
 title: Storyworthy - Matthew Dicks
 date: 2021-02-01
 excerpt_separator: <!--more-->
