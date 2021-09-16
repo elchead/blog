@@ -7,6 +7,10 @@ hiddenFromSearch : true
 # Adrian Stobbe
 ## 📚 Education
 
+### Erasmus Exchange
+
+**UPC Barcelona,** since Sept 2021
+
 ### Master's Degree in Computational Engineering & Science
 
 **TU Munich,** since Oct 2020
