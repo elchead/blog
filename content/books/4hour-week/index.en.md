@@ -1,18 +1,20 @@
 ---
 categories: [Book-notes]
-title: The 4-Hour Work Week - Tim Ferris
+title: The 4-Hour Workweek - Tim Ferris
 date: 2021-03-10
 excerpt_separator: <!--more-->
 resources:
-- name: cover
-  src: cover.jpeg
+  - name: cover
+    src: cover.jpeg
 featuredImagePreview: cover.jpeg
 ---
+
 ![cover.jpeg](./cover.jpg)
 
 🔗 Link : [Goodreads](https://www.goodreads.com/book/show/368593.The_4_Hour_Workweek)
 
 ⭐️ Rating: 6/10
+
 ## 🚀 The Book in 3 Sentences
 
 1. Live today and think big: follow your passion and don't conform with mediocrity
@@ -21,7 +23,7 @@ featuredImagePreview: cover.jpeg
 
 ## 🎨 Impressions
 
-Very controversial and extreme attitude on (egoistically) pursuing your goals. It nevertheless contains inspiring advice. I was most excited about the vision to combine work aspirations with exploring the world. The author is a bit narcissistic, but he has distilled some principles that are helpful to being successful. His minimalism and assertiveness about his ambitions resonated with me. 
+Very controversial and extreme attitude on (egoistically) pursuing your goals. It nevertheless contains inspiring advice. I was most excited about the vision to combine work aspirations with exploring the world. The author is a bit narcissistic, but he has distilled some principles that are helpful to being successful. His minimalism and assertiveness about his ambitions resonated with me.
 
 ### How I Discovered It
 
@@ -33,9 +35,7 @@ Those interested in starting an own business to be independent.
 
 Those looking for inspiration on how to gain freedom to do what you want.
 
-## ☘️ How the Book Changed Me
-
-How my life / behaviour / thoughts / ideas have changed as a result of reading the book.
+## 📒 Summary + Notes
 
 ### Goals
 
@@ -56,7 +56,7 @@ Ask these questions when you are afraid of taking action:
 1. What could happen in the worst case?
 2. What would be necessary to fix it?
 3. What would be the gains of doing it?
-4. What am I postponing out of fear? 
+4. What am I postponing out of fear?
 
 The fearful things are most important. Get out of your comfort zone every day!
 
