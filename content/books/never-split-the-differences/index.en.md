@@ -1,12 +1,13 @@
 ---
 categories: [Book-notes]
-title: Never split the differences - Chris Voss
+title: Never Split the Difference - Chris Voss
 date: 2020-09-26
 resources:
-- name: cover
-  src: cover.jpeg
+  - name: cover
+    src: cover.jpeg
 featuredImagePreview: cover.jpeg
 ---
+
 ![cover.jpeg](./cover.jpeg)
 
 🔗 Link : [Goodreads](https://www.goodreads.com/book/show/26156469-never-split-the-difference)
@@ -23,7 +24,7 @@ featuredImagePreview: cover.jpeg
 
 ### Who Should Read It?
 
-Everyone is faced with many negotiations in daily life, so we can all benefit. 
+Everyone is faced with many negotiations in daily life, so we can all benefit.
 
 ## 👷🏼 What do I apply to my life?
 
@@ -69,7 +70,7 @@ Ask questions that open the path to your goal: What did you think of? How do you
 
 If the business partners ignores you, contact them with a no orientated question, indicating that you are ready to walk away. People take more risks to avoid loss. So make rejecting the deal seem a loss.
 
-When trying to convince someone. Ask kindly for the reason he doesn't accept. Then label his perspective: So it seem like you could agree if.. 
+When trying to convince someone. Ask kindly for the reason he doesn't accept. Then label his perspective: So it seem like you could agree if..
 
 ### Negotiation psychology
 
@@ -106,9 +107,9 @@ There are 3 types of leverage: positive (ability to give), negative (ability to 
 1. Set an optimistic but reasonable goal. Don't fall back to the bottom line (just because you have a fallback option). It's normal to concede everything beyond the other option if you have spent hours on it.
 
 2. Be prepared:
-**Why** are you there? **What** do you want? What do they want? Why do they want that? You should be able to summarize the situation such as to get a "that's right".
+   **Why** are you there? **What** do you want? What do they want? Why do they want that? You should be able to summarize the situation such as to get a "that's right".
 
-3. Make a list of accusations the counterpart might make. Then turn each accusation into a list of labels: 
+3. Make a list of accusations the counterpart might make. Then turn each accusation into a list of labels:
 
    - It seems like... is valuable to you.
    - It seems like you don't like...
@@ -116,15 +117,16 @@ There are 3 types of leverage: positive (ability to give), negative (ability to 
    - It seems like you are reluctant to...
 
 4. Ask calibrated questions
+
    - What are we trying to accomplish?
    - How is that worthwhile?
    - What's the core issue?
    - What's the biggest challenge you face?
 
-    Tailor your questions to unearth the motivation of people behind the table:
+   Tailor your questions to unearth the motivation of people behind the table:
 
    - How does this affect the rest of the team?
    - What do your colleagues see as their main challenges in this area?
 
 5. Pivot to non-cash items:
-Think of items possessed by the partner that could be of value for you, but are not costly for the opponent.
+   Think of items possessed by the partner that could be of value for you, but are not costly for the opponent.
