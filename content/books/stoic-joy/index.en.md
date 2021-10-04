@@ -4,10 +4,11 @@ title: "A Guide to the Good Life: The Ancient Art of Stoic Joy - William B. Irvi
 date: 2021-07-06
 excerpt_separator: <!--more-->
 resources:
-- name: cover
-  src: cover.jpeg
+  - name: cover
+    src: cover.jpeg
 featuredImagePreview: cover.jpeg
 ---
+
 ![cover.jpeg](./cover.jpg)
 
 🔗 Link : [Goodreads](https://www.goodreads.com/book/show/5617966-a-guide-to-the-good-life)
@@ -56,87 +57,105 @@ Divide actions into those
 - partial control
 - out of control
 
-### Doing
+### Desires and Life attitude
 
-Actions, not words, reveal our real values.
+The easiest way to gain happiness is to want the things you already have.
 
-Stop lying to yourself, and admit your real priorities.
+Human desire is insatiable. After getting what we want, we lose interest and desire the next thing.
 
-Start doing what you say you want to do, and see if it’s really true.
+Don't bother about things that are out of control. Divide actions into complete/partial/no control.
 
-Know what matters most to you. Use it as your compass and optimize your life around it.
+Internalize goals that are under partial control. E.g being loved is not under my control, but being a good lover is totally internal.
 
-Focus is easier with urgency. Expand the close deadline situation into months or years.
+Expect bad things to happen. Misfortune hurts most when we expect good fortune.
 
-Keep track of dull tasks and do them when you feel extremely unmotivated.
+Negative visualization: each time might be the last one. Imagine the loss of what you value - beloved ones, activities, abilities, possessions. How would you feel if you become blind or lose freedom? Considering this makes you cherish those moments more and prevents later regrets when things are gone.
 
-Fear is just a form of excitement, and you know you should do what excites you. That’s how you grow.
+### Self-control
 
-Refrain from time wasters like social media and video watching and instead make my art the main relaxing activity.
+Practice poverty from time to time. See how cheap things can make you happy.
 
-### Goals
+Wealth is not worth pursuing if we reject pursuing fame. Spending doesn't make happy, in that it raises our benchmarks to be happy. It's a blessing to be happy with simple food, because it is hard to lose. Whereas, luxury is easy to slip away and makes us crave for bigger things.
 
-Goals shape the present, not the future. If it was a great goal, you would have jumped into action already.
+Hunger is the best appetizer. It makes you enjoy simple food with more pleasure.
 
-Judge a goal by how well it changes your actions in the present moment.
+Food is an especially dangerous pleasure, because we are exposed to it every day. Keep food, living and clothing practical.
 
-Ingredients for a good plan: Happy, Smart, Useful
+Occasionally resist pleasure to train self-control. The goal is to internalize happiness and indulgence is an external pleasure. E.g. resisting to eat an ice cream makes us forego the culinary pleasure of sweetness but it brings the pleasure of self-control.
 
-### Priorities
+Our desire for pleasures tend to be short sighted, bearing long term costs. While self-control takes effort, not having it is also expensive. Think of all the trouble coming from affairs, drugs, food...
 
-Say no to anything less than great.
+Put yourself in discomfort: do exercise, wear too little clothes, resist eating.. Enjoy the achievement of self-control.
 
-What do you hate not doing? What makes you feel depressed or annoyed if you don’t do it enough?
+When wanting to buy something, ask if this will make you happier.
 
-Subtract to be successful. Narrow focus and protect yourself against time-wasters. Most of us have too many commitments.
+### Momento mori
 
-Future-focus vs present-focus: Future-focus is driven by self-discipline (exercise, invest, preventive health). It is more likely to lead to happiness of achievement at the expense of personal relationships which require a present focus. Be sure to switch to present-focus to enjoy life.
+Everything is ephemeral: Being with my family; Showing love to people I like; Dancing; Sports; Enjoying good weather. Remind yourself how they make you happy without attaching to them.
 
-Each plan is just one of many possible futures. Collect them, let them sit for some time and reevaluate the possible plans regularly.
+You probably have a lot of what you dreamed of in the past. Did the desires fulfill you long term?
 
-### Decision making
+You likely take for granted things that your ancestors dreamt of and never had.
 
-There are always more than 2 options.
+Gain happiness by changing yourself. Want only those things that are easy to obtain.
 
-"As an example, a friend was trying to decide whether to stick with his frustrating job or quit to start his own company. Options: build company outside of office hours and quit when its sustainable; show up at work and secretly work on your own company until they fire you; propose the idea to the boss and start it as a division..."
+Happiness is, to a great extent, not dependent on external living conditions. Happiness is about being content with how things are and this is more about training the mind than trying to get more from the outside world.
 
-Brainstorm all options, including the ridiculous, before trying to decide on the obvious choices.
+Focus your energy on what you genuinely value and be indifferent about the rest. Most "bad" things are not really that bad...
 
-Think long term. Focus on few things for a few years, then on another for a few years, then another. You can do everything you want to do. You just need foresight and patience.
+Be fatalistic about the past. Don't think about how things could have been better.
 
-Make decisions when you have the most information: as late as possible.
+Find delight in your own resources, and desire no joys greater than your inner joys.
 
-Before you start something, think of the ways it could end. Sometimes the smart choice is to say no to the whole game.
+Stoics are not afraid of dying, because life is finite. A life with meaning and engagement in ones duties is worth dying when the time has come. They are willing to sacrifice their life for their principles. For them, a life that has nothing to be worth dying for is not worth anything.
 
-### My fault
+Observe what older people are taken away from because of their health condition, and visualize how you might feel without it. It makes you appreciate having it, but realize how you could also live without it.
 
-Everything is my fault. Seeing it that way, you feel in control and not wronged. There is nothing to complain about, instead there is something for me to learn from it.
+When older people complain about aging, make them realize how it could be worse.
 
-### Building a business
+### Society
 
-Don’t start a business until people are asking you to.
+Friendship and love bring much joy, but they are also the cause of our greatest discomfort and pain. Peoples behavior bothers us and we are anxious about social expectations.
 
-Don’t announce your company. Don’t choose a name. Don’t make a website or an app. Don’t build a system. You need to be free to completely change or ditch your idea.
+Instead of escaping human interaction, we should see it as our duty. We are stronger together and have to strive for harmony to benefit each other. Show love to the people around you.
 
-Obvious to you, amazing to others. Are you holding back something that seems too obvious to share?
+Avoid people with unclean principles, because it will affect ourselves. Those with unwholesome desires, who whine and complain, because it disrupts your tranquility.
 
-Copying is not shameful. Look around for exciting ideas and imitate them. You can still offer something valuable and unique by giving it your touch.
+When you feel annoyed about other people's defects, think about your defects. For your mental tranquility, assume that they are destined to behave like this, but help to invoke change. People can change.
 
-### Job
+Be silent when people chit-chat and try to change the topic toward something more interesting.
 
-Don't think of your job after office hours.
+Prepare for social interaction. Develop your own personality while being alone and stick to yourself when socializing. Set rules and remain true to your principles.
 
-Don’t expect your job to fulfill all your emotional needs. Don’t taint something you love with the need to make money from it.
+In a good marriage, two people will join in a loving union and will try to outdo each other in the care they show for each other.
 
-Future-focus vs present-focus: Future-focus is driven by self-discipline (exercise, invest, preventive health). It is more likely to lead to happiness of achievement at the expense of personal relationships which require a present focus. Be sure to switch to present-focus to enjoy life.
-### Learning and Exploration
+### Dealing with emotions
 
-Explore different (music) styles. Be it Persian traditional, Indian classical, ’60s jazz, glitch, Bartok, Stevie Wonder (from ’72 to ’76), lots of Bach, Bulgarian choir...
+Sex is likely to do more harm than good. Who says that life would have been easier if he were more sexually active? But how often is the reverse true? Unwanted pregnancy..
 
-Inspiration is not receiving information, but about applying it. It’s only when you stop and think of your work through this new perspective, that you actually jump up and go turn the idea into reality.
+To maintain self-control over lust, it is helpful to analyze how primitive and mundane our desires are: Sex is no more than friction with ejaculatory discharge..
 
-Pick a place that’s most unlike what you know and go. Mindless habits, like buying groceries, now keep your mind open, alert, and noticing new things. New arrivals in a culture often notice what the locals don’t.
+Our natural impulses to have sex, to desire, feel insulted by other people's opinion are driven by evolution, not to have a tranquil life. But we can use our reasoning to resist and pursue tranquility instead.
 
-Ask people to explain and show you how things are done. When they state a fact, ask how they know. When they state an opinion, ask for examples.
+Don't take insults personally. Showing indifference is most effective. If they are foolish, deflect the insult with humor. If you don't know how to respond, ignore it and keep silent.
 
-How about disconnecting from the world in a remote place for some time? Use it for deep focus and to become more self-aware.
+Don't take other people's praise nor disapproval. Seeking social status means externalizing our luck, which is out of our control.
+
+When a friend feels grieve, grieving with him is like drinking poison after he was poisoned. The goal is to make him feel better, not to make us feel miserable as well. And we are likely to be much more helpful if we don't let our feelings be disturbed.
+
+Modern philosophy suggests forcing grieve and talking to friends and a psychologist as a mean of processing it. Stoicism tries to make us feel better through reflection and reasoning. Would that person want me to be sad?
+
+### Bedtime meditation
+
+Before going to bed, ask these questions:
+
+1. What upset me?
+2. What failed?
+3. How can I improve?
+
+### Living like a stoic
+
+1. Practice negative visualization. Set a time and situation. On commute? Before sleep?
+2. Focus on goals under our control and internalize them.
+3. Don't dwell on the past or how things could have been better.
+4. Practice self-denial to gain self-control.
