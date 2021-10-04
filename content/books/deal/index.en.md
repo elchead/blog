@@ -25,7 +25,7 @@ This book is only available in German, but my notes are in English :)
 
 ## 🎨 Impressions
 
-This is my second book on negotiation, after having read [Never Split the Difference](/books/never-split-the-differences/). Interestingly, both share the same core message, that compromises should be avoided. In most cases it is possible that both parties get what is important to them. I feel that this book was more practical, since it provides advice on making better deals when buying a car, negotiating a salary, how to get the most out of long waiting times etc. The book is packed with tips and it did not get lengthy at any point.
+This is my second book on negotiation, after having read [Never Split the Difference](/books/never-split-the-difference/). Interestingly, both share the same core message, that compromises should be avoided. In most cases it is possible that both parties get what is important to them. I feel that this book was more practical, since it provides advice on making better deals when buying a car, negotiating a salary, how to get the most out of long waiting times etc. The book is packed with tips and it did not get lengthy at any point.
 
 ## ☘️ How the Book Changed Me
 
