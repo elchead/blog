@@ -22,6 +22,7 @@ You can reach me at stobbe.adrian@gmail.com, but I am also happy to talk either 
 **Non-technical**
 - Books that can be applied to everyday life ([my book notes](/books))
 - Writing & Blogging
+- Mental Models & Decision-making
 - Language learning: Chinese, Spanish, English, ...
 - Yoga & Meditation
 - Salsa
@@ -32,6 +33,7 @@ You can reach me at stobbe.adrian@gmail.com, but I am also happy to talk either 
 - 2013: first attempts to learn programming
 - 2015: curiosity spike for physics (particle physics, relativity,quantum mechanics)
 - 2016: started self-learning Chinese
+- 2017: first time living abroad in Mexico for 5 weeks
 - 2017: started Engineering Science at TU Berlin
 - 2017: discovered Salsa dancing
 - 2019: exchange semester at Tsinghua university, Beijing
