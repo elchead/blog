@@ -113,3 +113,9 @@ Realize your subconscious actions. Point and call them out: I eat chocolate, bec
 We are formed by our environment and society. Surround yourself with people that have the behavior you desire to acquire. Our desires are shaped by how we are educated (Chess family)..
 
 Define a general identity with traits that don't depend on one action or profession.
+
+Nature builds reserves to prepare for what is worse than before. Yet human systems are often build for "effectiveness"
+
+Don't trust those without skin in the game. Often we are even unconsciously tricked to have known things in hindsight. Actions really show what we believed in the moment
+
+Vía negativa. We know much more about what is wrong than what is right. So it is about not being wrong or stupid rather than being right and smart.
