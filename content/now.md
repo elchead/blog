@@ -8,6 +8,8 @@ lastmod: 2021-10-10
 Barcelona, Spain
 <!-- Munich, Germany -->
 
+<!-- {{< callout emoji="💯" text="This is the text that will show up in the callout. It can be as long as you like, but only one paragraph." >}} -->
+
 ### Professional status quo:
 - Computational Science & Engineering (M.Sc.) student at TU Munich
 - Trainee as part of the SAP STAR program
