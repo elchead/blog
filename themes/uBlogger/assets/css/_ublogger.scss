@@ -934,6 +934,19 @@ figure {
   }
 }
 
+#reachout-callout {
+  background: #ECECEC;
+  
+  padding: 1.5em 1.25em;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+      [theme="dark"] & {
+      background-color: #252627;
+    }
+}
+
 #callout {
   background: #ECECEC;
   
