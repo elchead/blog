@@ -46,7 +46,7 @@ We do this cost-benefit analysis naturally with money, but somehow it does not s
 ### The final step
 Once you know your life areas and view time as scarcity, you have a good guidance on what to do, and more importantly, what not to do (saying no is more difficult!).
 However, there is still one more crucial step missing. We might decide to build that new cool app, or organize that crazy suprise party, but these are big projects that can be intimidating. Much anxiety and procrastination comes from not having clear what to do next. And this even applies to much smaller undertakings such as writing an article. 
-I find it helpful to view every undertaking that takes me more than a couple of minutes as a project (for more check Getting Things Done LINK). The big projects then needs to be broken up into actionable items. In fact, its even enough to define the next tiny step toward progress.
+I find it helpful to view every undertaking that takes me more than a couple of minutes as a project (for more check [Getting Things Done](https://gettingthingsdone.com/)). The big projects then needs to be broken up into actionable items. In fact, its even enough to define the next tiny step toward progress.
 The first step for the surprise party might be calling a friend to ask for help or brainstorming ideas.
 At this point you have translated the abstract life area concept into a concrete action. 
 If you plan your days with actionable items, you know exactly what to do and can stay away from external distractions.
