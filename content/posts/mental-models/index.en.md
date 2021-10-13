@@ -65,3 +65,5 @@ The name speaks for itself, one of my favourite authors:
 [Hell Yeah or No](/books/hell-yeah/)
 
 {{< reachout-callout emoji="💙" text="If you made it until here, I'd like to thank you for reading! Yeah, time is precious.. In case you think I got something wrong, want to recommend a book or share your thoughts, I'd highly appreciate that!">}}
+
+{{< newsletter >}}
