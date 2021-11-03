@@ -15,7 +15,7 @@
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
 <link rel=icon type=image/png sizes=192x192 href=/android-chrome-192x192.png>
-<link rel=icon type=image/png sizes=512x512 href=/android-chrome-512x512.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://astobbe.me/posts/ckad/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"CKAD preparation - Tips for the Kubernetes exam","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/astobbe.me\/posts\/ckad\/"},"image":[{"@type":"ImageObject","url":"https:\/\/astobbe.me\/posts\/ckad\/ckad.png","width":1952,"height":1512}],"genre":"posts","wordCount":740,"url":"https:\/\/astobbe.me\/posts\/ckad\/","datePublished":"2021-09-07T00:00:00+00:00","dateModified":"2021-09-07T00:00:00+00:00","description":""}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/astobbe.me\/"},{"@type":"ListItem","position":2,"name":"Programming","item":"https://astobbe.me/categories/programming/"},{"@type":"ListItem","position":3,"name":"CKAD preparation - Tips for the Kubernetes exam"}]}</script></head>
+<link rel=icon type=image/png sizes=512x512 href=/android-chrome-512x512.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://astobbe.me/posts/ckad/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"CKAD preparation - Tips for the Kubernetes exam","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/astobbe.me\/posts\/ckad\/"},"image":[{"@type":"ImageObject","url":"https:\/\/astobbe.me\/posts\/ckad\/ckad.png","width":1952,"height":1512}],"genre":"posts","wordCount":736,"url":"https:\/\/astobbe.me\/posts\/ckad\/","datePublished":"2021-09-07T00:00:00+00:00","dateModified":"2021-09-07T00:00:00+00:00","description":""}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/astobbe.me\/"},{"@type":"ListItem","position":2,"name":"Programming","item":"https://astobbe.me/categories/programming/"},{"@type":"ListItem","position":3,"name":"CKAD preparation - Tips for the Kubernetes exam"}]}</script></head>
 <body data-header-desktop data-header-mobile><script>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'auto'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'auto'==='dark')&&document.body.setAttribute('theme','dark')</script>
 <div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
 <div class=header-wrapper>
@@ -118,7 +118,7 @@ Cancel
 </span><span class=post-meta-date>
 <i class="svg-icon icon-clock"></i><time class=timeago datetime=2021-09-07>2021-09-07</time>
 </span><span class=post-meta-words>
-<i class="svg-icon icon-pencil"></i>740 words
+<i class="svg-icon icon-pencil"></i>736 words
 </span>
 <span class=post-meta-reading>
 <i class="svg-icon icon-stopwatch"></i>4 minutes
@@ -181,7 +181,7 @@ alias kaf=&#39;k apply -f&#39;
 alias kcn=&#39;kubectl config set-context --current --namespace&#39;
 export d=&#34;--dry-run=client -o yaml&#34;
 
-source &lt;(kubectl completion bash)
+
 complete -F __start_kubectl k
 </code></pre></td></tr></table>
 </div>
@@ -241,7 +241,7 @@ For debugging, it might also be useful to enable the line numbering: <code>:set 
 <div id=toc-final></div>
 </article></div>
 </main><footer class=footer>
-<div class=footer-container><div class=footer-line>Powered by <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.88.1">Hugo</a> | Theme - <a href="https://ublogger.netlify.app/?utm_source=https://astobbe.me/&utm_medium=footer&utm_campaign=config&utm_term=2.0.1" target=_blank title="uBlogger 2.0.1">uBlogger</a>
+<div class=footer-container><div class=footer-line>Powered by <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.89.0">Hugo</a> | Theme - <a href="https://ublogger.netlify.app/?utm_source=https://astobbe.me/&utm_medium=footer&utm_campaign=config&utm_term=2.0.1" target=_blank title="uBlogger 2.0.1">uBlogger</a>
 </div><div class=footer-line><i class="svg-icon icon-copyright"></i><span>2021</span></div>
 </div>
 </footer></div>
