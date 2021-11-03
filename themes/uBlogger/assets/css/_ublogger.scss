@@ -935,45 +935,49 @@ figure {
 }
 
 #reachout-callout {
-  background: #ECECEC;
-  
+  background: #ececec;
+
   padding: 1.5em 1.25em;
   border-radius: 3px;
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
-      [theme="dark"] & {
-      background-color: #252627;
-    }
+  [theme="dark"] & {
+    background-color: #252627;
+  }
 }
 
 .callout {
-  background: #ECECEC;
-  
+  background: #ececec;
+
   padding: 1.5em 1.25em;
   border-radius: 3px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin-bottom: 20px;
-      [theme="dark"] & {
-      background-color: #252627;
-    }
+  margin-top: 20px;
+  [theme="dark"] & {
+    background-color: #252627;
+  }
 }
 .callout-inner {
   margin-left: 1em;
+  display: flex;
+  justify-content: center;
 }
 
 #callout {
-  background: #ECECEC;
-  
+  background: #ececec;
+
   padding: 1.5em 1.25em;
   border-radius: 3px;
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
-      [theme="dark"] & {
-      background-color: #252627;
-    }
+  [theme="dark"] & {
+    background-color: #252627;
+  }
 }
 #callout-inner {
   margin-left: 1em;
