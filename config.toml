@@ -69,7 +69,10 @@ theme = "uBlogger"
     GitHub = "elchead"
     Linkedin = "adrian-stobbe"
     Email = "stobbe.adrian@gmail.com"
+    Twitter = "astobbe_"
+    Spotify = "tg9z4i55s3wx8lov4yxbl51xh"
     Paypal = "AdrianStobbe"
+
 
    # uBlogger CHANGED | 0.2.0 Page config
   [params.page]
