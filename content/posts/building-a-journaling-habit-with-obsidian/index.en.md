@@ -1,0 +1,1 @@
+/Users/adria/Google Drive/Obsidian/Second_brain/Blog/Building a Journaling habit with Obsidian.md
