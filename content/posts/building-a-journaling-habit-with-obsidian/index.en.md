@@ -1,6 +1,6 @@
 ---
 title: Building a Journaling habit with Obsidian
-categories: [Thoughts]
+categories: [Second-brain]
 resources:
   - name: "featured-image"
     src: "calendar.png"
