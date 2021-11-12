@@ -1,6 +1,10 @@
 ---
 title: Building a Journaling habit with Obsidian
 categories: [Thoughts]
+resources:
+  - name: "featured-image"
+    src: "calendar.png"
+featuredImagePreview: "calendar.png"
 date: 2021-11-12
 ---
 
@@ -26,8 +30,6 @@ The built-in daily note plugin already provides the most important functionality
 Later, I discovered the calendar plugin, which shows a nice calendar overview to open and create notes. But more crucially, it provides some templating features like linking notes with a tag like `[[{{yesterday}}]]` and referencing specific content like this `=[[{{yesterday}}]].want-to-improve`.
 I find this convenient to quickly see my intentions from the day before.
 The plugin can be easily installed inside Obsidian options under `Community plugins`.
-
-{{< image src="calendar.png" caption="The calendar plugin overview" >}}
 
 ### Tabular journal view with the Dataview plugin
 
