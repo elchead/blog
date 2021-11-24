@@ -1,0 +1,429 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><title>Testable code has few mocks | </title><meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content>
+<meta name=twitter:title content="Testable code has few mocks">
+<meta name=twitter:description content><meta name=twitter:creator content="@astobbe_"><meta name=Description content><meta property="og:title" content="Testable code has few mocks">
+<meta property="og:description" content="Testing can seem sometimes seem hard and tedious. We might be faced with complex setup logic and many mocks. But this is a smell of poor code design. When properly done, mocks are rarely needed. TDD helps to avoid tight coupling and it naturally tends towards functional code. In this post, I cover how the functional style leads to less error prone code and fewer code to be tested. Moreover, we will explore when it is proper to use mocks.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://astobbe.me/posts/js-testing/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2021-11-24T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-11-24T00:00:00+00:00">
+<meta name=application-name content="Adrian's Site">
+<meta name=apple-mobile-web-app-title content="Adrian's Site"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=icon type=image/png sizes=192x192 href=/android-chrome-192x192.png>
+<link rel=icon type=image/png sizes=512x512 href=/android-chrome-512x512.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://astobbe.me/posts/js-testing/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Testable code has few mocks","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/astobbe.me\/posts\/js-testing\/"},"genre":"posts","wordCount":1347,"url":"https:\/\/astobbe.me\/posts\/js-testing\/","datePublished":"2021-11-24T00:00:00+00:00","dateModified":"2021-11-24T00:00:00+00:00","description":""}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/astobbe.me\/"},{"@type":"ListItem","position":2,"name":"Programming","item":"https://astobbe.me/categories/programming/"},{"@type":"ListItem","position":3,"name":"Testable code has few mocks"}]}</script></head>
+<body data-header-desktop data-header-mobile><script>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'auto'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'auto'==='dark')&&document.body.setAttribute('theme','dark')</script>
+<div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/ title="Adrian's Site" class="header-logo logo-svg">Adrian's Site</a>
+</div>
+<div class=menu>
+<nav>
+<ul class=menu-inner><li>
+<a class=menu-item href=/posts/> Posts </a>
+</li><li>
+<a class=menu-item href=/categories/book-notes/> Book notes </a>
+</li><li>
+<a class=menu-item href=/cv/> Resume </a>
+</li><li>
+<a class=menu-item href=/now/> Now </a>
+</li><li>
+<a class=menu-item href=/about/> About </a>
+</li></ul>
+</nav><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
+<input type=text placeholder="Search titles or contents..." id=search-input-desktop>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=Search>
+<span class="svg-icon icon-search"></span>
+</a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=Clear>
+<span class="svg-icon icon-cancel"></span>
+</a>
+<span class="search-button search-loading" id=search-loading-desktop>
+<span class="svg-icon icon-loading"></span>
+</span>
+</span><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<span class="svg-icon icon-moon"></span>
+</a>
+</div>
+</div>
+</header><header class=mobile id=header-mobile>
+<div class=header-container>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/ title="Adrian's Site" class=header-logo>Adrian's Site</a>
+</div>
+<div class=menu-toggle id=menu-toggle-mobile>
+<span></span><span></span><span></span>
+</div>
+</div>
+<div class=menu id=menu-mobile><div class=search-wrapper>
+<div class="search mobile" id=search-mobile>
+<input type=text placeholder="Search titles or contents..." id=search-input-mobile>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=Search>
+<span class="svg-icon icon-search"></span>
+</a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=Clear>
+<span class="svg-icon icon-cancel"></span>
+</a>
+<span class="search-button search-loading" id=search-loading-mobile>
+<span class="svg-icon icon-loading"></span>
+</span>
+</div>
+<a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>
+Cancel
+</a>
+</div><nav>
+<ul><li>
+<a class=menu-item href=/posts/ title>Posts</a>
+</li><li>
+<a class=menu-item href=/categories/book-notes/ title>Book notes</a>
+</li><li>
+<a class=menu-item href=/cv/ title>Resume</a>
+</li><li>
+<a class=menu-item href=/now/ title>Now</a>
+</li><li>
+<a class=menu-item href=/about/ title>About</a>
+</li></ul>
+</nav>
+<a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<span class="svg-icon icon-moon"></span>
+</a></div>
+</div>
+</header><div class="search-dropdown desktop">
+<div id=search-dropdown-desktop></div>
+</div>
+<div class="search-dropdown mobile">
+<div id=search-dropdown-mobile></div>
+</div><main class=main>
+<div class="container content-article theme-classic"><div class=toc id=toc-auto>
+<div class=toc-title>Contents</div>
+<div class=toc-content id=toc-content-auto></div>
+</div>
+<div class=header-post>
+<div class=post-title>
+<div class=post-all-meta>
+<nav class=breadcrumbs>
+<ol>
+<li><a href=/>Home </a></li><li><a href=/categories/programming/>Programming </a></li><li>Testable code has few mocks</li>
+</ol>
+</nav>
+<h1 class="single-title flipInX">Testable code has few mocks</h1><div class=post-meta>
+<div class=post-meta-line><span class=post-category>
+<a href=/categories/programming/><i class="svg-icon icon-folder"></i>Programming</a>
+</span><span class=post-meta-date>
+<i class="svg-icon icon-clock"></i><time class=timeago datetime=2021-11-24>2021-11-24</time>
+</span><span class=post-meta-words>
+<i class="svg-icon icon-pencil"></i>1347 words
+</span>
+<span class=post-meta-reading>
+<i class="svg-icon icon-stopwatch"></i>7 minutes
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<article class="single toc-start">
+<div class="content-block content-block-first content-block-position">
+<div class=post><div class="details toc" id=toc-static data-kept>
+<div class="details-summary toc-title">
+<span>Contents</span>
+</div>
+<div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents>
+<ul>
+<li><a href=#integration-vs-operation>Integration vs Operation</a></li>
+<li><a href=#function-composition>Function composition</a></li>
+<li><a href=#the-merits-of-functional-programming>The merits of Functional Programming</a></li>
+<li><a href=#when-to-use-mocks>When to use mocks</a></li>
+<li><a href=#conclusion>Conclusion</a></li>
+</ul>
+</nav></div>
+</div><p>Testing can seem sometimes seem hard and tedious. We might be faced with complex setup logic and many mocks. But this is a smell of poor code design. When properly done, mocks are rarely needed. TDD helps to avoid tight coupling and it naturally tends towards functional code. In this post, I cover how the functional style leads to less error prone code and fewer code to be tested. Moreover, we will explore when it is proper to use mocks.</p>
+<h2 id=integration-vs-operation>Integration vs Operation</h2>
+<p>When solving a problem the process is always to break it up into smaller pieces. The problem solution is then just the composition of the smaller units. So we define functions for each subproblem and one integration function to solve the big problem. There should be a clear distinction between operation and integration (also see <a href=https://clean-code-developer.com/grades/grade-1-red/#Integration_Operation_Segregation_Principle_IOSP target=_blank rel="noopener noreffer">Integration Operation Segregation Principle</a>).
+Each small unit should be independent, i.e. unaware of the other parts in the composition.</p>
+<blockquote>
+<p>Mocking is required when our decomposition strategy has failed, Eric Elliott</p>
+</blockquote>
+<h2 id=function-composition>Function composition</h2>
+<p>What was new to me is that composing functions do not need to be unit tested when they are truly independent. Because in such case we can use a generic composition utility.</p>
+<p>Let&rsquo;s look at an example<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup>. The imperative and obvious solution to integrate is this:</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=c1>// Imperative composition  
+</span><span class=c1></span><span class=kr>const</span> <span class=nx>composition</span> <span class=o>=</span> <span class=nx>x</span> <span class=p>=&gt;</span> <span class=p>{</span>  
+<span class=kr>const</span> <span class=nx>afterG</span> <span class=o>=</span> <span class=nx>g</span><span class=p>(</span><span class=nx>x</span><span class=p>);</span>  
+<span class=kr>const</span> <span class=nx>afterF</span> <span class=o>=</span> <span class=nx>f</span><span class=p>(</span><span class=nx>afterG</span><span class=p>);</span>  
+<span class=k>return</span> <span class=nx>afterF</span><span class=p>;</span>  
+<span class=p>};</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>In languages without first-class functions, there might be no way around this. But in most popular languages, such as JavaScript, you can do better. Function composition is declarative and avoids bugs such as passing or returning the wrong variable.</p>
+<p>For the declarative composition, you can either define your own pipe (which could be error-prone) or use a library<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup>:</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=c1>// import pipe from &#39;lodash/fp/flow&#39;;  
+</span><span class=c1></span><span class=kr>const</span> <span class=nx>pipe</span> <span class=o>=</span> <span class=p>(...</span><span class=nx>fns</span><span class=p>)</span> <span class=p>=&gt;</span> <span class=nx>x</span> <span class=p>=&gt;</span> <span class=nx>fns</span><span class=p>.</span><span class=nx>reduce</span><span class=p>((</span><span class=nx>y</span><span class=p>,</span> <span class=nx>f</span><span class=p>)</span> <span class=p>=&gt;</span> <span class=nx>f</span><span class=p>(</span><span class=nx>y</span><span class=p>),</span> <span class=nx>x</span><span class=p>);</span>
+<span class=c1>// Functions to compose  
+</span><span class=c1></span><span class=kr>const</span> <span class=nx>g</span> <span class=o>=</span> <span class=nx>n</span> <span class=p>=&gt;</span> <span class=nx>n</span> <span class=o>+</span> <span class=mi>1</span><span class=p>;</span>  
+<span class=kr>const</span> <span class=nx>f</span> <span class=o>=</span> <span class=nx>n</span> <span class=p>=&gt;</span> <span class=nx>n</span> <span class=o>*</span> <span class=mi>2</span><span class=p>;</span>
+<span class=c1>// Declarative composition  
+</span><span class=c1></span><span class=kr>const</span> <span class=nx>doStuffBetter</span> <span class=o>=</span> <span class=nx>pipe</span><span class=p>(</span><span class=nx>g</span><span class=p>,</span> <span class=nx>f</span><span class=p>);</span>
+<span class=nx>doStuffBetter</span><span class=p>(</span><span class=mi>20</span><span class=p>),</span> <span class=c1>// 42
+</span></code></pre></td></tr></table>
+</div>
+</div><p>Note that <code>reduce</code> applies the accumulator on each value from left to right! There is also a reverse variant called <code>reduceRight</code>. This reduction would have given 41 as result.</p>
+<p>Commonly, we have asynchronous calls in our code, but we can also compose promises! I think this is also where it really pays off - when you compose calls with side effects. Unit testing the integration function becomes tedious, because we need to stub all participants<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup>:</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=c1>// imperative
+</span><span class=c1></span><span class=kr>async</span> <span class=kd>function</span> <span class=nx>uploadFiles</span><span class=p>({</span><span class=nx>user</span><span class=p>,</span> <span class=nx>folder</span><span class=p>,</span> <span class=nx>files</span><span class=p>})</span> <span class=p>{</span>  
+  <span class=kr>const</span> <span class=nx>dbUser</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>readUser</span><span class=p>({</span> <span class=nx>user</span> <span class=p>});</span>  
+  <span class=kr>const</span> <span class=nx>folderInfo</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>getFolderInfo</span><span class=p>({</span> <span class=nx>folder</span> <span class=p>});</span>  
+  <span class=k>if</span> <span class=p>(</span><span class=kr>await</span> <span class=nx>haveWriteAccess</span><span class=p>({</span><span class=nx>dbUser</span><span class=p>,</span> <span class=nx>folderInfo</span><span class=p>}))</span> <span class=p>{</span>  
+    <span class=k>return</span> <span class=nx>uploadToFolder</span><span class=p>({</span><span class=nx>dbUser</span><span class=p>,</span> <span class=nx>folderInfo</span><span class=p>,</span> <span class=nx>files</span> <span class=p>});</span>  
+  <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>  
+    <span class=k>throw</span> <span class=k>new</span> <span class=nb>Error</span><span class=p>(</span><span class=s2>&#34;No write access to that folder&#34;</span><span class=p>);</span>  
+  <span class=p>}</span>  
+<span class=p>}</span>
+
+<span class=c1>// declarative
+</span><span class=c1></span><span class=kr>const</span> <span class=nx>asyncPipe</span> <span class=o>=</span> <span class=p>(...</span><span class=nx>fns</span><span class=p>)</span> <span class=p>=&gt;</span> <span class=nx>x</span> <span class=p>=&gt;</span> <span class=p>(</span>  
+  <span class=nx>fns</span><span class=p>.</span><span class=nx>reduce</span><span class=p>(</span><span class=kr>async</span> <span class=p>(</span><span class=nx>y</span><span class=p>,</span> <span class=nx>f</span><span class=p>)</span> <span class=p>=&gt;</span> <span class=nx>f</span><span class=p>(</span><span class=kr>await</span> <span class=nx>y</span><span class=p>),</span> <span class=nx>x</span><span class=p>)</span>  
+<span class=p>);</span>
+<span class=kr>const</span> <span class=nx>uploadFiles</span> <span class=o>=</span> <span class=nx>asyncPipe</span><span class=p>(</span>  
+  <span class=nx>readUser</span><span class=p>,</span>  
+  <span class=nx>getFolderInfo</span><span class=p>,</span>  
+  <span class=nx>haveWriteAccess</span><span class=p>,</span>  
+  <span class=nx>uploadToFolder</span>  
+<span class=p>);</span>
+
+<span class=nx>uploadFiles</span><span class=p>({</span><span class=nx>user</span><span class=p>,</span> <span class=nx>folder</span><span class=p>,</span> <span class=nx>files</span><span class=p>})</span>  
+<span class=p>.</span><span class=nx>then</span><span class=p>(</span><span class=nx>log</span><span class=p>);</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><p>As you see, the declarative <code>uploadFiles</code> function is just a function call - no logic to be tested! The correctness of the step order is not assured, but in most cases this is covered in integration tests. If it&rsquo;s complex logic, you might still write a unit test to test the correct step order of the composition.</p>
+<p>I agree that the declarative implementation (<code>asyncPipe</code>) is more difficult to understand at first, but it is less error prone and more concise. <code>asyncPipe</code> is given an array of functions that it reduces. <code>y</code> is the previous result and we apply <code>f</code> on it&rsquo;s result. The second return value <code>x</code> is the initial value. This syntax confused me a bit, but the initial value obviously needs to be provided at some place. This is functional programming!</p>
+<h2 id=the-merits-of-functional-programming>The merits of Functional Programming</h2>
+<p>The paradigm leads to code that is easier to test, because it is a stateless input / output machine. Moreover, it leaves less room for bugs, because you only declare what you want to perform instead of how to do it (imperative). However, it&rsquo;s not possible to only rely on functional programming, because applications are stateful and have side effects (network requests, file operations, logging&mldr;).
+A good strategy is to keep the business logic functional and move side effects to the outer boundary.</p>
+<p>Let&rsquo;s consider the example of an online shop that decides to give some premium benefits to its loyal customers. Premium customers might benefit from special discounts and free shipping so we want to update their status in the database.
+On the other hand, we might want to reach out to the inactive customers. The status of our customer is clearly business logic and it should not be mixed with database logic.
+One approach would be to pass a database interface and mock it in the test.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=kd>function</span> <span class=nx>updateCustomer</span><span class=p>(</span><span class=nx>today</span><span class=p>,</span><span class=nx>entry</span><span class=p>,</span><span class=nx>db</span><span class=p>)</span> <span class=p>{</span>
+	<span class=k>if</span><span class=p>(</span><span class=nx>isLoyalCustomer</span><span class=p>(</span><span class=nx>today</span><span class=p>,</span><span class=nx>entry</span><span class=p>.</span><span class=nx>date</span><span class=p>)){</span>
+		<span class=nx>newEntry</span> <span class=o>=</span> <span class=p>{</span><span class=nx>premium</span><span class=o>:</span> <span class=kc>true</span><span class=p>,</span> <span class=p>...</span><span class=nx>entry</span><span class=p>}</span>
+		<span class=nx>db</span><span class=p>.</span><span class=nx>UpdateEntry</span><span class=p>(</span><span class=nx>newEntry</span><span class=p>)</span>
+	<span class=p>}</span>
+	<span class=k>if</span><span class=p>(</span><span class=nx>isInactiveCustomer</span><span class=p>(</span><span class=nx>today</span><span class=p>,</span><span class=nx>entry</span><span class=p>.</span><span class=nx>date</span><span class=p>){</span>
+		<span class=nx>newEntry</span> <span class=o>=</span> <span class=p>{</span><span class=nx>inactive</span><span class=o>:</span> <span class=kc>true</span><span class=p>,</span> <span class=p>...</span><span class=nx>entry</span><span class=p>}</span>
+		<span class=k>return</span> <span class=nx>db</span><span class=p>.</span><span class=nx>UpdateEntry</span><span class=p>(</span><span class=nx>newEntry</span><span class=p>)</span>
+	<span class=p>})</span>
+<span class=p>}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>But there is a better approach that is declarative and easier to test:</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=kd>function</span> <span class=nx>updateCustomer</span><span class=p>(</span><span class=nx>today</span><span class=p>,</span><span class=nx>entry</span><span class=p>)</span> <span class=p>{</span>
+	<span class=k>if</span><span class=p>(</span><span class=nx>isLoyalCustomer</span><span class=p>(</span><span class=nx>today</span><span class=p>,</span><span class=nx>entry</span><span class=p>.</span><span class=nx>date</span><span class=p>)){</span>
+		<span class=nx>newEntry</span> <span class=o>=</span> <span class=p>{</span><span class=nx>premium</span><span class=o>:</span> <span class=kc>true</span><span class=p>,</span> <span class=p>...</span><span class=nx>entry</span><span class=p>}</span>
+		<span class=k>return</span> <span class=k>new</span> <span class=nx>FileUpdate</span><span class=p>(</span><span class=nx>newEntry</span><span class=p>)</span>
+	<span class=p>}</span>
+	<span class=k>if</span><span class=p>(</span><span class=nx>isInactiveCustomer</span><span class=p>(</span><span class=nx>today</span><span class=p>,</span><span class=nx>entry</span><span class=p>.</span><span class=nx>date</span><span class=p>){</span>
+		<span class=nx>newEntry</span> <span class=o>=</span> <span class=p>{</span><span class=nx>inactive</span><span class=o>:</span> <span class=kc>true</span><span class=p>,</span> <span class=p>...</span><span class=nx>entry</span><span class=p>}</span>
+		<span class=k>return</span> <span class=k>new</span> <span class=nx>FileUpdate</span><span class=p>(</span><span class=nx>newEntry</span><span class=p>)</span>
+	<span class=p>})</span>
+	<span class=k>return</span> <span class=k>new</span> <span class=nx>NoUpdate</span><span class=p>(</span><span class=nx>entry</span><span class=p>)</span>
+	
+<span class=p>}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>It&rsquo;s clearer in the intent that the output is a return value instead of an input value with side effects. Also, there is no need to mock!
+Of course there is still a missing piece for this variant - the mutable shell that applies the side effects.
+In our case, there would be a <code>Persister</code>, which is a database wrapper that reads the update instructions. It&rsquo;s correctness would be covered in the integration test.</p>
+<h2 id=when-to-use-mocks>When to use mocks</h2>
+<p>Be aware that mocks are sometimes the only way to test logic. But think what exactly needs to be tested. For testing the request handler of our express app, it&rsquo;s not necessary to create a mockserver. We only want to test the handler logic. Express logic to create the server with port allocation etc. does not need to be tested by us!</p>
+<p>I find the distinction between handlers and servers especially clear in Golang:</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=nx>handler</span> <span class=o>:=</span> <span class=nf>newHelloHandler</span><span class=p>()</span>
+
+<span class=nx>request</span> <span class=o>:=</span> <span class=nf>newRequest</span><span class=p>(</span><span class=s>&#34;Floyd&#34;</span><span class=p>)</span>
+<span class=nx>response</span> <span class=o>:=</span> <span class=nx>httptest</span><span class=p>.</span><span class=nf>NewRecorder</span><span class=p>()</span>
+
+<span class=nx>handler</span><span class=p>.</span><span class=nf>ServeHTTP</span><span class=p>(</span><span class=nx>response</span><span class=p>,</span> <span class=nx>request</span><span class=p>)</span>
+<span class=nf>assertStatus</span><span class=p>(</span><span class=nx>t</span><span class=p>,</span> <span class=nx>response</span><span class=p>.</span><span class=nx>Code</span><span class=p>,</span> <span class=nx>http</span><span class=p>.</span><span class=nx>StatusOK</span><span class=p>)</span>
+<span class=nf>assertResponseBody</span><span class=p>(</span><span class=nx>t</span><span class=p>,</span> <span class=nx>response</span><span class=p>.</span><span class=nx>Body</span><span class=p>.</span><span class=nf>String</span><span class=p>(),</span> <span class=s>&#34;Hello Floyd&#34;</span><span class=p>)</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>The handler object includes all logic how to process requests, so we can use it to test the correct behavior. Note how only the response needs to be mocked (spied to be precise).</p>
+<p>In Express.js, we do the same. We test the handler function and spy the response object.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>const helloHandler  = (req, res) =&gt; res.send(&#39;Hello World!&#39;);
+
+const expected = &#39;Hello World!&#39;;
+const resSpy = {
+	send: (actual) =&gt; assert.Equal(actual,expected)
+}
+hello({}, resSpy);
+</code></pre></td></tr></table>
+</div>
+</div><p>The request handler is at the outer layer of our application, i.e. it connects with external dependencies to cause side effects. In our case the external dependency is the response object which makes a network call. In that case it is justified and necessary to mock. The general guideline is to only mock external dependencies.</p>
+<h2 id=conclusion>Conclusion</h2>
+<p>By pushing the side effects to the outer layer of the application, we can mostly avoid mocks. Functional code is easy to test and allows to use function composition. This reduces the surface for bugs and saves us to write unit tests for integration functions.
+Mocks have its place, but if it&rsquo;s not an external dependency it might be code smell.</p>
+<p>If you want to learn more about testing, I can highly recommend <a href=https://www.manning.com/books/unit-testing target=_blank rel="noopener noreffer">Unit Testing Principles, Practices, and Patterns</a>.</p>
+<div id=reachout-callout>
+<div>💙</div>
+<div id=callout-inner>
+If you have any additional thoughts, feedback or you think I got something wrong, I'd like to hear from you!
+You can reach me through <a href=mailto:stobbe.adrian@gmail.com>Email</a> or <a href=https://twitter.com/astobbe_>Twitter</a>
+</div>
+</div>
+<section class=footnotes role=doc-endnotes>
+<hr>
+<ol>
+<li id=fn:1 role=doc-endnote>
+<p>adopted from <a href=https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a target=_blank rel="noopener noreffer">Source</a>&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+</div>
+<div class=post style=padding-top:0>
+<div class=post-share></div>
+</div>
+</div>
+<div id=toc-final></div>
+</article>
+<div class=callout>
+<div>✉️</div>
+<div id=callout-inner>
+<b>Do you want to connect?</b> Sign-Up to be notified about future posts:
+<div id=revue-embed>
+<form action=https://www.getrevue.co/profile/astobbe/add_subscriber method=post id=revue-form name=revue-form target=_blank>
+<div class=revue-form-group>
+<label for=member_email>Email address </label>
+<input class=revue-form-field placeholder="Your email address..." type=email name=member[email] id=member_email>
+</div>
+<div class=revue-form-group>
+<label for=member_first_name>Name <span class=optional>(Optional)</span></label>
+<input class=revue-form-field placeholder="First name... (Optional)" type=text name=member[first_name] id=member_first_name>
+</div>
+<div class=revue-form-actions>
+<input type=submit value=Subscribe name=member[subscribe] id=member_submit>
+</div>
+<div class=revue-form-footer>By subscribing, you agree with Revue’s <a target=_blank href=https://www.getrevue.co/terms>Terms of Service</a> and <a target=_blank href=https://www.getrevue.co/privacy>Privacy Policy</a>.</div>
+</div>
+</div></div>
+</main><footer class=footer>
+<div class=footer-container><div class=footer-line>Powered by <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.89.4">Hugo</a> | Theme - <a href="https://ublogger.netlify.app/?utm_source=https://astobbe.me/&utm_medium=footer&utm_campaign=config&utm_term=2.0.1" target=_blank title="uBlogger 2.0.1">uBlogger</a>
+</div><div class=footer-line><i class="svg-icon icon-copyright"></i><span>2021</span></div>
+</div>
+</footer></div>
+<div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top">
+<i class="svg-icon icon-arrow-up"></i>
+</a><a href=# id=view-comments class=fixed-button title="View Comments">
+<i class="svg-icon icon-comments-fixed"></i>
+</a>
+</div><script src=/lib/smooth-scroll/smooth-scroll.min.js></script><script src=/lib/autocomplete/autocomplete.min.js></script><script src=/lib/lunr/lunr.min.js></script><script src=/lib/clipboard/clipboard.min.js></script><script>window.config={code:{copyTitle:"Copy to clipboard",maxShownLines:10},search:{highlightTag:"em",lunrIndexURL:"/index.json",maxResultLength:10,noResultsFound:"No results found",snippetLength:30,type:"lunr"}}</script><script src=/js/theme.min.js></script></body>
+</html>
