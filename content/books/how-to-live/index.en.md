@@ -47,9 +47,9 @@ I want to commit more and stop trying to find something better. I often find mys
 This also applies to love. I've been idealizing it too much, always finding something that is not optimal or "missing".
 I think happiness in a relationship is more about commiting to it. A partner does not need to connect on all levels (there are other significant others). It's really about finding someone full of kindness who is committed to putting you in the center of their life. Maybe the only additional requirement is a shared core value set.
 
-My notes are quotes from the book, since it is difficult to put it even more concise..
-
 ## 📒 Summary + Notes
+
+_My notes are quotes from the book, since it is difficult to put it even more concise.._
 
 ### Be independent
 
@@ -240,8 +240,6 @@ Never make plans. When someone asks, just say you can’t know until that day.
 ### Self-control
 
 Following your emotions is not freedom. Being free from following emotions is freedom.
-
-Be extra-careful of habits that seem harmless. Imagine each choice continuing forever. Eat a cookie, and eventually you’re obese. Shop for fun, and eventually you’re deep in debt. When you choose a behavior, you choose its future consequences.
 
 Random stuff happens. All you can control is your response. Every day, you’ll practice how to react to chaos: with dignity, poise, and grace.
 
