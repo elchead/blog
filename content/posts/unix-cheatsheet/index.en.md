@@ -351,5 +351,4 @@ alias lscurrent='ls $PWD'
 ---
 
 Sources:
-[Freecodecamp: The Linux Command Handbook](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ls-command)
-[Unix Tutorial](https://www.softwaretestinghelp.com/unix-tutorials/)
+[Freecodecamp: The Linux Command Handbook](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ls-command), [Unix Tutorial](https://www.softwaretestinghelp.com/unix-tutorials/)
