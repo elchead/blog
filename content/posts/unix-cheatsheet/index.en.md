@@ -2,6 +2,7 @@
 title: Unix cheatsheet - Beyond the basics
 categories: [Programming]
 date: 2021-11-08
+lastmod: 2021-12-12
 ---
 
 We developers use the terminal a lot and there are a lot of tricks that can ease our work. So it's worth looking beyond the essentials of getting stuff done in the shell! The quickest way to find what you need is probably to use [`tldr`](https://tldr.sh/). But the frequently used hacks are best learned once to know about all the good stuff and work effectively. I recently found the great [The Linux Command Handbook](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ls-command) from Freecodecamp and went over it to extract the useful bites that I didn't know.
@@ -122,6 +123,20 @@ navigation similar to vim
 for all the rest, use `vim` 😛
 
 ## Extract
+
+### tr
+
+translate / delete character in a file:
+
+`tr find_character replace_character < filename`
+`-d`: delete occurences of character
+
+### cut
+
+cut given character from file
+
+`-c 5-10`: cut character nbr 5 to 10 from each line
+`-d "," -f 2,6`: extract the second and sixth `,` delimited field from each line
 
 ### grep
 
@@ -335,4 +350,6 @@ alias lscurrent='ls $PWD'
 
 ---
 
-Source: [Freecodecamp: The Linux Command Handbook](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ls-command)
+Sources:
+[Freecodecamp: The Linux Command Handbook](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ls-command)
+[Unix Tutorial](https://www.softwaretestinghelp.com/unix-tutorials/)
