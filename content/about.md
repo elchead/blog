@@ -38,12 +38,10 @@ You can reach me at stobbe.adrian@gmail.com, but I am also happy to talk either 
 - 2015: curiosity spike for physics (particle physics, relativity,quantum mechanics)
 - 2016: started self-learning Chinese
 - 2017: first time living abroad in Mexico for 5 weeks
-- 2017: started Engineering Science at TU Berlin
 - 2017: discovered Salsa dancing
 - 2019: exchange semester at Tsinghua university, Beijing
 - 2020: deep dive into C++, web and HPC during intern at startup in Berlin (dive solutions)
-- 2020: started Computational Science & Engineering at TU Munich
-- 2020: joined [SpeedupBuddy] mentoring and got intrigued about self-improvement
+- 2020: joined [SpeedupBuddy](https://speedupbuddy.de/) mentoring and got intrigued about self-improvement
 - 2020: COVID made me discover blogging, yoga and meditation
 - 2021: exchange semester at UPC, Barcelona
 
@@ -56,12 +54,16 @@ I appreciate presents for their gesture and less for their value. I love the Chi
 
 ### I'm an [introvert](https://www.verywellmind.com/signs-you-are-an-introvert-2795427)
 
-I enjoy being with and getting to know new people, but after a while I need some time alone again to recharge. That's why I am not into hanging out all day, but prefer occasional, intentional gatherings where I can be fully present. I avoid bigger group settings, but love talking one-on-one.
+I enjoy being with and getting to know new people, but after a while I need some time alone again to recharge. That's why I am not into hanging out all day, but prefer occasional, intentional gatherings where I can be fully present. I choose talking one-on-one over groups.
 
-### I prefer critique over compliments
+### Critique > compliments
 
 I think that there is more to learn from constructive critique and don't feel attacked by it. I don't refer to shouting complaints during a quarrel (although they are still helpful right?), but rather to tactful words of concern to make us aware of our weaknesses. This type of critique is rare, because it requires courage, intimacy, and tactfulness. Moreover, they are never uttered out of courtesy (as opposed to compliments). Of course, compliments are nice to hear, but flatter me with critique please :)
 
-### I want to be productive everyday
+### Personalities are fluid
 
-I have a slight obsession to feel productive every day. It is not as extreme that I enjoy working the whole day, but I have the urge to do something that brings me closer to my goals. I found that I am most productive in the early morning hours.
+Just like water, I want to shape my personality according to the current circumstances and values, oblivious of the past. I don't stick to past traits just because that's how people know me. Yesterday I was shy, polite and cold. Now, I want to be frank, direct, affectionate and seek encounters with new people. Tomorrow, I will be different.
+
+<!-- ### I want to be productive everyday
+
+I have a slight obsession to feel productive every day. It is not as extreme that I enjoy working the whole day, but I have the urge to do something that brings me closer to my goals. I found that I am most productive in the early morning hours. -->
