@@ -6,53 +6,62 @@ resources:
     src: "cover.jpg"
 date: 2022-01-06
 ---
+
 {{< callout text= "TLDR, the short version is at the end :) " >}}
 
 I hope you had a good start in the new year! I'm late in the game, but I want to share my yearly goals for this year with you.
+
 <!--more-->
+
 I started with it last year and I found them helpful to focus my energy and time. Every week, I checked my progress in my weekly review.
-All in all, I am satisfied because I reached the important goals and learnt more about my capacity.  Most of my goals were habit building ones like: meditate daily, do exercise bidaily, go to bed before 10:30 pm, journal daily, read 10 books.. But there is still much to be improved upon. I defined too many goals and did not  did not prioritize accordingly. Also, I want to remind myself more often of them, so I will make a pinned note on my desktop and phone (thanks to [thesephist](https://thesephist.com/posts/2021-goals/#looking-back-at-2020) for the idea).
+All in all, I am satisfied because I reached the important goals and learnt more about my capacity. Most of my goals were habit building ones like: meditate daily, do exercise bidaily, go to bed before 10:30 pm, journal daily, read 10 books.. But there is still much to be improved upon. I defined too many goals and did not did not prioritize accordingly. Also, I want to remind myself more often of them, so I will make a pinned note on my desktop and phone (thanks to [thesephist](https://thesephist.com/posts/2021-goals/#looking-back-at-2020) for the idea).
 
 So here are my goals for this year:
 
 ## Goals
+
 ### Long-term learning
+
 The idea of the learning projects arose last year through a friend who reserved one hour in the morning to read books for his long-term career development. In the past, I easily got caught up with what is important in the moment and invested all effort into it. But I became a believer of the 80/20 rule and want to invest not only in the urgent but also in the important (Eisenhower matrix).
 
 I want to take time in the morning to learn what I believe important and listen more to technical podcasts. I already discovered a lot of tools and resources through it last year: Learning Golang with TDD (my fav), Wails, Svelte, vim tricks... And it broadens my horizon on topics I've never heard about like BPFs for Observability of microservices and compiler development in the old days..
 So exposing myself to new input is one part and the second is to get my own hands dirty to really learn. This can mean solving exercises / following a learning project or applying the new tool / language in my own little project.
 
 ### Connect with friends and be a host
+
 I found the hosting goal on [thesephist's list](https://thesephist.com/posts/2021-goals/#looking-back-at-2020) and my immediate reaction was that I want to do it too.
 
-I love to get to know new people and exchange on interests. Jordan Harbinger got me intrigued with his Networking course !! to be more intentional about network building. It happened only a few times to me until now, but it's gratifying to help a friend through some connection. But while calls are great to exchange on technical stuff, it's not the same as hanging out with a friend. I guess I'm not the exception, but I just connect much better with people emotionally in person. Unfortunately, many of my friends live in other cities or even countries. In the past, I did not make enough effort to visit because I mistook digitally staying in touch to be enough. 
+I love to get to know new people and exchange on interests. Jordan Harbinger got me intrigued with his Networking course !! to be more intentional about network building. It happened only a few times to me until now, but it's gratifying to help a friend through some connection. But while calls are great to exchange on technical stuff, it's not the same as hanging out with a friend. I guess I'm not the exception, but I just connect much better with people emotionally in person. Unfortunately, many of my friends live in other cities or even countries. In the past, I did not make enough effort to visit because I mistook digitally staying in touch to be enough.
 This year, I plan to visit more close but far-away friends.
 But getting back to the intro, I also want to host gatherings with friends to connect and make space for good conversations. I was very humble to keep the number to two, because of my current living situation (not having an own home + switching places) but for me it's most important to start doing it at all.
 I like to be proactive and I want to learn to become a good host.
 This also applies to technical activities. Last year, I started the clean-code challenge with a friend, invited a friend to solve a coding kata together, initiated to go on a hackathon with some friends, but I want to grow these activities in size and quantity.
 
 ### Exploring fun skills
+
 As part of my goal to socialize more, I want to bring more fun to conversations. Being a good listener, asking curious questions is all great, but I want to be more dynamic in groups. However, most of my hobbies are not fun to show (writing, meditation, swimming...). Last year, I found [storytelling](/books/storyworthy/), re-read ["Surely You're Joking, Mr. Feynman!"](https://www.goodreads.com/book/show/35167685-surely-you-re-joking-mr-feynman) (highly recommended) and got inspired to be more curious in exploring random interests. In the case of Feynman it was opening locks, solving puzzles, playing tricks, very random observations that challenged his friends to conduct a fun experiment.. Yeah, he was an intriguing guy..
 
 This year, I want to explore two random interests. Candidates are storytelling (e.g. join toastmasters..), learning magic tricks, learning the ukulele..
 
 ### Engage with the twitter community
+
 Last year, I made it my goal to join twitter and try it out. Indeed, I found some great people to follow and want to engage more in threads and discussions. Also, I want to use it to share my findings and micro-thoughts.
 If you are a twitter user and I don't yet follow you, please let me know :)
 My bigger goal of this is to build friendships and a community with shared interests.
 
 ### Mostly vegan and sweet free month
+
 Through living with my vegan roommates, I got more aware about the origin of dairy products. I already rarely ate meat before, but through my roommates I explored delicious vegan meals and saw that I can largely avoid dairies as well. I reduced my meat consumption close to zero, but I hadn't given up on fish. I'm not yet ready or convinced for going completely vegan, but I want to make my diet at least 80% vegan. I believe in it's health benefits and want to greatly reduce my footprint in the animal industry.  
-Secondly, I want to exercise self-control and remind myself of the addiction to sugar. 
+Secondly, I want to exercise self-control and remind myself of the addiction to sugar.
 My Christmas sweets (gone within a few days) have reminded me of it and how they often makes me feel unwell. I will resist sweets for one month this year and keep sugar to a minimum throughout the rest of the year.
 
-##  TLDR
+## TLDR
+
 ![cover.png](cover.png)
-## Habits I want to build / fortify
-- No distractions during first 3h of day (phone) 
+
+### Habits I want to build / fortify
+
+- No distractions during first 3h of day (phone)
 - Learning hour in the morning
 - Journal daily
 - Care for mental well-being daily (meditation, walks...)
-
-
-
