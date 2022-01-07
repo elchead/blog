@@ -1,3 +1,32 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Thoughts - Category - Adrian's Site</title><link>https://astobbe.me/categories/thoughts/</link><description>Thoughts - Category - Adrian's Site</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://astobbe.me/categories/thoughts/" rel="self" type="application/rss+xml"/><item><title>My fuckups of 2021</title><link>https://astobbe.me/posts/fuckups-2021/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><author>Author</author><guid>https://astobbe.me/posts/fuckups-2021/</guid><description>The only real mistake is the one from which we learn nothing - Henry Ford.
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Thoughts - Category - Adrian's Site</title><link>https://astobbe.me/categories/thoughts/</link><description>Thoughts - Category - Adrian's Site</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 06 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://astobbe.me/categories/thoughts/" rel="self" type="application/rss+xml"/><item><title>2022 - Goals</title><link>https://astobbe.me/posts/2022/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><author>Author</author><guid>https://astobbe.me/posts/2022/</guid><description><![CDATA[<style>
+  #callout {
+    background: #22272e;
+     
+
+    padding: 1.5em 1.25em;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  #callout-inner {
+    margin-left: 1em;
+  }
+  @media (max-width: 767px) {
+    #callout {
+      padding: 1.5em 0.75em 1.5em 0.6em;
+    }
+    #callout-inner {
+      margin-left: 0.5em;
+    }
+  }
+</style>
+
+<div id="callout">
+  <div></div>
+  <div id="callout-inner">TLDR, the short version is at the end :) </div>
+</div>
+
+<p>I hope you had a good start in the new year! I&rsquo;m late in the game, but I want to share my yearly goals for this year with you.</p>]]></description></item><item><title>My fuckups of 2021</title><link>https://astobbe.me/posts/fuckups-2021/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><author>Author</author><guid>https://astobbe.me/posts/fuckups-2021/</guid><description>The only real mistake is the one from which we learn nothing - Henry Ford.
 In 2021, I took more time to reflect on my failures. While doing my yearly review, I decided to pick 3 fuckups and share them with you. Maybe it can help you, avoid similar mistakes. And if not, may my naiveness at least make you laugh!
 The MacBook that proved light as air Earlier this year, I bought a used MacBook Air.</description></item><item><title>Mental Models - How they contribute to a happy life</title><link>https://astobbe.me/posts/mental-models/</link><pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate><author>Author</author><guid>https://astobbe.me/posts/mental-models/</guid><description>Mental models are how we see and interpret the world. In reality, nothing has meaning, the world is just full of events obeying the laws of the universe. These laws constrain how we live: time is finite and irreversible, gravity puts us on the ground, physical needs ensure survial, etc. But beyond that everything is really up to our minds. We are all born within this frame, but over time we all have different experiences.</description></item></channel></rss>
