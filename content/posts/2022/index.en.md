@@ -8,7 +8,6 @@ date: 2022-01-06
 ---
 
 {{< callout text= "TLDR, the short version is at the end :) " >}}
-i
 I hope you had a good start in the new year! I'm late in the game, but I want to share my goals for this year with you.
 
 <!--more-->
