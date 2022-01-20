@@ -15,14 +15,14 @@ Barcelona was an obvious choice after falling in love with the city and making a
 I wanted to take these months for exploration and self discovery. I paused my work contract to find time for side projects and to go out.
 
 ## Living with roomies
-I moved in a shared flat with my friend which was also my first true roomie experience. After living alone for a year and enjoying the peace, it was interesting to live in a more lively environment. Living together with someone provides maybe the deepest view into how they live and deal with all kinds of daily situations. 
-And I realized that I adopted some of their behaviors - some intentionally, some unconsciously. 
+I moved in a shared flat with my friend which was also my first true roomie experience. After living alone for more than a year, I got to enjoy the solitude, but  it was interesting to live in a more lively environment. Living under the same roof with someone provides a deep view into how they live and deal with all kinds of daily situations. 
+As a result, I adopted some of their behaviors - some intentionally, some unconsciously.
 Two of my roommates are a couple and I liked how openly they would discuss their worries and feelings.
 I come from a family where we did not share much personal feelings, so I tend to choke them up, but my roomie told me how good it feels to vent off and not let problems accumulate.
 There is a healthy limit of course, but I agree and have been opening up on my inner thoughts.
 
 ## Eating vegan
-Secondly, I got into veganism through my roommates. They are good and healthy cooks and I liked to explore new meals. I started eating more vegetables (steamed 👌) and got lots of food inspirations. I realized how I could mostly drop all of the non-vegan stuff and find good substitutes. I already mostly avoided meat before (for health and ethical reasons) but consumed lots of dairies, eggs etc.
+Secondly, I got into veganism through my roommates. They are good and healthy cooks and I liked to explore new meals. I started eating more vegetables (steamed 👌) and got new food inspirations. I realized how I could mostly drop all of the non-vegan stuff and find good substitutes. I already mostly avoided meat before (for health and ethical reasons) but consumed lots of dairies, eggs etc.
 My friend raised my awareness for how I equally support industrial livestock farming with those animal products, just like meat.
 I did not become vegan, but I've set it as my baseline.
 
@@ -33,7 +33,7 @@ I also developed a little [blog CLI](https://github.com/elchead/blog-cli) which 
 
 Reserving time for my learning goals and work on what seems meaningful to me is something I definitely plan to keep.
 
-## Sports and Salsa
+## Swimming and Salsa
 I found much more time to exercise and rediscovered swimming. I like how swimming calms the mind and brings the focus to the body. Compared to other sports, I find it easier to do deliberate practice: focusing on breathing, body movements. And observing the improvement always felt rewarding. I went from panting after about 50m to calmly swimming freestyle for more than 1km.
 
 I also went outside to dance much more often. I took my first bachata course and went on a salsa congress. I made progress in my style, but I realized that I need a regular dancing partner to practice outside classes. Consolidating new figuras in memory takes more than one class, but unless I feel good about them I won't incorporate them into social dance. As a salsa master told me on one occasion: "It takes a lot of practice and going through the basics gets repetitive and boring, but this is what it takes to get good." I want to keep Salsa as a fun activity and don't become professional, but I will need more deliberate practice to progress.
