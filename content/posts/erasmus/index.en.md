@@ -23,12 +23,12 @@ There is a healthy limit of course, but I agree and have been opening up on my i
 
 ## Eating vegan
 Secondly, I got into veganism through my roommates. They are good and healthy cooks and I liked to explore new meals. I started eating more vegetables (steamed 👌) and got lots of food inspirations. I realized how I could mostly drop all of the non-vegan stuff and find good substitutes. I already mostly avoided meat before (for health and ethical reasons) but consumed lots of dairies, eggs etc.
-My friend raised my awareness for how I equally support industrial animal-farming with those animal products, just like meat.
+My friend raised my awareness for how I equally support industrial livestock farming with those animal products, just like meat.
 I did not become vegan, but I've set it as my baseline.
 
 ## Side projects
-Working on my own projects was challenging and highly rewarding at the same time. It's challenging because there is no one to keep you responsible and motivated. On the other hand, finishing a project pushes the confidence in one's own skills and seeing people star the project, because they might potentially find it useful, feels great. My biggest project was my personal search engine [misou](https://github.com/elchead/misou) It started as a Hackathon project with some friends from uni and I continued working on it to bring it to a usable state.
-On the side, I was reading O'reilly literature on TDD, polished up on Typescript and React and enjoyed how I could bring into practice without excuses (dirty legacy code..). With a classmate, I solved a [small kata](https://github.com/elchead/mars-kata) to practice TDD and get to know Svelte. It was really fun but also instructive to see the others perspective.
+Working on my own projects was challenging and highly rewarding at the same time. It's challenging because there is no one to keep you responsible and motivated. On the other hand, finishing a project pushes the confidence in one's own skills and seeing people star the project, because they might potentially find it useful, feels great. My biggest project was my personal search engine [misou](https://github.com/elchead/misou). It started as a Hackathon project with some friends from uni and I continued working on it to practice and make it usable.
+On the side, I was reading O'reilly literature on TDD, polished up on Typescript and React and enjoyed how I could bring into practice in my project without excuses (dirty legacy code..). With a classmate, I solved a [small kata](https://github.com/elchead/mars-kata) to practice TDD and get to know Svelte. It was really fun but also instructive to see the others perspective.
 I also developed a little [blog CLI](https://github.com/elchead/blog-cli) which is super useful to me and forked a personal CRM to my needs.
 
 Reserving time for my learning goals and work on what seems meaningful to me is something I definitely plan to keep.
