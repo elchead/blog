@@ -43,7 +43,7 @@ The sunny weather and secondly the beach were real boosters for my happiness tha
 But even a simple walk by the sea would lift my mood. 
 I've set both elements high on the priority list for where I want to live after my studies.
 
-## Discovering the more social me
+## The more social me
 Since living alone during COVID times, I spent much less time socializing but also enjoyed spending time with myself. The experience with my roommates and the more social nature of the people here (talking and hanging out..), however got me to rethink.
 I want to share more with my friends again and seek more time to hang out together. I've changed my attitude towards strangers and enjoy talking to new people. In the last weeks that I approached people, I was impressed by the positive responses and amazed by the kind of people I coincidentally met. 
 
