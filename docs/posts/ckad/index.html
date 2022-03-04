@@ -15,14 +15,12 @@
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
 <link rel=icon type=image/png sizes=192x192 href=/android-chrome-192x192.png>
-<link rel=icon type=image/png sizes=512x512 href=/android-chrome-512x512.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://astobbe.me/posts/ckad/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"CKAD preparation - Tips for the Kubernetes exam","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/astobbe.me\/posts\/ckad\/"},"image":[{"@type":"ImageObject","url":"https:\/\/astobbe.me\/posts\/ckad\/ckad.png","width":1952,"height":1512}],"genre":"posts","wordCount":740,"url":"https:\/\/astobbe.me\/posts\/ckad\/","datePublished":"2021-09-07T00:00:00+00:00","dateModified":"2021-09-07T00:00:00+00:00","description":""}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/astobbe.me\/"},{"@type":"ListItem","position":2,"name":"Programming","item":"https://astobbe.me/categories/programming/"},{"@type":"ListItem","position":3,"name":"CKAD preparation - Tips for the Kubernetes exam"}]}</script></head>
-<body data-header-desktop data-header-mobile><script>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'auto'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'auto'==='dark')&&document.body.setAttribute('theme','dark')</script>
+<link rel=icon type=image/png sizes=512x512 href=/android-chrome-512x512.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://astobbe.me/posts/ckad/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"CKAD preparation - Tips for the Kubernetes exam","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/astobbe.me\/posts\/ckad\/"},"image":[{"@type":"ImageObject","url":"https:\/\/astobbe.me\/posts\/ckad\/ckad.png","width":1952,"height":1512}],"genre":"posts","wordCount":740,"url":"https:\/\/astobbe.me\/posts\/ckad\/","datePublished":"2021-09-07T00:00:00+00:00","dateModified":"2021-09-07T00:00:00+00:00","description":""}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/astobbe.me\/"},{"@type":"ListItem","position":2,"name":"Programming","item":"https://astobbe.me/categories/programming/"},{"@type":"ListItem","position":3,"name":"CKAD preparation - Tips for the Kubernetes exam"}]}</script></head><body data-header-desktop data-header-mobile><script>(window.localStorage&&localStorage.getItem("theme")?localStorage.getItem("theme")==="dark":"auto"==="auto"?window.matchMedia("(prefers-color-scheme: dark)").matches:"auto"==="dark")&&document.body.setAttribute("theme","dark")</script>
 <div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
 <div class=header-wrapper>
 <div class=header-title>
 <a href=/ title="Adrian's Site" class="header-logo logo-svg">Adrian's Site</a>
-</div>
-<div class=menu>
+</div><div class=menu>
 <nav>
 <ul class=menu-inner><li>
 <a class=menu-item href=/posts/> Posts </a>
@@ -34,8 +32,7 @@
 <a class=menu-item href=/now/> Now </a>
 </li><li>
 <a class=menu-item href=/about/> About </a>
-</li></ul>
-</nav><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
+</li></ul></nav><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
 <input type=text placeholder="Search titles or contents..." id=search-input-desktop>
 <a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=Search>
 <span class="svg-icon icon-search"></span>
@@ -49,19 +46,14 @@
 </span><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
 <span class="svg-icon icon-moon"></span>
 </a>
-</div>
-</div>
-</header><header class=mobile id=header-mobile>
+</div></div></header><header class=mobile id=header-mobile>
 <div class=header-container>
 <div class=header-wrapper>
 <div class=header-title>
 <a href=/ title="Adrian's Site" class=header-logo>Adrian's Site</a>
-</div>
-<div class=menu-toggle id=menu-toggle-mobile>
+</div><div class=menu-toggle id=menu-toggle-mobile>
 <span></span><span></span><span></span>
-</div>
-</div>
-<div class=menu id=menu-mobile><div class=search-wrapper>
+</div></div><div class=menu id=menu-mobile><div class=search-wrapper>
 <div class="search mobile" id=search-mobile>
 <input type=text placeholder="Search titles or contents..." id=search-input-mobile>
 <a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=Search>
@@ -73,8 +65,7 @@
 <span class="search-button search-loading" id=search-loading-mobile>
 <span class="svg-icon icon-loading"></span>
 </span>
-</div>
-<a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>
+</div><a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>
 Cancel
 </a>
 </div><nav>
@@ -88,31 +79,18 @@ Cancel
 <a class=menu-item href=/now/ title>Now</a>
 </li><li>
 <a class=menu-item href=/about/ title>About</a>
-</li></ul>
-</nav>
-<a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+</li></ul></nav><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
 <span class="svg-icon icon-moon"></span>
-</a></div>
-</div>
-</header><div class="search-dropdown desktop">
-<div id=search-dropdown-desktop></div>
-</div>
-<div class="search-dropdown mobile">
-<div id=search-dropdown-mobile></div>
-</div><main class=main>
+</a></div></div></header><div class="search-dropdown desktop">
+<div id=search-dropdown-desktop></div></div><div class="search-dropdown mobile">
+<div id=search-dropdown-mobile></div></div><main class=main>
 <div class="container content-article theme-classic"><div class=toc id=toc-auto>
-<div class=toc-title>Contents</div>
-<div class=toc-content id=toc-content-auto></div>
-</div>
-<div class=header-post>
+<div class=toc-title>Contents</div><div class=toc-content id=toc-content-auto></div></div><div class=header-post>
 <div class=post-title>
 <div class=post-all-meta>
 <nav class=breadcrumbs>
 <ol>
-<li><a href=/>Home </a></li><li><a href=/categories/programming/>Programming </a></li><li>CKAD preparation - Tips for the Kubernetes exam</li>
-</ol>
-</nav>
-<h1 class="single-title flipInX">CKAD preparation - Tips for the Kubernetes exam</h1><div class=post-meta>
+<li><a href=/>Home </a></li><li><a href=/categories/programming/>Programming </a></li><li>CKAD preparation - Tips for the Kubernetes exam</li></ol></nav><h1 class="single-title flipInX">CKAD preparation - Tips for the Kubernetes exam</h1><div class=post-meta>
 <div class=post-meta-line><span class=post-category>
 <a href=/categories/programming/><i class="svg-icon icon-folder"></i>Programming</a>
 </span><span class=post-meta-date>
@@ -123,45 +101,22 @@ Cancel
 <span class=post-meta-reading>
 <i class="svg-icon icon-stopwatch"></i>4 minutes
 </span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<article class="single toc-start">
+</div></div></div></div></div><article class="single toc-start">
 <div class="content-block content-block-first content-block-position">
 <div class=post><div class=image-theme-classic>
 <img src=https://astobbe.me/posts/ckad/ckad.png style=width:100%>
 </div><div class="details toc" id=toc-static data-kept>
 <div class="details-summary toc-title">
 <span>Contents</span>
-</div>
-<div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents>
+</div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents>
 <ul>
-<li><a href=#how-to-get-started>How to get started</a></li>
-<li><a href=#how-to-prepare>How to prepare</a></li>
-<li><a href=#exam-tips>Exam tips</a></li>
-</ul>
-</nav></div>
-</div><p>Recently, I took the Certified Kubernetes Application Developer exam and would like to share some tips for the preparation. Be aware that at the end of September, an updated 2021 version will be released, so contents will change a bit.
-Nevertheless, the exam contains 20 questions that need to be completed in 2 hours. So its crucial to be quick and comfortable with the <code>kubectl</code> CLI and formatting yaml files. But first things first:</p>
-<h2 id=how-to-get-started>How to get started</h2>
-<p>In case you already have experience with Kubernetes for some time, you probably have most of the knowledge required. If you haven&rsquo;t used <code>vim</code> and unix tools before, you should get familiar with the very basics of them.
-I started learning about Kubernetes using the official documentation and reading <a href=https://www.oreilly.com/library/view/kubernetes-up-and/9781492046523/ target=_blank rel="noopener noreffer">Kubernetes Up & Running by Brendan Burns</a>. But if you are new to Kubernetes, then taking a course might also be a good idea.</p>
-<p>When I decided to take the exam, I did not quite know what to expect from it, so I took the <a href="https://www.udemy.com/course/ultimate-ckad-certified-kubernetes-application-developer/learn/lecture/26777664?start=270" target=_blank rel="noopener noreffer">Udemy: Ultimate CKAD course</a> by Srinath Challa.
-The course is very basic; so don&rsquo;t expect to learn much new stuff if you know the core topics. But in the end, it gave me more confidence for the exam because it covers all topics and has some preparation material (e.g. bookmarks) and tips.</p>
-<h2 id=how-to-prepare>How to prepare</h2>
-<p>Once you decide to prepare for the exam, I would recommend signing up for the certificate to get early access to the exam simulator. You should definitely check the available coupons to get a discount on the quite high certificate price of $375! The price includes two coupons for exam simulators at <a href=https://killer.sh/ target=_blank rel="noopener noreffer">killer.sh</a> (they have the same questions though) and I would take one once you feel comfortable with the topics, but before practicing for the exam. This way you get some feedback on where you are already and what you need to focus on. Be sure to know the &ldquo;exam tips&rdquo; beforehand to get a realistic feel of how you should do it in the real exam.</p>
-<h2 id=exam-tips>Exam tips</h2>
-<p>The exam is done in a browser environment and you are allowed to have one additional tab (or separate window) for accessing the official documentation. You can use an external monitor for the documentation or separate windows on a large enough screen.</p>
-<p>The time frame is short, so you might skip low percentage questions (2-3 %) and do them last. Moreover, shortcuts can help you save time:</p>
-<ol>
+<li><a href=#how-to-get-started>How to get started</a></li><li><a href=#how-to-prepare>How to prepare</a></li><li><a href=#exam-tips>Exam tips</a></li></ul></nav></div></div><p>Recently, I took the Certified Kubernetes Application Developer exam and would like to share some tips for the preparation. Be aware that at the end of September, an updated 2021 version will be released, so contents will change a bit.
+Nevertheless, the exam contains 20 questions that need to be completed in 2 hours. So its crucial to be quick and comfortable with the <code>kubectl</code> CLI and formatting yaml files. But first things first:</p><h2 id=how-to-get-started>How to get started</h2><p>In case you already have experience with Kubernetes for some time, you probably have most of the knowledge required. If you haven&rsquo;t used <code>vim</code> and unix tools before, you should get familiar with the very basics of them.
+I started learning about Kubernetes using the official documentation and reading <a href=https://www.oreilly.com/library/view/kubernetes-up-and/9781492046523/ target=_blank rel="noopener noreffer">Kubernetes Up & Running by Brendan Burns</a>. But if you are new to Kubernetes, then taking a course might also be a good idea.</p><p>When I decided to take the exam, I did not quite know what to expect from it, so I took the <a href="https://www.udemy.com/course/ultimate-ckad-certified-kubernetes-application-developer/learn/lecture/26777664?start=270" target=_blank rel="noopener noreffer">Udemy: Ultimate CKAD course</a> by Srinath Challa.
+The course is very basic; so don&rsquo;t expect to learn much new stuff if you know the core topics. But in the end, it gave me more confidence for the exam because it covers all topics and has some preparation material (e.g. bookmarks) and tips.</p><h2 id=how-to-prepare>How to prepare</h2><p>Once you decide to prepare for the exam, I would recommend signing up for the certificate to get early access to the exam simulator. You should definitely check the available coupons to get a discount on the quite high certificate price of $375! The price includes two coupons for exam simulators at <a href=https://killer.sh/ target=_blank rel="noopener noreffer">killer.sh</a> (they have the same questions though) and I would take one once you feel comfortable with the topics, but before practicing for the exam. This way you get some feedback on where you are already and what you need to focus on. Be sure to know the &ldquo;exam tips&rdquo; beforehand to get a realistic feel of how you should do it in the real exam.</p><h2 id=exam-tips>Exam tips</h2><p>The exam is done in a browser environment and you are allowed to have one additional tab (or separate window) for accessing the official documentation. You can use an external monitor for the documentation or separate windows on a large enough screen.</p><p>The time frame is short, so you might skip low percentage questions (2-3 %) and do them last. Moreover, shortcuts can help you save time:</p><ol>
 <li>
-<p>Use the CLI as much as possible to get the boilerplate for the yaml files. <code>kubectl run / create</code> are your friends!</p>
-</li>
-<li>
-<p>Configure your bashsrc:</p>
-<div class=highlight><div class=chroma>
+<p>Use the CLI as much as possible to get the boilerplate for the yaml files. <code>kubectl run / create</code> are your friends!</p></li><li>
+<p>Configure your bashsrc:</p><div class=highlight><div class=chroma>
 <table class=lntable><tr><td class=lntd>
 <pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2
@@ -172,103 +127,66 @@ The course is very basic; so don&rsquo;t expect to learn much new stuff if you k
 </span><span class=lnt>7
 </span><span class=lnt>8
 </span><span class=lnt>9
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>vim ~/.bashsrc
-// add:
-alias k=kubectl
-alias kaf=&#39;k apply -f&#39;
-alias kcn=&#39;kubectl config set-context --current --namespace&#39;
-export d=&#34;--dry-run=client -o yaml&#34;
-
-source &lt;(kubectl completion bash)
-complete -F __start_kubectl k
-</code></pre></td></tr></table>
-</div>
-</div><p>``
+</span></code></pre></td><td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>vim ~/.bashsrc
+</span></span><span class=line><span class=cl>// add:
+</span></span><span class=line><span class=cl>alias k=kubectl
+</span></span><span class=line><span class=cl>alias kaf=&#39;k apply -f&#39;
+</span></span><span class=line><span class=cl>alias kcn=&#39;kubectl config set-context --current --namespace&#39;
+</span></span><span class=line><span class=cl>export d=&#34;--dry-run=client -o yaml&#34;
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>source &lt;(kubectl completion bash)
+</span></span><span class=line><span class=cl>complete -F __start_kubectl k
+</span></span></code></pre></td></tr></table></div></div><p>``
 This shortens the syntax and adds bash completion. To get the boilerplate for a pod manifest, you can then simply type <code>k run mypod --image myimage $do > pod.yaml</code>
 Be careful, you might have to install bash-completion before:
-<code>sudo apt-get install bash-completion</code></p>
-</li>
-<li>
-<p>Configure vim:</p>
-<div class=highlight><div class=chroma>
+<code>sudo apt-get install bash-completion</code></p></li><li>
+<p>Configure vim:</p><div class=highlight><div class=chroma>
 <table class=lntable><tr><td class=lntd>
 <pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2
 </span><span class=lnt>3
 </span><span class=lnt>4
 </span><span class=lnt>5
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>Vim ~/.vimrc
-// add:
-set tabstop=2 // set tabbing to 2 spaces
-set shiftwidth=2 // apply tab on multiple lines
-set expandtab // use spaces for tabs
-</code></pre></td></tr></table>
-</div>
-</div><p>``
-For debugging, it might also be useful to enable the line numbering: <code>:set number</code></p>
-</li>
-<li>
-<p>Optional: Tmux for multiple terminals</p>
-<p>I found the <code>kubectl explain</code> command quite convenient to quickly check the API, while I was writing the yaml file. For this it is however necessary two have 2 terminals. Tmux has different behavior (copying, scrolling &mldr;), so be sure to be familiar with it if you want to use it in the exam.</p>
-<p>All commands inside tmux are prepended with <code>Ctrl+b</code>, so I omit that in the following.</p>
-<pre><code> tmux
+</span></code></pre></td><td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>Vim ~/.vimrc
+</span></span><span class=line><span class=cl>// add:
+</span></span><span class=line><span class=cl>set tabstop=2 // set tabbing to 2 spaces
+</span></span><span class=line><span class=cl>set shiftwidth=2 // apply tab on multiple lines
+</span></span><span class=line><span class=cl>set expandtab // use spaces for tabs
+</span></span></code></pre></td></tr></table></div></div><p>``
+For debugging, it might also be useful to enable the line numbering: <code>:set number</code></p></li><li>
+<p>Optional: Tmux for multiple terminals</p><p>I found the <code>kubectl explain</code> command quite convenient to quickly check the API, while I was writing the yaml file. For this it is however necessary two have 2 terminals. Tmux has different behavior (copying, scrolling &mldr;), so be sure to be familiar with it if you want to use it in the exam.</p><p>All commands inside tmux are prepended with <code>Ctrl+b</code>, so I omit that in the following.</p><pre><code> tmux
  // inside tmux:
  :set -g mouse on // scroll and click with mouse
  “ // split terminal vertically 
  % // or split horizontally
-</code></pre>
-<p>For navigation, I used these commands:</p>
-<pre><code> ] // paste clipboard 
+</code></pre><p>For navigation, I used these commands:</p><pre><code> ] // paste clipboard 
  ; // toggle last used window
  [ // activate scroll
  x // kill current pane
  &amp; // kill session
  d // detach
  // in the terminal: tmux attach
-</code></pre>
-</li>
-</ol>
-<p>Finally, as with most things, it is about practicing and you can find some practicing questions on Google, such as <a href=https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552 target=_blank rel="noopener noreffer">these 150 questions</a>. I hope you found some useful tips and good luck with the exam!</p>
-</div>
-<div class=post style=padding-top:0>
-<div class=post-share></div>
-</div>
-</div>
-<div id=toc-final></div>
-</article>
-<div class=callout>
-<div>✉️</div>
-<div id=callout-inner>
+</code></pre></li></ol><p>Finally, as with most things, it is about practicing and you can find some practicing questions on Google, such as <a href=https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552 target=_blank rel="noopener noreffer">these 150 questions</a>. I hope you found some useful tips and good luck with the exam!</p></div><div class=post style=padding-top:0>
+<div class=post-share></div></div></div><div id=toc-final></div></article><div class=callout>
+<div>✉️</div><div id=callout-inner>
 <b>Do you want to connect?</b> Sign-Up to be notified about future posts:
 <div id=revue-embed>
 <form action=https://www.getrevue.co/profile/astobbe/add_subscriber method=post id=revue-form name=revue-form target=_blank>
 <div class=revue-form-group>
 <label for=member_email>Email address </label>
 <input class=revue-form-field placeholder="Your email address..." type=email name=member[email] id=member_email>
-</div>
-<div class=revue-form-group>
+</div><div class=revue-form-group>
 <label for=member_first_name>Name <span class=optional>(Optional)</span></label>
 <input class=revue-form-field placeholder="First name... (Optional)" type=text name=member[first_name] id=member_first_name>
-</div>
-<div class=revue-form-actions>
+</div><div class=revue-form-actions>
 <input type=submit value=Subscribe name=member[subscribe] id=member_submit>
-</div>
-<div class=revue-form-footer>By subscribing, you agree with Revue’s <a target=_blank href=https://www.getrevue.co/terms>Terms of Service</a> and <a target=_blank href=https://www.getrevue.co/privacy>Privacy Policy</a>.</div>
-</div>
-</div></div>
-</main><footer class=footer>
-<div class=footer-container><div class=footer-line>Powered by <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://ublogger.netlify.app/?utm_source=https://astobbe.me/&utm_medium=footer&utm_campaign=config&utm_term=2.0.1" target=_blank title="uBlogger 2.0.1">uBlogger</a>
-</div><div class=footer-line><i class="svg-icon icon-copyright"></i><span>2022</span></div>
-</div>
-</footer></div>
-<div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top">
+</div><div class=revue-form-footer>By subscribing, you agree with Revue’s <a target=_blank href=https://www.getrevue.co/terms>Terms of Service</a> and <a target=_blank href=https://www.getrevue.co/privacy>Privacy Policy</a>.</div></div></div></div></main><footer class=footer>
+<div class=footer-container><div class=footer-line>Powered by <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Theme - <a href="https://ublogger.netlify.app/?utm_source=https://astobbe.me/&utm_medium=footer&utm_campaign=config&utm_term=2.0.1" target=_blank title="uBlogger 2.0.1">uBlogger</a>
+</div><div class=footer-line><i class="svg-icon icon-copyright"></i><span>2022</span></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top">
 <i class="svg-icon icon-arrow-up"></i>
 </a><a href=# id=view-comments class=fixed-button title="View Comments">
 <i class="svg-icon icon-comments-fixed"></i>
 </a>
-</div><script src=/lib/smooth-scroll/smooth-scroll.min.js></script><script src=/lib/autocomplete/autocomplete.min.js></script><script src=/lib/lunr/lunr.min.js></script><script src=/lib/clipboard/clipboard.min.js></script><script>window.config={code:{copyTitle:"Copy to clipboard",maxShownLines:10},search:{highlightTag:"em",lunrIndexURL:"/index.json",maxResultLength:10,noResultsFound:"No results found",snippetLength:30,type:"lunr"}}</script><script src=/js/theme.min.js></script></body>
-</html>
+</div><script src=/lib/smooth-scroll/smooth-scroll.min.js></script><script src=/lib/autocomplete/autocomplete.min.js></script><script src=/lib/lunr/lunr.min.js></script><script src=/lib/clipboard/clipboard.min.js></script><script>window.config={code:{copyTitle:"Copy to clipboard",maxShownLines:10},search:{highlightTag:"em",lunrIndexURL:"/index.json",maxResultLength:10,noResultsFound:"No results found",snippetLength:30,type:"lunr"}}</script><script src=/js/theme.min.js></script></body></html>
