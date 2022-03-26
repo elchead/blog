@@ -6,6 +6,7 @@ resources:
   src: "keyboard.jpg"
 featuredImagePreview: "keyboard.jpg"
 date: 2021-06-01
+lastmod: 2022-03-26
 ---
 VIM is more than just a text editor for geeks and the cool kids! If you aren't convinced or haven't heard about it - stick with me to see how it's magic might also improve your typing experience. 
 
@@ -102,9 +103,21 @@ Doing it the conventional way, changing the variable names to upper letters can 
 
 Changing the content of a word (`cw`), an entire line (`cc`) or the rest of the line (`C`) is also very easy. You can even define to replace text within brackets, e.g. to change a function signature or replace the whole function definition. The `c` command becomes especially useful when combined with search. With `/{pattern}` , you can find the next instance of the pattern. You can then apply the replacement command on the matching instances by navigating through them. Simply type `cgn` after defining the search pattern, and rename the instance. With the repeat operator `.`  you can apply this action to the next instance with one keystroke.
 
+Another cool thing is selecting other matches from your current cursor position and inserting cursors at the selected matches (props go [here](https://github.com/VSCodeVim/Vim/issues/3369)):
+![](https://user-images.githubusercontent.com/13447232/53299785-59259b80-3865-11e9-93db-7eeaa4b7a81c.gif)
+
 ### Surroundings
 
-Surroundings allow you to easily wrap characters around a text selection. This becomes handy when you want to add double quotes around a text to assign it to a string. In VIM, you can add a surrounding with `ys` and then you simple add the context, let's say the whole paragraph ( `ap` ) and the desired character (`"`).  With the cursor on our paragraph we then simply type `ysap"` - voila. Deleting them is even shorter: `ds"` . Of course you can also replace surroundings, i.e. `"` for `'`  with `cs"'`.
+Surroundings allow you to easily wrap characters around a text selection. This becomes handy when you want to add double quotes around a text to assign it to a string. In VIM, you can add a surrounding with `ys` and then you simple add the context, let's say the whole paragraph ( `ap` ) and the desired character (`"`).  With the cursor on our paragraph we then simply type `ysap"` - voila. Deleting them is even shorter: `ds"` . Of course you can also replace surroundings, i.e. `"` for `'`  with `cs"'`. Be aware that this is not a default feature and needs an extra plugin. But it is included for example in the VS Code vim extension.
+
+## Further hacks
+`+/-`: go to beginning of next / previous line
+
+`m[letter]`: bookmark position on letter 
+
+`[letter]: go to bookmark
+
+`Ctrl/Cmd+Shift+l`: Select all occurences
 
 ## How to get started
 
@@ -116,6 +129,8 @@ There is much more that I find useful, but I will leave that to you to explore! 
 - `vimtutor` - simply type it in your unix terminal (it is even available in Bavarian 🥨 `vimtutor bar` )
 
 - [Learn Vim - VS Extension](https://marketplace.visualstudio.com/items?itemName=vintharas.learn-vim)
+
+- [Great VS Code Vim Cheat Sheet](https://www.akosradler.dev/VimCheatSheet/)
 
 - [Cheatsheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html):
   {{< image src="vi-vim-tutorial-1.gif" height=70% width=90% >}}
