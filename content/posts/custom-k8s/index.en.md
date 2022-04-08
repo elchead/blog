@@ -1,5 +1,5 @@
 ---
-title: [Tutorial]: Bootsrapping your custom Kubernetes with kubeadm
+title: "[Tutorial]: Bootsrapping your custom Kubernetes with kubeadm"
 categories: [Programming]
 date: 2022-04-07
 ---
