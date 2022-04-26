@@ -9,4 +9,4 @@ I've started [journaling last year](/posts/building-a-journaling-habit-with-obsi
 
 I am still figuring out the format, if it will be weekly or daily. But my goal is to share my learnings and thoughts at least once per week.
 
-You will find my entries [here](https://adrian99.notion.site/8bdb6d23fbce4735a602918f9d97a3aa?v=ae7e62951f3d4bc48a13fa93c853eafd).
+You will find my entries [here](/categories/letters/).
