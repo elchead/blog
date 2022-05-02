@@ -1,1 +1,0 @@
-/Users/adria/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second_brain/Books/hi.md
