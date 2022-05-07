@@ -72,7 +72,7 @@ theme = "uBlogger"
     Twitter = "astobbe_"
     Spotify = "tg9z4i55s3wx8lov4yxbl51xh"
     Paypal = "AdrianStobbe"
-
+    rss = "false"
 
    # uBlogger CHANGED | 0.2.0 Page config
   [params.page]
@@ -97,7 +97,7 @@ theme = "uBlogger"
     # whether to show link to Raw Markdown content of the content
     linkToMarkdown = true
     # uBlogger NEW | 0.2.4 whether to show the full text content in RSS
-    rssFullText = false
+    rssFullText = true
     # uBlogger NEW | 1.1.0 Post display settings on the page
     [params.summary]
       # uBlogger NEW | 1.1.0 Display previews on the page of posts
