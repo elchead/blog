@@ -7,20 +7,38 @@ a.button {
   border-radius: 10px;
   background-color: #333;
   border: solid 2px #333;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   @include transition(all 0.2s ease);
 
-  [theme=dark] & {
-    color: #FFF !important;
+  [theme="dark"] & {
+    color: #fff !important;
+  }
+}
+
+.submit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  max-width: 90%;
+  box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #333;
+  border: solid 2px #333;
+  color: #fb0021;
+  text-align: center;
+  @include transition(all 0.2s ease);
+
+  [theme="dark"] & {
+    color: #fff !important;
   }
 }
 
 a.button:hover {
   color: #333;
-  background-color: #FFF;
+  background-color: #fff;
 
-  [theme=dark] & {
+  [theme="dark"] & {
     background: $global-background-secondary-color-dark;
   }
 }
@@ -32,24 +50,24 @@ a.button-big {
 }
 
 a.button-white {
-  background-color: #FFF;
+  background-color: #fff;
   color: #333;
   border-color: #333;
 }
 
 a.button-white:hover {
   background-color: #000;
-  color: #FFF;
+  color: #fff;
 }
 
 a.button-black {
   background-color: #000;
-  color: #FFF;
-  border-color: #FFF;
+  color: #fff;
+  border-color: #fff;
 }
 
 a.button-black:hover {
-  background-color: #FFF;
+  background-color: #fff;
   color: #333;
 }
 
@@ -63,7 +81,7 @@ a.button-red:visited {
 }
 
 a.button-red:hover {
-  background-color: #FFF;
+  background-color: #fff;
   color: #fb0021;
 }
 
@@ -74,7 +92,7 @@ a.big-grey-button {
   padding: 15px 30px;
   background-color: #666;
   border: solid 2px #555;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   text-decoration: none;
   font-size: 160%;
@@ -84,6 +102,6 @@ a.big-grey-button {
 }
 
 a.big-grey-button:hover {
-  background-color: #FFF;
+  background-color: #fff;
   color: #666;
 }
