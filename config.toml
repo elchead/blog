@@ -43,7 +43,7 @@ theme = "uBlogger"
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/profile_photo_s.png"
+      avatarURL = "/images/me.jpeg"
       # uBlogger CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = "Adrian Stobbe"
       # subtitle shown in home page

@@ -11,6 +11,14 @@ I love to exchange with people who share interests and will try my best to answe
 
 You can reach me at stobbe.adrian@gmail.com, but I am also happy to talk either in person (my location is updated under [now](/now)) or on the phone.
 
+### Me in pictures
+
+{{< figure src="/images/thinking.jpeg" height="50%" width="50%" >}}
+
+{{< figure src="/images/active.jpeg" height="50%" width="50%" >}}
+
+{{< figure src="/images/beach.jpeg" height="50%" width="50%" >}}
+
 ## My interests
 
 **Technical**
