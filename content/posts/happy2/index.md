@@ -13,4 +13,4 @@ share: true
 ## Test Hooo
 
 works
-![](../../C65030B0-DF5C-4AF4-A413-CBDE5A89C360.jpg%5D)
+![](../../C65030B0-DF5C-4AF4-A413-CBDE5A89C360.jpg)
