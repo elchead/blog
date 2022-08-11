@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Second-Brain - Category - Adrian's Site</title><link>https://astobbe.me/categories/second-brain/</link><description>Second-Brain - Category - Adrian's Site</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://astobbe.me/categories/second-brain/" rel="self" type="application/rss+xml"/><item><title>Building a Journaling habit with Obsidian</title><link>https://astobbe.me/posts/building-a-journaling-habit-with-obsidian/</link><pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate><author>Author</author><guid>https://astobbe.me/posts/building-a-journaling-habit-with-obsidian/</guid><description><![CDATA[<p>Journaling is one of the habits that many find desirable, yet few achieve to establish. I felt the same struggle, until I found a nice workflow in my notetaking app Obsidian that I want to share with you.</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Second-brain - Category - Adrian's Site</title><link>https://astobbe.me/categories/second-brain/</link><description>Second-brain - Category - Adrian's Site</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://astobbe.me/categories/second-brain/" rel="self" type="application/rss+xml"/><item><title>Building a Journaling habit with Obsidian</title><link>https://astobbe.me/posts/building-a-journaling-habit-with-obsidian/</link><pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate><author>Author</author><guid>https://astobbe.me/posts/building-a-journaling-habit-with-obsidian/</guid><description><![CDATA[<p>Journaling is one of the habits that many find desirable, yet few achieve to establish. I felt the same struggle, until I found a nice workflow in my notetaking app Obsidian that I want to share with you.</p>
 <h2 id="the-value-of-journaling">The value of Journaling</h2>
 <p>I believe that people fail to journal regularly because it&rsquo;s never urgent. So it recedes from the urgent but not necessarily important tasks. Yet it&rsquo;s those that would probably most benefit from it. Journaling is about escaping the rush of day-to-day, reflecting on what is happening, and finding intention for the day. But it&rsquo;s not just beneficial for ourselves. By rewinding the small beautiful moments, we can also become more appreciative of our dearest and loved ones.</p>
 <p>Journaling can take different forms, be it asking yourself a couple of simple questions or long streamlining of thoughts (brain dump). But to start a habit it&rsquo;s best to keep it simple. Honestly, it even took me some time to get valuable answers to simple questions like &ldquo;What are you grateful for?&rdquo; or &ldquo;What would make today great?&rdquo;. I was just not used to asking this.</p>
@@ -23,7 +23,7 @@ The plugin can be easily installed inside Obsidian options under <code>Community
 </span></span><span class="line"><span class="cl">from &#34;Journal&#34; where !contains(file.name, &#34;1_DailyNotes&#34;) sort file.day desc
 </span></span></code></pre></td></tr></table>
 </div>
-</div><figure><a target="_blank" href="dataview.png" title="/posts/building-a-journaling-habit-with-obsidian/dataview.png" >
+</div><figure><a target="_blank" href="dataview.png" title="dataview.png" >
         
     </a><figcaption class="image-caption">The tabular view, of course without my data 😉</figcaption>
     </figure>
@@ -92,63 +92,7 @@ But as always, only keep what serves you. If you don&rsquo;t find much value fro
 <p>My main takeaway is that it takes time to get used to this structure and that you shouldn&rsquo;t overthink it too much. I think it is enough to have a rough understanding of how the categories differ and that the hierarchy is structured by usage. It is somehow like packing a rucksack - what is frequently needed is placed at the top.</p>
 <p>I think it&rsquo;s normal to be confused about the difference between Areas and Resources in the beginning, but I hope that my distinction helped to find your definitions.</p>
 <p>Please reach out to me, when something is still unclear or if you want to share how PARA works for you :)</p>
-]]></description></item><item><title>Content collection - The power of Check-Later apps</title><link>https://astobbe.me/posts/2020-12-06-content-collection/</link><pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://astobbe.me/posts/2020-12-06-content-collection/</guid><description><![CDATA[<!-- TODO add img -->
-<p>How do you consume media? - It sounds like a silly question, but I think it&rsquo;s very much worth thinking about it. After all, we spend a considerable amount of time doing it. It might be to research something specific, to learn something new, or simply to entertain ourselves. The internet provides a rich resource of information, but it&rsquo;s probably also the most distracting source.</p>
-<p>We might start the browser to check some specific information, but as we go, we find another article on the side that catches our attention. It sounds too interesting to dismiss! The article might link to an exciting video on youtube. Of course, we want to see it, and it only takes 2 minutes after all! But once you are on youtube, you probably all know how easy it is to get in an open-loop. Our initial search to look up information on having a pet might eventually end with kitten videos on youtube (and they can go even much further..). Yes, they are cute, but is it helpful to decide at this moment?</p>
-<p>I know this example is very contrived and ridiculous, but surely most of us regularly get into these open loops.</p>
-<p>And for me, this situation was also tricky. On the one hand, I didn&rsquo;t want to dismiss interesting articles, but I also felt conscience-stricken about getting distracted by content that is not relevant at this moment. Of course, there are easy ways around this. Some use bookmarks, and others like to keep 50+ tabs open in their browser (I was astounded when I saw this!). But I believe that save-for-later apps provide several benefits over classical bookmarks (and the tabs option, of course).</p>
-<h2 id="the-benefits-of-check-later-apps">The benefits of Check-Later apps</h2>
-<ul>
-<li>
-<p><strong>Avoid open loops</strong></p>
-<p>I think that it needs an active effort to resist the temptation of checking an interesting but currently irrelevant article or video. In fact, platforms are designed to take us into this open-loop trap of consumption. That&rsquo;s good for their success, but do you want this? Having a dedicated place to store and the mindset of content collection helped me escape the open-loops more often. Also, I didn&rsquo;t particularly like cluttering my bookmarks, intended for quickly accessing frequently visited websites, with specific content I want to checkout (this list can grow quickly..). Now, I can read whenever I want to and also don&rsquo;t miss out on good content.</p>
-</li>
-<li>
-<p><strong>Easily find what you want</strong></p>
-<p>I like to save my content in categories. The Check-Later app lets me choose a topic and get access to all the related resources. What makes this better than bookmarks is that you have a keyword search that checks all your articles&rsquo; content - very neat! Also, I can archive articles after having read them and still access them later through search.</p>
-</li>
-<li>
-<p><strong>More selective content choices</strong></p>
-<p>Whenever I see something that catches my attention now, I think twice if I really want to consume this. For once, it takes slightly more effort than just clicking on the link (so lazy, I know). Secondly, I know that it will have to compete with all the other appealing stuff on my list.</p>
-</li>
-<li>
-<p><strong>Knowledge conservation</strong></p>
-<p>Besides the benefit of quickly retrieving old content, it also provides the ability to store highlights of articles and attach notes. It is then possible to extract your highlights and notes and review them. I&rsquo;m forgetful of details, and statistics show that the majority does, so I like to be reminded of interesting ideas. Also, I like how these old ideas connect with others and expand. It makes me feel more convinced that what I&rsquo;m reading now is not just for the moment but part of something bigger that grows over time.</p>
-</li>
-<li>
-<p><strong>Reading experience</strong></p>
-<p>In a read-later app, every article is displayed plainly as text, like a book, without all the distractions on websites. Also, when used on a mobile app, you can access them offline.</p>
-   <figure>
-
-  <figcaption>With Instapaper you have a good overview of your content and quickly find old articles and notes through search.</figcaption>
-</figure>
-</li>
-</ul>
-<h2 id="apps">Apps</h2>
-<ul>
-<li>
-<p><a href="https://www.instapaper.com/" target="_blank" rel="noopener noreffer">Instapaper</a></p>
-<p>This one is my favorite because of its clean and simplistic interface and the ability to attach notes to my highlights. Unfortunately, the free version is limited to five notes per month and doesn&rsquo;t support a full-text search for all articles. But the free version is good to try it out and enough for light usage. For developers, it also provides an Open API (I might try this in the future). Compared to its close competitor, Pocket, its premium version is also significantly cheaper ($29.99/year ~€23).</p>
-</li>
-<li>
-<p><a href="https://getpocket.com/" target="_blank" rel="noopener noreffer">Pocket</a></p>
-<p>Its basic principle is very similar to Instapaper but provides slightly more functionality (tags, text to speech..). The free version is limited to 3 highlights per article (which I find very restrictive) and doesn&rsquo;t include a full-text search. Its premium version is €39.99/year.</p>
-</li>
-<li>
-<p><a href="https://raindrop.io/" target="_blank" rel="noopener noreffer">Raindrop.io</a></p>
-<p>It&rsquo;s the closest option to the classical bookmark manager but is much more attractive and powerful. You can organize links in folders, attach tags, and it has a beautiful interface. The premium version also provides full-text search and full download of the websites, but it also has good free functionality. Be aware, however, that it doesn&rsquo;t support text highlighting nor note-taking.</p>
-</li>
-<li>
-<p><a href="https://readwise.io/" target="_blank" rel="noopener noreffer">Readwise</a></p>
-<p>This app is different and intended as an extension of a check-later app. It builds on the idea of knowledge conservation and lets you revisit your ebook &amp; article highlights. According to your preferences, it provides five selected highlights per day as part of spaced repetition. Simply put, it is the Anki version for what you read. You can also include gaps in the highlight or reformulate it as a question to trigger your memory. The premium version even supports export to Evernote &amp; Notion. You can connect it to a wide variety of services such as Instapaper and Pocket, but it also supports Twitter, Kindle, PDF import, Airr (currently iOS only, but great for highlighting in Podcasts), and many more. This app is, however, not free and distinguishes between a Lite version ($4.49 billed annually or $4.99 billed monthly) and the full version ($7.99 billed annually or $8.99 billed monthly). Students also enjoy a 50% discount.
-I agree that this is quite some money for the basic functionality to review your highlights, and I still have to figure out if it&rsquo;s worth the price for me.</p>
-<p>However, it provides a free month trial for everyone, and the invitation system puts an extra free month on top. So I think it&rsquo;s worth giving it a shot. If you want to try it out, you are welcome to use <a href="https://readwise.io/i/adrian136" target="_blank" rel="noopener noreffer">my referral link</a>, which grants both of us an extra free month. It would also be interesting for me to hear your opinion on it!
-It could also be interesting to develop such a service (for import in Anki maybe?). The Instapaper API and an <a href="https://medium.com/@sawyerh/how-i-export-process-and-resurface-my-kindle-highlights-addc9de9af1a" target="_blank" rel="noopener noreffer">article</a> on how to export Kindle highlights inspired me to maybe try it out in the future.</p>
-</li>
-</ul>
-<h2 id="conclusion">Conclusion</h2>
-<p>I find this system very helpful to be more aware and selective about what I consume, and I enjoy the distraction-free reading experience with the ability to attach my thoughts to it. Previously, I had a hard time locating once read articles, so I find the full-text search very powerful. While the free app versions are limited to light usage, I feel that the provided value is very much worth the few Euros per month. But as always, the best way to find out if it is for you is by trying out yourself.
-I&rsquo;d be happy to hear about your experience!</p>]]></description></item><item><title>Notion - A powerful documenting tool for Notes, Projects, Wiki...</title><link>https://astobbe.me/posts/notion/</link><pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://astobbe.me/posts/notion/</guid><description><![CDATA[<p>Today, I feel excited to share the tool that has most influenced my exploration of a more organized me. Many people see it as an alternative to Evernote, but for me, it felt much more powerful than a note-taking app. I immediately fell in love with its simplistic markdown approach, which easily yields attractive pages. I always had difficulties keeping notes that I would like to check again, which discouraged me from using them extensively. Notion completely changed my attitude toward note-taking and writing because it made it fun - Yes, it indirectly made me write this blog!</p>
+]]></description></item><item><title>Notion - A powerful documenting tool for Notes, Projects, Wiki...</title><link>https://astobbe.me/posts/notion/</link><pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://astobbe.me/posts/notion/</guid><description><![CDATA[<p>Today, I feel excited to share the tool that has most influenced my exploration of a more organized me. Many people see it as an alternative to Evernote, but for me, it felt much more powerful than a note-taking app. I immediately fell in love with its simplistic markdown approach, which easily yields attractive pages. I always had difficulties keeping notes that I would like to check again, which discouraged me from using them extensively. Notion completely changed my attitude toward note-taking and writing because it made it fun - Yes, it indirectly made me write this blog!</p>
 <p>I was quite hyped when I first saw how people used it as a <strong>life hub</strong> to have all information and planning in one place. I&rsquo;ve heard several people say that Notion has shaped their thinking because of how information is naturally stored in this system. And I couldn&rsquo;t agree less! I started to appreciate structure, writing down thoughts, and it sparked so many new ideas of how I could improve.</p>
 <p>But enough praising; let me show you how it serves me and could potentially for you?</p>
 <h1 id="what-i-use-notion-for">What I use Notion for</h1>
@@ -226,45 +170,4 @@ For personal use, you practically don&rsquo;t have to pay to enjoy the full Noti
 <p>If you are excited to try it out now, here are some final links to quickly get started with some awesome <a href="https://www.notion.so/Notion-Template-Gallery-181e961aeb5c4ee6915307c0dfd5156d666" target="_blank" rel="noopener noreffer">templates</a>.</p>
 <p>Also, I really liked the <a href="https://www.youtube.com/watch?v=67jFfjwUvRQ&amp;ab_channel=UnJadedJade" target="_blank" rel="noopener noreffer">video</a> from <em>UnJaded Jade</em> on her setup because she clearly shared the same hype as I did and had some interesting use case ideas.</p>
 <p>Finally, I want to thank Ali Abdal for his <a href="https://www.youtube.com/watch?v=ONG26-2mIHU" target="_blank" rel="noopener noreffer">youtube video</a>, which is how my Notion journey began.</p>
-<p>Thanks for reading, and let me know if you found any of this useful or have some question!</p>]]></description></item><item><title>The Second Brain - My life-changing companion</title><link>https://astobbe.me/posts/2020-11-15-second-brain/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://astobbe.me/posts/2020-11-15-second-brain/</guid><description><![CDATA[<p>This is the beginning of a bigger series on which I want to introduce some ideas about my new life companion. For me, this concept was pivotal in how I want to live. It helped me become clearer on what I want and focus on my priorities. I use it to offload information to have more capacities for being present-focused. Finally, I became fully digital.</p>
-<p>I struggled quite a bit on finding a proper word because it touches so many aspects. It is related to productivity, self-improvement, and knowledge management. In the end, I think that the term second brain, made famous by Tiago Forte, is maybe a good superordinate for what it tries to achieve. In fact, I was hugely inspired by him and adopted a lot of his ideas. He describes the second-brain as a knowledge management system. Once I got into this area, I discovered a lot of other content related to productivity and self-improvement. I took what seems useful to me, and I am still exploring.</p>
-<h2 id="who-might-find-it-interesting">Who might find it interesting</h2>
-<p>I think that the ideas especially speak to life-long learners, long-term thinkers, and those who actively seek to improve themselves. It is also helpful for those who would like to bring a bit more structure in their self-organization.</p>
-<p>I fully acknowledge that it might not fit everyone, but if you are a bit excited by now, I think that you might find something useful. This post might feel a bit overwhelming by trying to give an encompassing vision, but I will split up the upcoming posts thematically.</p>
-<p>When I started, I really just wanted to find a system to organize myself better. But I quickly started enjoying the process of tweaking my workflow and learning more about it. While it also helped me become more productive, the most meaningful benefit for me is what I found (and still find) out about myself during the journey.</p>
-<p>If you are still with me, let&rsquo;s get started.</p>
-<blockquote>
-<p>Absorb what is useful, discard what is useless and add what is specifically your own
-&ndash; <cite>Bruce Lee</cite></p>
-</blockquote>
-<h2 id="the-goals">The goals</h2>
-<h3 id="time-is-too-short">Time is too short</h3>
-<p>I think that many of us have the same problem as I had. We haven&rsquo;t got enough time! There are simply too many things we would like to do. As a consequence, we tend to overload ourselves trying to keep up with our thirsty curiosity. Life is a rush; while doing one thing, we are already thinking about what is upcoming. At some point, we might feel overwhelmed and stressed out. We hassle each day, and at the end of the day, we still might feel frustrated about not having achieved everything we aimed for.</p>
-<p>Then I realized that time-management is solely about priorities. Time is limited, and it is more helpful to accept that than somehow trying to stretch it (which won&rsquo;t work 😉).</p>
-<p>Secondly, I gained another perspective on being busy.</p>
-<blockquote>
-<p>Being busy means I&rsquo;m out of control
-&ndash; <cite>Derek Sivers</cite></p>
-</blockquote>
-<p>When I constantly feel busy, it is probably time to reexamine my system and rules. That is not to say that I want to be lazier, but that I want to be more focused and thoughtful about my actions. As part of this system, I want to become more aware of my time management.</p>
-<h3 id="getting-things-done">Getting things done</h3>
-<p>This is the productivity part of the whole companion. We all know it from very vividly from New Year&rsquo;s resolutions: it&rsquo;s easy to make plans but it&rsquo;s hard to execute them. Often, we either don&rsquo;t find the time or feel paralyzed about how to get started.</p>
-<p>In this problems pursuit, I adopted some habits to help me get my prioritized work done. I had been using a calendar and to-do-list before, but <a href="https://fortelabs.co/blog/the-one-touch-guide-to-doing-a-weekly-review/" target="_blank" rel="noopener noreffer">Tiago Forte&rsquo;s Weekly Review</a> and ideas from <a href="https://gettingthingsdone.com/" target="_blank" rel="noopener noreffer">David Allen&rsquo;s GTD</a> brought my organization to another level. They help me to get my priorities straight and truncate my work into actionable items. I will cover the techniques in later posts, so stay tuned!</p>
-<h3 id="mental-focus-and-presence">Mental focus and presence</h3>
-<p>While working out future plans and goals helps guide actions, this should ultimately serve to become more present. By storing thoughts and relevant information in a central place, you no longer need to worry about them. Who doesn&rsquo;t know it? It&rsquo;s so easy to get distracted during work, because different ideas and responsibilities pop up. Stopping this completely might seem unfeasible, but every written down item is one less to worry about.</p>
-<p>This mental offloading of information also helps to calm my mind and be more present. I find this not only beneficial for focused working but also to be happier. And of course, people around you highly appreciate the presence of mind! It goes without saying that changing this behavior takes time and effort, but I think it is worthwhile to strive for.</p>
-<h3 id="sustainable-knowledge-collection">Sustainable Knowledge collection</h3>
-<p>This point tries to address two problems I realized. First, I was unhappy with how much I forget about the content I consume: be it books, articles, videos. As an enthusiastic language learner, I&rsquo;m highly convinced of spaced-repetition, so I thought that I could also more generally apply this technique. The first step for me was to make the content retrievable. From past experience, I found general notetaking on specific content not sustainable for long-term storage (I tended to never look it up again).</p>
-<p>Moreover, I wanted to build up a reference system for interesting source to check later. Not everything we consume or find is relevant at the moment, but it would be valuable to be able to pick up the content once it is needed. At the same time, the system needs to be powerful enough to actually find the information you need; storing is not enough ;) For this, I found the PARA file hierarchy very helpful. Moreover, I extended my workflow with tools for processing all kinds of information: be it academic, documents, media content, thoughts. I also changed my way of how and what I consume.</p>
-<h2 id="my-positive-side-effects">My positive side-effects</h2>
-<p>During my journey on finding a system that works for me, I also found out a lot about myself. I realized how good writing is to process my thoughts. I don&rsquo;t fancy writing poetic texts, but I find it highly practical to communicate ideas concisely.</p>
-<p>As I started to take notes, I also noticed how it precipitated an avalanche of new thoughts and ideas. On a <a href="https://www.artofmanliness.com/articles/podcast-543-learn-the-system-for-getting-things-done/https://www.artofmanliness.com/articles/podcast-543-learn-the-system-for-getting-things-done/" target="_blank" rel="noopener noreffer">podcast episode</a>, I also found that other people seem to experience the same. Maybe you find this neat too?</p>
-<p>Finally, I became more self-reflective not only about my planning but also on how I do things. Again, I don&rsquo;t want to go into details, but you will find posts about this later if you are interested.</p>
-<h2 id="final-words">Final words</h2>
-<p>I admit that all of this might sound a bit lofty. There are simply too many self-proclaimed productivity and self-improvement books, who promise to change your life (and I assertively object such claims!). Many ideas sound nice but remain abstract, don&rsquo;t get applied and are consequently forgotten.</p>
-<p>I think that Derek Sivers put it very nicely:</p>
-<blockquote>
-<p>You may hear something or see something that gives you a new idea. But it&rsquo;s only when you stop and think of your work through this new perspective, that you actually jump up and go turn the idea into reality. That&rsquo;s the real inspiration that everyone is looking for.
-&ndash; <cite>Derek Sivers</cite></p>
-</blockquote>
-<p>In the upcoming posts, I want to give some practical insights on how I applied these techniques to my life. But to get something useful from it, you will have to apply it to your life!</p>]]></description></item></channel></rss>
+<p>Thanks for reading, and let me know if you found any of this useful or have some question!</p>]]></description></item></channel></rss>
