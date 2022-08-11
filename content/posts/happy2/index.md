@@ -1,5 +1,5 @@
 ---
-title: Happy
+title: Happy2
 categories: [Thoughts]
 resources:
   - name: "featured-image"
