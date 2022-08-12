@@ -1,5 +1,5 @@
 ---
-title: life-philosophy
+title: My Life Philosophy
 categories: [Me]
 resources:
   - name: "featured-image"
