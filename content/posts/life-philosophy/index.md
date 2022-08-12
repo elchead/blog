@@ -4,7 +4,7 @@ categories: [Me]
 resources:
   - name: "featured-image"
     src: "cover.jpg"
-date: 2022-07-28
+date: 2022-08-12
 share: true
 category: life-philosophy
 ---
@@ -23,6 +23,29 @@ I seperate these principles into doing and being. Doing relates to my actions an
 
 
 ## Doing
+### Say no
+Say no to work, people and places you don't like. Be reluctant to commit. Say you come back later to make a decision. Most bad decisions are made impulsively under pressure.
+
+The more you take on, the less you will achieve.
+
+Think twice before comitting to a plan. Even if it feels like "hell yeah" it's often worth to give it another thought when you feel less emotional about it. Everything seems more important in the moment. Write it down for later. Time tells how things really are.
+
+It seems appealing to do x, to learn y, but what's the cost for your other priorities? Would you enjoy the process, or do you just want the outcome?
+
+There are too many options. Commit.
+
+### Time is precious
+Time is limited an you don't want to regret not having had enough time for what really matters.
+
+Don't watch movies, TV series or shows and don't play games. It's not a good use of time. If I do it's to socialize with friends as an exception.
+
+Money can save time: by saving commute time, paying for the extra service, delegating tasks that are not a good time investment.
+
+Respect other people's time and make an effort to be a good communicator.
+
+Traditional 9 to 5 jobs go against the appreciation of time. It does not align with our own schedule and energy to be productive and measures work by time, when it should really be measured by value.
+Are we really productive long-term working 8 or more hours?
+Rather prefer to get a bit done every day.
 
 ### Constant learning
 A day without learning is a lost opportunity.
@@ -38,30 +61,6 @@ Learning is broad: technical skills, soft skills, understanding thinking and fee
 Learning is the path to growth, it empowers, and is the seed for positive change.
 
 Share your knowledge - through writing on the internet, open source projects. It might be useful to someone else. And what is knowledge worth if not shared / applied?
-
-### Time is precious
-Time is limited an you don't want to regret not having had enough time for what really matters.
-
-Don't watch movies, TV series or shows and don't play games. It's not a good use of time. If I do it's to socialize with friends as an exception.
-
-Money can save time: by saving commute time, paying for the extra service, delegating tasks that are not a good time investment.
-
-Respect other people's time and make an effort to be a good communicator.
-
-Traditional 9 to 5 jobs go against the appreciation of time. It does not align with our own schedule and energy to be productive and measures work by time, when it should really be measured by value.
-Are we really productive long-term working 8 or more hours?
-Rather prefer to get a bit done every day.
-
-### Say no
-Say no to work, people and places you don't like. Be reluctant to commit. Say you come back later to make a decision. Most bad decisions are made impulsively under pressure.
-
-The more you take on, the less you will achieve.
-
-Think twice before comitting to a plan. Even if it feels like "hell yeah" it's often worth to give it another thought when you feel less emotional about it. Everything seems more important in the moment. Write it down for later. Time tells how things really are.
-
-It seems appealing to do x, to learn y, but what's the cost for your other priorities? Would you enjoy the process, or do you just want the outcome?
-
-There are too many options. Commit.f
 
 ### Get wealthy
 Provide value to society. Creating value without asking for anything in return is unsustainable.
@@ -93,19 +92,6 @@ Suspend judgement from the first draft. Something bad can be improved upon. You 
 Wait to release a finished work. Move on to the next thing first, to feel less affected by public opinion. Their comments are about your past work.
 
 ## Being
-### Don't cave in - no regrets
-Resist the pressure to conform and do things because of societies expectations.  
-
-Embrace to be an outsider who deviates from the norm.
-
-Don't follow external expectations, you will only lament later how all of it did not really matter. Don't take life too seriously. People usually care less and we are the strictest with ourselves.
-
-Ask what you want. Learn to be rejected. Do what you want now and don't postpone it for later. Later extends until it's too late. Take reasonable risks.
-
-Expect the worst. It's outside your control how much time you have with loved ones, but you can enjoy the present and express gratitude today.
-
-Visualizing the worst, avoids later regrets, because it makes you appreciate the now.
-
 ### Plan and be intentional
 Planning is time not spent doing, so don't overdo it, but doing without planning is time poorly spent.
 Plan your day ahead to not be distracted by the unimportant and impulses during the day.
@@ -123,34 +109,48 @@ Review your intentions and priorities in the afternoon when self-control is low.
 
 Meet people out of curiosity and care not because it's been a while. Set an intention.
 
-### Love and feel
-"The first step to love is to give it your full attention and deliberately appreciate it" - How to live, Derek Sivers
+### Long term thinking
+Avoid indulging in activities that trade short term benefits against the long term. Your energy and time should be investments: be it learning, work, finance, but importantly also relationships and friends.
 
-Be wary of marriage. Dont make a life-long commitment based on an emotional state.
+>  I only want to be around people that I know I’m going to be around with for the rest of my life. I only want to work on things that I know have long-term payout. - \cite{Naval Ravikant}
 
-Love your partner more than your children. This is how they learn what love is.
+Say no to what seems appealing in the moment. There is no free lunch. Junk food and sweets gives instant gratification while paying for how you feel later and your long-term health.
 
-Learn about people to empathize with them. Humans love to be understood. Don't just try to fix problems. Listen and understand their feelings.
+Food that tastes good is bad for you, and vice-versa. Eat to feel good rather than eating yummy to feel bad.
 
-You can only feel loved if you choose to  [](#Be%20honest) and are your true self.
+### Filter and focus
+Focus on the relevant. Most gossip and daily news are not worth knowing. 
 
-Notice who brings out the best in you and makes you feel more connected  with yourself.
+Do what you do whole-heartedly. Choose full attention to detail over absent-mindedness.
 
-Don't try to impress. Impress yourself.
+Find your skill to master. "Mastery is a long-term pursuit, an investment that avoids the distraction of temporary impulses. You spend time intentionally. People don't fail by choosing the wrong path - they fail by not choosing. Passion comes after you start getting good." - How to live, Derek Sivers
 
-Admit what you are really feeling, even when it's uncomfortable.
+Focus your energy on a few friends rather than spreading it over a dozen.
+Cut ties with people that don't align with your values. 
 
-### Friends
-Make time for your relationships.
+### Don't cave in - no regrets
+Resist the pressure to conform and do things because of societies expectations.  
 
-"Live among fellow freaks, where obsession is normal and ambition is rewarded" - How to live, Derek Sivers
+Embrace to be an outsider who deviates from the norm.
 
-Keep friends at a healthy distance. Get close to truly know and care about each other but not too close to become dependent.
-Sincere appreciation and engagement with their interests is the foundation for friendship.
+Don't follow external expectations, you will only lament later how all of it did not really matter. Don't take life too seriously. People usually care less and we are the strictest with ourselves.
 
-[](#Long%20term%20thinking) also applies to friends. Meet regularly to maintain and continously grow the connection.
+Ask what you want. Learn to be rejected. Do what you want now and don't postpone it for later. Later extends until it's too late. Take reasonable risks.
 
-Open to friends when you need emotional support for a hard decision or during a tough time.
+Expect the worst. It's outside your control how much time you have with loved ones, but you can enjoy the present and express gratitude today.
+
+Visualizing the worst, avoids later regrets, because it makes you appreciate the now.
+
+### Before adding, try subtracting
+New things promise some upside, but what about the downsides? Addiction, scattered focus, wasted time..
+
+Try not to fix things by swallowing that pill, but instead remove what is causing the pain.
+
+Less is more.
+
+Don't try to be more right. Just be less wrong. 
+Before adding niceties, avoid doing harm first. One terrible thing can destroy an entire relationship.
+Most of being a good person is not doing bad. 
 
 ### Humble & minimalist
 Have as few possessions as possible. Anything additional is baggage. Keep it easy to move places and don't be fixated to belongings. 
@@ -186,16 +186,34 @@ People with strong social ties are happier.
 
 People don't hear enough compliments. Tell people when you think something nice about them.
 
-### Before adding, try subtracting
-New things promise some upside, but what about the downsides? Addiction, scattered focus, wasted time..
+### Love and feel
+"The first step to love is to give it your full attention and deliberately appreciate it" - How to live, Derek Sivers
 
-Try not to fix things by swallowing that pill, but instead remove what is causing the pain.
+Be wary of marriage. Dont make a life-long commitment based on an emotional state.
 
-Less is more.
+Love your partner more than your children. This is how they learn what love is.
 
-Don't try to be more right. Just be less wrong. 
-Before adding niceties, avoid doing harm first. One terrible thing can destroy an entire relationship.
-Most of being a good person is not doing bad. 
+Learn about people to empathize with them. Humans love to be understood. Don't just try to fix problems. Listen and understand their feelings.
+
+You can only feel loved if you choose to  [](#Be%20honest) and are your true self.
+
+Notice who brings out the best in you and makes you feel more connected  with yourself.
+
+Don't try to impress. Impress yourself.
+
+Admit what you are really feeling, even when it's uncomfortable.
+
+### Friends
+Make time for your relationships.
+
+"Live among fellow freaks, where obsession is normal and ambition is rewarded" - How to live, Derek Sivers
+
+Keep friends at a healthy distance. Get close to truly know and care about each other but not too close to become dependent.
+Sincere appreciation and engagement with their interests is the foundation for friendship.
+
+[](#Long%20term%20thinking) also applies to friends. Meet regularly to maintain and continously grow the connection.
+
+Open to friends when you need emotional support for a hard decision or during a tough time.
 
 ### Be honest
 I avoid environments where I need to watch what I say. I am honest in my words and actions. There is no higher quality than trustworthiness and integrity. I want to rely on people and in return I commit to keep my word.
@@ -204,22 +222,12 @@ I admit own mistakes and apologize.
 
 Always say the truth, taking the painful consequences. What could excuse an exception?
 
-### Long term thinking
-Avoid indulging in activities that trade short term benefits against the long term. Your energy and time should be investments: be it learning, work, finance, but importantly also relationships and friends.
-
->  I only want to be around people that I know I’m going to be around with for the rest of my life. I only want to work on things that I know have long-term payout. - \cite{Naval Ravikant}
-
-Say no to what seems appealing in the moment. There is no free lunch. Junk food and sweets gives instant gratification while paying for how you feel later and your long-term health.
-
-Food that tastes good is bad for you, and vice-versa. Eat to feel good rather than eating yummy to feel bad.
-
 ### Pursue pain
 What's worthy comes with pain: love comes with attachment, success comes with frustration and failures, deep connection comes from being vulnerable, exploration comes with fear. Make pain a choice rather than seeing it as necessary evil.
 
 Asking what you want comes with the potential pain of being rejected.
 
 Being honest is uncomfortable and painful for our self-image, to others. It might mean accepting a punishment. But defering the truth is much more painful.
-
 
 ### Reinvent yourself regularly
 Change becomes difficult after age 25. [Neuroplasiticty](https://www.instagram.com/p/CR_zUWwIyfg/) decreases afterwards.
@@ -229,16 +237,6 @@ Personalities are fluid.
 Don’t stick to past traits just because that’s how people know you. 
 
 Change the way you act, look and talk.
-
-### Filter  / Focus
-Focus on the relevant. Most gossip and daily news are not worth knowing. 
-
-Do what you do whole-heartedly. Choose full attention to detail over absent-mindedness.
-
-Find your skill to master. "Mastery is a long-term pursuit, an investment that avoids the distraction of temporary impulses. You spend time intentionally. People don't fail by choosing the wrong path - they fail by not choosing. Passion comes after you start getting good." - How to live, Derek Sivers
-
-Focus your energy on a few friends rather than spreading it over a dozen.
-Cut ties with people that don't align with your values. 
 
 ### Accept and take responsibility
 Embrace the present how it is. When something bothers you, find the causing belief and and change it.
