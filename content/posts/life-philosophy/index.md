@@ -254,7 +254,7 @@ Journal every day.
 
 A long and healthy life you can't remember is not worth much.
 
-Pursue novelty: India, Bruning Man, Skydive, Scuba dive. Live in different places. Change your work environment.
+Pursue novelty. Live in different places. Change your work environment.
 
 
 
