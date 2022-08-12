@@ -5,8 +5,6 @@ resources:
   - name: "featured-image"
     src: "cover.jpg"
 date: 2022-08-12
-share: true
-category: life-philosophy
 ---
 
 The ancient greek and roman thinkers already knew it - the value of living guided by a practical philosophy. Back then the predominant schools were Stoicisim, Epicureaunism and Cynicism. Around the same time, we are talking about 500 BC, Confucianism, Buddhism and Taoism developed in Asia. With the rise of the world religions their popularity declined, but they have remained till today and so has the foundational value of having life principles.
