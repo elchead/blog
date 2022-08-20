@@ -288,6 +288,17 @@ theme = "uBlogger"
   #   title = ""
   #   weight = 3
   [[menu.main]]
+    identifier = "tech"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = "<img src='/images/brand-icon.png'  width='14' height='14'>"
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Tech"
+    url = "https://blog.astobbe.me"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 2
+  [[menu.main]]
     identifier = "cv"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
@@ -297,7 +308,7 @@ theme = "uBlogger"
     url = "https://cv.astobbe.me"
     # title will be shown when you hover on this menu link
     title = ""
-    weight = 4
+    weight = 5
   [[menu.main]]
     identifier = "now"
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -308,7 +319,7 @@ theme = "uBlogger"
     url = "/now/"
     # title will be shown when you hover on this menu link
     title = ""
-    weight = 5
+    weight = 6
   [[menu.main]]
     identifier = "about"
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -319,7 +330,7 @@ theme = "uBlogger"
     url = "/about/"
     # title will be shown when you hover on this menu link
     title = ""
-    weight = 6
+    weight = 7
   [[menu.main]]
     identifier = "books"
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -330,7 +341,7 @@ theme = "uBlogger"
     url = "/categories/book-notes/"
     # title will be shown when you hover on this menu link
     title = ""
-    weight = 2
+    weight = 4
     [[menu.main]]
     identifier = "letters"
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -341,8 +352,8 @@ theme = "uBlogger"
     url = "/categories/letters/"
     # title will be shown when you hover on this menu link
     title = ""
-    weight = 2
-[outputs] # add json for search
+    weight = 3
+[outputs] # ad json for search
   home = ["HTML", "RSS", "JSON"]
 
 # Markup related config in Hugo
