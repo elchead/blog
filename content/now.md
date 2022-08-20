@@ -2,7 +2,7 @@
 title: Now
 hiddenFromHomePage: true
 date: 2020-03-04T15:58:26+08:00
-lastmod: 2022-05-02
+lastmod: 2022-08-20
 ---
 
 ### Location:
@@ -32,22 +32,20 @@ The goal is to improve the cluster memory utilization while ensuring an unimpair
 <!-- 🏊‍♂️ learning freestroke -->
 
 <!-- ☁️ prepare for [CKAD](https://www.cncf.io/certification/ckad/) exam (Kubernetes) -->
+👨‍💻 learning Rust. Currently reading Rust in action.
 
-🎸 Learning my first instrument: ukulele
+⌨️  Exploring workflow optimizations: shortcuts, Alfred, vim, IDE features, terminal setup
 
-🕺 Salsa (intermediate) classes
+🎸 Learning my first instrument: Ukulele
 
+<!-- 🕺 Salsa (intermediate) classes -->
 
 <!--🥷 become a keyboard shortcut ninja with [Keycombiner](https://keycombiner.com/) and practicing VIM -->
 
-👨‍💻 learning Rust. Currently reading Rust in action.
-
-📚 Principles by Ray Dalio, Difficult Conversations
-
+📚 Reading Atlas of the Heart by Brene Brown
 
 <!--😁 [Coursera: Well-being course](https://www.coursera.org/learn/the-science-of-well-being/home/welcome) -->
 
-<!-- ⌨️ learn shortcuts of VS code with [Keycombiner](https://keycombiner.com/) -->
 
 <!-- 🧘 meditate and practicing [Wim Hof breathing](https://www.wimhofmethod.com/practice-the-method) -->
 
