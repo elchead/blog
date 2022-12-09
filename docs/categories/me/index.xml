@@ -1,31 +1,60 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Me - Category - Adrian's Site</title><link>https://astobbe.me/categories/me/</link><description>Me - Category - Adrian's Site</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 08 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://astobbe.me/categories/me/" rel="self" type="application/rss+xml"/><item><title>Tipps und Erfahrungen zum Führerschein in Berlin / Spanien</title><link>https://astobbe.me/posts/drivers-license/</link><pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate><author>Author</author><guid>https://astobbe.me/posts/drivers-license/</guid><description><![CDATA[<p>Dieses Jahr nahm ich mir vor endlich den Führerschein in Deutschland zu machen und habe vor einigen Tagen endlich die Pappe bekommen. Allerdings war es kein einfacher Weg und ich möchte deshalb gerne meine Erfahrungen und Tipps teilen um Euch Nerven, Zeit und Geld zu ersparen!</p>
-<h2 id="die-spanische-odysee-zur-fahrausbildung">Die spanische Odysee zur Fahrausbildung</h2>
-<p>Als ich 17 wurde entschied ich mich damals bewusst, gegen den Rat aller Umstehenden, den Führerschein nicht wie (fast) alle während der Schulzeit zu machen.
-Ich hatte nicht vor ein Auto zu kaufen und benötigte in der Stadt auch keins. Zudem sagte ich mir, dass ich den Schein irgendwann auch mal im Ausland machen kann - wo ich eh hinwollte. Mir schwebte Spanien oder die USA vor, wo der Führerschein auch nochmal um einiges günstiger ist.
-Bei der Rechnung betrachtete ich allerdings nicht, dass Inflation über einige Jahre alles teurer macht. Kurzum, hätte ich letztes Jahr für einen Führerschein in Spanien ähnliche Preise wie 2017 im Berliner Umland gezahlt. Tatsächlich verbrachte ich den Winter 2022 während meines Erasmus in Barcelona und plante fest ihn dort endlich zu machen. Allerdings unterschätzte ich immens, dass die Prüfer nach Corona-Lockdown restlos ausgebucht waren und die Stadt auch kein einfaches Fahrgebiet ist - viele Fahrstunden&hellip;
-Schnell merkte ich, dass meine paar Auslandsmonate zu knapp waren und überlegte dann für ein bis zwei Monate in eine weniger prekäre Stadt nach Sevilla zu gehen, um dort die praktische Ausbildung zu absolvieren. Preislich war es dort auch um einiges günstiger. Allerdings scheitertete es letzlich an der Bürokratie die besagt, dass man mindestens 6 Monate Wohnsitz nachweisen muss.
-Praktisch zunichte war die Idee dadruch, weil es zu riskant erschien mal schnell im Sommer für ein paar Wochen alles darauf zu setzen, dass alles reibungslos verläuft.</p>
-<h2 id="die-ausbildung-in-berlin">Die Ausbildung in Berlin</h2>
-<p>Im Frühjahr 2022 zog ich wieder nach Berlin und entschied dann nun schlussendlich hier den Führerschein zu machen - damit ich ihn endlich mal habe!
-Wenig überraschend waren die Fahrschulen auch hier überfüllt und das Warten auf Prüfungstermine zog sich über einige Monate. Einige Schulen hatten gar einen Aufnahmestopp und viele sagten, dass man mehr als 6 Monate einplanen sollte.
-Allerdings war es aufgrund meines Studiums in München nicht klar, ob ich so lange ich in Berlin bleiben würde.
-Ich suchte nach Expresskursen und fand kaum Angebot. Eine Fahrschule in Neukölln versprach eine Ausbildung in etwa einem Monat mit deftigem Express-Aufpreis.
-Letztlich fand ich die Fahrschule Dilek im Wedding, die auf Anhieb mit schnellen Prüfungsterminen warb. Die Dame sagte mir, dass ich mit Kosten um 2000 plus minus 500 Euro rechnen sollte. Zudem konnte ich dort innerhalb von 3 einhalb Wochen die Theorie absolvieren und 90 Euro für 80 Minuten fahren schienen auch normal in Berlin.
-Und so begann meine Reise zur Fahrausbildung, die mir schnell einige Lektionen lehrte, vor denen ich Euch bewahren möchte.</p>
-<h2 id="die-auswahl-der-fahrschule">Die Auswahl der Fahrschule</h2>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Me - Category - Adrians site</title><link>https://astobbe.me/categories/me/</link><description>Me - Category - Adrians site</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 08 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://astobbe.me/categories/me/" rel="self" type="application/rss+xml"/><item><title>The journey of getting a drivers license in Berlin / Spain</title><link>https://astobbe.me/posts/drivers-license/</link><pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate><author>Author</author><guid>https://astobbe.me/posts/drivers-license/</guid><description><![CDATA[<style>
+  #callout {
+    background: #ececec;
+     
+
+    padding: 1.5em 1.25em;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  #callout-inner {
+    margin-left: 1em;
+  }
+  @media (max-width: 767px) {
+    #callout {
+      padding: 1.5em 0.75em 1.5em 0.6em;
+    }
+    #callout-inner {
+      margin-left: 0.5em;
+    }
+  }
+</style>
+
+<div id="callout">
+  <div>🇩🇪</div>
+  <div id="callout-inner">This is a DeepL translation from the German original so please apologize the English :)</div>
+</div>
+
+<p>This year I finally got the driver&rsquo;s license in Germany! However, it was not an easy way and I would like to share my experiences and tips to save you nerves, time and money!</p>
+<h2 id="the-spanish-odyssey-to-the-driving-education">The Spanish odyssey to the driving education</h2>
+<p>When I turned 17, I made a conscious decision, against the advice of all bystanders, not to get my driver&rsquo;s license during school like (almost) everyone else.
+I didn&rsquo;t plan to buy a car and didn&rsquo;t need one in the city. In addition, I told myself that I could also do the license abroad at some point - where I wanted to go anyway. I had Spain or the USA in mind, where the driving license is also a lot cheaper.
+However, I didn&rsquo;t take into account that inflation makes everything more expensive over a few years. In short, I would have paid similar prices last year for a driver&rsquo;s license in Spain as I did in 2017 in the Berlin area. In fact, I spent the winter of 2022 during my Erasmus in Barcelona and planned to finally do it there. However, I underestimated immensely that the examiners were completely booked after Corona lockdown and the city is also not an easy driving area - many driving hours&hellip;
+I quickly realized that my few months abroad were too short and then considered going to a less precarious city in Seville for one or two months to complete the practical training there. The price there was also a lot cheaper. However, it finally failed because of the bureaucracy that says that you have to prove at least 6 months of residence.
+The idea was practically ruined because it seemed too risky to bet everything on a few weeks in the summer that everything would go smoothly.</p>
+<h2 id="the-training-in-berlin">The training in Berlin</h2>
+<p>In the spring of 2022, I moved back to Berlin and finally decided to get my driver&rsquo;s license here - so that I finally have it!
+Not surprisingly, the driving schools here were also overcrowded and the wait for exam dates stretched over several months. Some schools even had an admission freeze and many said that you should plan for more than 6 months.
+However, due to my studies in Munich, it was not clear if I would stay in Berlin that long.
+I looked for express courses and found hardly any offer. A driving school in Neukölln promised training in about a month with a hefty express surcharge.
+Finally, I found the Dilek driving school in Wedding, which advertised fast test dates right away. The lady told me that I should expect costs around 2000 plus minus 500 euros. In addition, I could complete the theory there within 3 and a half weeks and 90 euros for 80 minutes of driving also seemed normal in Berlin.
+And so began my journey to driving education, which quickly taught me some lessons I want to save you from.</p>
+<h2 id="choosing-a-driving-school">Choosing a driving school</h2>
 <ul>
-<li>keine Fahrschule unter Zeitdruck aussuchen, weil es bei den anderen solange dauert</li>
-<li>transparente Preisstruktur: sind alle Kosten der Ausbildung schriftlich aufgelistet? Ich wurde mit Kosten für den Schaltnachweis, die theoretische Prüfung und hohen Prüfungskosten überrascht, obwohl ich im Gespräch (nur mündlich) nach allen Kosten gefragt hatte -&gt; schrifliche Vereinbarung über die Konditionen</li>
-<li>Kosten der Fahrschulen mit sehr vielen Fahrstunden vergleichen (ich würde mit 50 mal a 40 Minuten rechnen. Die meisten Schulen vergeben Doppelstunden). Vertraue nicht der fremden Kostenschätzung</li>
-<li>keine Barzahlung: für mich ein Zeichen von mangelnder Professionalität und zudem erschwert es die Kostenübersicht</li>
-<li>wie professionel wirkt die Schule? Ich musste meinen Fahrlehrer mehrmals wechseln, weil sie gekündigt haben</li>
-<li>immer einen Nachweis über die Fahrstunden einholen / Quittung: rechne damit, dass du die Fahrschule wechseln möchtest / musst</li>
-<li>in der Großstadt ist es viel teurer: hast du die Möglichkeit es woanders zu machen?</li>
+<li>don&rsquo;t choose a driving school under time pressure, because it takes so long with the others</li>
+<li>transparent price structure: are all costs of the training listed in writing? I was surprised with costs for the switching proof, the theoretical examination and high examination costs, although I had asked in the discussion (only verbally) for all costs -&gt; written agreement over the conditions</li>
+<li>Compare costs of driving schools with very many driving lessons (I would calculate with 50 times a 40 minutes. Most schools give double lessons). Do not trust the foreign cost estimate</li>
+<li>no cash payment: for me a sign of lack of professionalism and also it makes the cost overview more difficult</li>
+<li>how professional does the school seem? I had to change my driving instructor several times because they quit</li>
+<li>always get a proof of driving lessons / receipt: expect that you want / need to change driving schools</li>
+<li>it is much more expensive in the big city: do you have the possibility to do it somewhere else?</li>
 </ul>
-<h2 id="die-fahrlehrerwahl">Die Fahrlehrerwahl</h2>
-<p>Ich wechselte meinen Fahrlehrer unfreiwilligerweise 4 mal, wovon 2 Wechsel durch Kündigungen der Fahrlehrer bedingt waren. Generell würde ich darauf achten einen sympathischen Lehrer auszusuchen, der aber gleichzeitig auch nicht zu still ist. Viele Lehrer spielen am Handy, aber es gibt auch Lehrer, die aufmerksam sind, euch herausfordern und auf Fehler hinweisen. So sollte es sein!</p>
-<h2 id="das-fazit">Das Fazit</h2>
-<p>In der Berliner Umgebung hätte ich vor einigen Jahren statt über 4000 weitaus unter 2000 Euro bezahlt und mir mehr Stress neben Uni und Arbeit erspart. Auf der anderen Seite hätte ich meinen Führerschein in den letzten 4 Jahren nur wirklich sehr selten genutzt und nach so langer Zeit sicher an Fahrsicherheit verloren. Trotzdem würde ich rückblickend zur frühzeitigen Ausbildung raten, denn irgendwann braucht man den Führerschein sicher mal.</p>
+<h2 id="the-choice-of-driving-instructor">The choice of driving instructor</h2>
+<p>I involuntarily changed my driving instructor 4 times, 2 of which were due to driving instructors quitting. In general, I would make sure to pick an instructor who is personable, but at the same time not too quiet. Many instructors play on their cell phones, but there are also instructors who are attentive, challenge you, and point out mistakes. That&rsquo;s how it should be!</p>
+<h2 id="the-conclusion">The conclusion</h2>
+<p>In the Berlin area a few years ago, instead of paying over 4000, I would have paid well under 2000 euros and saved myself more stress besides university and work. On the other hand, I would have used my driver&rsquo;s license only really very rarely in the last 4 years and would certainly have lost driving safety after such a long time. Nevertheless, in retrospect I would advise early training, because at some point you need the driver&rsquo;s license certainly times.</p>
 ]]></description></item><item><title>My Life Philosophy</title><link>https://astobbe.me/posts/life-philosophy/</link><pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate><author>Author</author><guid>https://astobbe.me/posts/life-philosophy/</guid><description><![CDATA[<p>The ancient greek and roman thinkers already knew it - the value of living guided by a practical philosophy. Back then the predominant schools were Stoicisim, Epicureaunism and Cynicism. Around the same time, we are talking about 500 BC, Confucianism, Buddhism and Taoism developed in Asia. With the rise of the world religions their popularity declined, but they have remained till today and so has the foundational value of having life principles.
 Yet none of these ancient philosophy, have convinced me to become a full-hearted adopter.</p>
 <p>Inspired by the readings of <a href="books/stoic-joy/" rel="">Stoic joy</a> and <a href="/books/how-to-live/" rel="">How to live</a>, I decided to go on my quest to define my life philosophy. Motivated by <a href="/books/principles/" rel="">Principles</a>, I am making them public for everyone to see.</p>
