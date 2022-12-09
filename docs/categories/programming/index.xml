@@ -1935,8 +1935,7 @@ The course is very basic; so don&rsquo;t expect to learn much new stuff if you k
 </span></span><span class="line"><span class="cl">complete -F __start_kubectl k
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>``
-This shortens the syntax and adds bash completion. To get the boilerplate for a pod manifest, you can then simply type <code>k run mypod --image myimage $do &gt; pod.yaml</code>
+</div><p>This shortens the syntax and adds bash completion. To get the boilerplate for a pod manifest, you can then simply type <code>k run mypod --image myimage $do &gt; pod.yaml</code>
 Be careful, you might have to install bash-completion before:
 <code>sudo apt-get install bash-completion</code></p>
 </li>
@@ -1958,8 +1957,7 @@ Be careful, you might have to install bash-completion before:
 </span></span><span class="line"><span class="cl">set expandtab // use spaces for tabs
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>``
-For debugging, it might also be useful to enable the line numbering: <code>:set number</code></p>
+</div><p>For debugging, it might also be useful to enable the line numbering: <code>:set number</code></p>
 </li>
 <li>
 <p>Optional: Tmux for multiple terminals</p>
