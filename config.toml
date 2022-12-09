@@ -2,8 +2,7 @@ baseURL = "https://astobbe.me/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
-languageCode = "en"
-title = "Adrian's Site"
+# languageCode = "en"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "uBlogger"
@@ -226,6 +225,20 @@ theme = "uBlogger"
     #     label = ""
     #     lightTheme = "github-light"
     #     darkTheme = "github-dark"
+
+[languages]
+  [languages.en]
+    weight = 1
+    title = "Adrians site"
+    languageCode = "en"
+    languageName = "English"
+
+
+  [languages.de]
+    weight = 2
+    title = "Adrians blog"
+    languageCode = "de"
+    languageName = "Deutsch"
 
 # [languages]
 #   [languages.en]
