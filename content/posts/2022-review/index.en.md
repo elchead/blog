@@ -1,10 +1,7 @@
 ---
 title: My review of 2022
 categories: [Me]
-resources:
-  - name: "featured-image"
-    src: "cover.jpg"
-date: 2023-01-04
+date: 2023-01-07
 ---
 It's 2023 - happy new year, everyone! Before heading the focus to what's to come, I'd like to look back on what 2022 held in store and share it with you. I set plenty of [goals for 2022](https://astobbe.me/posts/2022/) and already knew that it would be a lot. My ambitious me wanted to keep the bar high, and so it comes to no surprise that not all of them were reached. But even though the metric wasn't reached, I want to focus on the gain rather than the gap. Lastly, I will share my core learnings and intentions for next year. Happy reading! 
 
