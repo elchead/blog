@@ -46,7 +46,7 @@ theme = "uBlogger"
       # uBlogger CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = "Adrian Stobbe"
       # subtitle shown in home page
-      subtitle = "SAP STAR trainee, Computational Science & Engineering @ TU Munich. Aspiring software craftsman, writer, personal development nerd, linguaphile and salsero 🕺.\n See here what I'm doing <a href='/now' style='color: blue'>now</a> or my longer intro <a href='/about' style='color: blue'>here</a>."
+      subtitle = "Aspiring software craftsman and entrepreneur, linguaphile and salsero 🕺.\n See here what I'm doing <a href='/now' style='color: blue'>now</a> or my longer intro <a href='/about' style='color: blue'>here</a>. Putting myself out here to connect with new, curious people. Reachouts are welcome 👋"
       # whether to show social links
       social = true
 

@@ -2,7 +2,7 @@
 title: Now
 hiddenFromHomePage: true
 date: 2020-03-04T15:58:26+08:00
-lastmod: 2022-08-20
+lastmod: 2023-04-02
 ---
 
 ### Location:
@@ -13,13 +13,11 @@ Berlin, Germany
 
 ### Professional status quo:
 
-- Computational Science & Engineering (M.Sc.) student at TU Munich
-- Trainee as part of the SAP STAR program
+- transitioning into my first position after graduation
 
 **Current work project**:
-- writing my Master's thesis on resource management for HPC jobs with unpredictable memory needs in Kubernetes. I investigate the feasibility of job migration when a node runs out of memory. I'm looking both into complete containter / pod migration as well as application specific checkpointing of optimization problems.
-The goal is to improve the cluster memory utilization while ensuring an unimpaired quality of service.
-
+- in exploration phase for bootstrapping a business
+- practicing Rust
  <!--
 - working on the Open-Source project [Kyma](https://github.com/kyma-project) of SAP for easily deploying cloud-native applications with Kubernetes. I'm part of the Observability team and involved in the CLI development (Golang). -->
 
@@ -30,19 +28,14 @@ The goal is to improve the cluster memory utilization while ensuring an unimpair
 <!-- 👨‍💻 building [personal search engine](https://devpost.com/software/gerstler) to gather results from all sources in one place -->
 
 <!-- 🏊‍♂️ learning freestroke -->
-
+🇫🇷 Learning my 4th foreign language
 <!-- ☁️ prepare for [CKAD](https://www.cncf.io/certification/ckad/) exam (Kubernetes) -->
-👨‍💻 learning Rust. Currently reading Rust in action.
-
-⌨️  Exploring workflow optimizations: shortcuts, Alfred, vim, IDE features, terminal setup
 
 🎸 Learning my first instrument: Ukulele
 
 <!-- 🕺 Salsa (intermediate) classes -->
 
 <!--🥷 become a keyboard shortcut ninja with [Keycombiner](https://keycombiner.com/) and practicing VIM -->
-
-📚 Reading Atlas of the Heart by Brene Brown
 
 <!--😁 [Coursera: Well-being course](https://www.coursera.org/learn/the-science-of-well-being/home/welcome) -->
 
