@@ -229,14 +229,14 @@ theme = "uBlogger"
 [languages]
   [languages.en]
     weight = 1
-    title = "Adrians site"
+    title = "Adrian's Site"
     languageCode = "en"
     languageName = "English"
 
 
   [languages.de]
     weight = 2
-    title = "Adrians blog"
+    title = "Adrian's Blog"
     languageCode = "de"
     languageName = "Deutsch"
 
