@@ -52,7 +52,7 @@ theme = "uBlogger"
 
       # uBlogger NEW | 0.2.0 disclaimer (HTML format is supported)
       # disclaimer = "I'm an aspiring software developer, linguaphile and wanna-be salsero 🕺 . Currently, I'm pursuing a Master's degree in Computational Science & Engineering at TU Munich and part of the SAP STAR program (trainee).\nSee here what I'm doing [now]()"
-      
+
       # Besides my newly discovered passion for programming, I've been an enthusiastic language learner since my early teenage-times. After English and Spanish, my latest endeavor has been learning Chinese. Also, last year I got excited about productivity and personal knowledge management (PKR). My motivation for this tiny blog is to share my learnings and spark interesting discussions, so I invite you to reach out!"
     # Home page posts
     [params.home.posts]
@@ -67,7 +67,7 @@ theme = "uBlogger"
   [params.social]
     GitHub = "elchead"
     Linkedin = "adrian-stobbe"
-    Email = "hello@astobbe.me"
+    Email = "stobbe.adrian@gmail.com"
     Twitter = "astobbe_"
     Spotify = "tg9z4i55s3wx8lov4yxbl51xh"
     Paypal = "AdrianStobbe"
@@ -396,4 +396,3 @@ theme = "uBlogger"
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 6
-
