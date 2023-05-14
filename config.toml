@@ -1,4 +1,4 @@
-baseURL = "https://astobbe.me/"
+baseURL = "https://adrianstobbe.com/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
@@ -307,7 +307,7 @@ theme = "uBlogger"
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
     name = "Tech"
-    url = "https://blog.astobbe.me"
+    url = "https://blog.adrianstobbe.com"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 2
@@ -318,7 +318,7 @@ theme = "uBlogger"
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
     name = "CV"
-    url = "https://cv.astobbe.me"
+    url = "https://cv.adrianstobbe.com"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 5

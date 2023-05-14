@@ -8,8 +8,8 @@ date: 2022-07-29
 ---
 
 ## How did the first half go?
-2022 is maybe the most exciting year so far. 
-I spent January still on my Erasmus semester in Barcelona. I had exams this month, but I still made time to explore new things. I had my first deprivation tank experience, tried light therapy glasses and went to a magic show by [Luis Pardo](https://www.luispardo.com/). 
+2022 is maybe the most exciting year so far.
+I spent January still on my Erasmus semester in Barcelona. I had exams this month, but I still made time to explore new things. I had my first deprivation tank experience, tried light therapy glasses and went to a magic show by [Luis Pardo](https://www.luispardo.com/).
 {{< figure src="./glassesS.jpeg" >}}
 
 I challenged myself to talk to a stranger every day: and found out that most people actually enjoy small talk. It opens for serendipity: I got to meet a guy on the subway who is from the same small town in Cadiz where I would go in a few weeks.
@@ -37,7 +37,7 @@ And March was yet another great month. I got back to my family in Berlin and enj
 On this date, I met a midwestern girl that for the first time ever gave me the feeling of a soulmate. We think alike in so many ways: the curiosity to explore new places and perspectives, being intentional, the desire for deep connection... I could go on, but I spare you the rest.
 I got hella lucky to meet this girl on a dating app: Bumble (yeah did not expect this neither).
 We bonded in no time and everything just seemed right.
-In June I went to see her family in the U.S. and had a wonderful time. I was surprised to find bigger cultural differences than I expected and changed my perspective on how I want to treat my family and see my friends. I learned a lot about [my emotions](https://astobbe.me/letters/love-and-feel/) and the value of [thinking out loud](https://astobbe.me/letters/thinking-out-loud/).
+In June I went to see her family in the U.S. and had a wonderful time. I was surprised to find bigger cultural differences than I expected and changed my perspective on how I want to treat my family and see my friends. I learned a lot about [my emotions](https://adrianstobbe.com/letters/love-and-feel/) and the value of [thinking out loud](https://adrianstobbe.com/letters/thinking-out-loud/).
 My highlights were the days at the family's cabin by a lake, and the camping night at Lake Superior.
 Shaped by the car dependence in the U.S. and earlier in Cadiz, I was more determined than ever to get my driver's license and finally started when I got back.
 In June, I also moved into my own flat in the heart of Berlin. Growing up in the suburbs of Berlin, its quite another experience to live in the most buzzing place and getting everywhere within much fewer time. Shortened commute time is worth a lot, because commute often was an impediment to go out in the first place. Now I miss the greenery at times, but you can't have it all. As I recently learned, Berlin is one of the greenest cities in Europe, so I just need to take advantage of the many parks.
@@ -65,12 +65,12 @@ I am interested to explore:
 
 ### Habits
 I see habits as the empowerment for positive change. Taking a learning hour off in the morning is the first step to reach my goal on the learning projects. Setting a rule to get to bed by 22.30 pm is my condition for a good start of the day and being productive.
-Yet, I am not particularily consistent. 
+Yet, I am not particularily consistent.
 The only habit I am fairly consistent with is practicing Ukulele: it takes only few minutes and is fun.
-As part of my [yearly goals](https://astobbe.me/posts/2022/), I decided to do a sweet free month and failed. My longest streak was 7 days, because of single days where I failed (also due to social pressure ^^). I only recorded 32 sweet free days this year until know.
+As part of my [yearly goals](https://adrianstobbe.com/posts/2022/), I decided to do a sweet free month and failed. My longest streak was 7 days, because of single days where I failed (also due to social pressure ^^). I only recorded 32 sweet free days this year until know.
 
 My most important habit is journaling and while I almost always do it in the morning, the more important day reflection is in the evening, where I often fail. Mostly, I lack energy and am not in thinking mood. I need to take my winddown routine (yoga streching, meditation, chill music) more seriously. I also recently discovered[ iPhone + keyboard ](https://twitter.com/astobbe_/status/1552346810974408706) as a good mobile combination that works on public transport and avoids big bright light before going to bed. I just bought a stand for my iPhone - let's see how that goes.
-I generally find myself to have low self-discipline in the evening (quite understandably as a morning person..) and often also don't go to bed on time. 
+I generally find myself to have low self-discipline in the evening (quite understandably as a morning person..) and often also don't go to bed on time.
 
 As a summary:
 - I want to be persistent with not allowing distractions in the morning. No phone in the morning (until 10am at least)
@@ -79,7 +79,7 @@ As a summary:
 - I want to try the no-sweet challenge again
 
 ### Writing
-I already wrote 9 blog plosts this year, 8 letters and published 5 book notes. This is more than last year, and I also got two positive feedbacks from strangers so far. I recently started tracking my blog analytics and found out that I get some fair traffic from Google and most of it on my [Obsidian article on Journaling](https://astobbe.me/posts/building-a-journaling-habit-with-obsidian/). So far, I've been mostly writing for myself and I want to keep it that way. However, I want to practice my writing style and build a small audience.
+I already wrote 9 blog plosts this year, 8 letters and published 5 book notes. This is more than last year, and I also got two positive feedbacks from strangers so far. I recently started tracking my blog analytics and found out that I get some fair traffic from Google and most of it on my [Obsidian article on Journaling](https://adrianstobbe.com/posts/building-a-journaling-habit-with-obsidian/). So far, I've been mostly writing for myself and I want to keep it that way. However, I want to practice my writing style and build a small audience.
 
 Inspired by Jen Vermet, I am thinking of joining the [Write of Passage](https://writeofpassage.school/) (if I get a scholarship). I also want to get some tips and feedback from writing friends. Maybe, I would like to be more active in an online-community. I recently joined [Nesslabs](https://nesslabs.com/).
 
@@ -99,7 +99,7 @@ Start the day early and with intention. It makes me feel much better.
 
 
 ## Thought bits
-I've been meaning to do an [integrity report](https://jamesclear.com/2016-integrity-report) ever since I read [Atomic habits](https://astobbe.me/books/atomic-habits/) and plan to do it (at least by the end of this year 😉).
+I've been meaning to do an [integrity report](https://jamesclear.com/2016-integrity-report) ever since I read [Atomic habits](https://adrianstobbe.com/books/atomic-habits/) and plan to do it (at least by the end of this year 😉).
 The core questions are:
 1.  What are the core values that drive my life and work?
 2.  How am I living and working with integrity right now?

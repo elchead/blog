@@ -6,7 +6,7 @@ On this page, I want to shortly introduce my humble self to let you quickly get 
 
 I have a standing invitation for you to contact me about anything that comes to your mind. I love to exchange with people who share interests and will try my best to answer questions or discuss ideas!
 
-You can reach me at hello@astobbe.me, but I am also happy to talk either in person (my location is updated under [now](/now)) or on the phone.
+You can reach me at stobbe.adrian@gmail.com , but I am also happy to talk either in person (my location is updated under [now](/now)) or on the phone.
 
 
 ## My interests
