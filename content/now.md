@@ -2,31 +2,31 @@
 title: Now
 hiddenFromHomePage: true
 date: 2020-03-04T15:58:26+08:00
-lastmod: 2023-04-02
+lastmod: 2023-06-16
 ---
 
-### Location:
+### Location
 
 Berlin, Germany
 
 <!-- {{< callout emoji="💯" text="This is the text that will show up in the callout. It can be as long as you like, but only one paragraph." >}} -->
 
-### Professional status quo:
+### Professional status quo
 
-- transitioning into my first position after graduation
+- Software engineer at Edgeless.Systems. Mostly contributing to [Constellation](https://github.com/edgelesssys/constellation)
 
-**Current work project**:
-- in exploration phase for bootstrapping a business
-- practicing Rust
+<!--**Current work project**:-->
+
  <!--
 - working on the Open-Source project [Kyma](https://github.com/kyma-project) of SAP for easily deploying cloud-native applications with Kubernetes. I'm part of the Observability team and involved in the CLI development (Golang). -->
 
-### My freetime:
+### My freetime
 
 <!-- 👨‍💻 climbing up the [Clean Code](https://clean-code-developer.com/) grades (currently yellow): *focus on testing and test-driven development at the moment* -->
 
-<!-- 👨‍💻 building [personal search engine](https://devpost.com/software/gerstler) to gather results from all sources in one place -->
-
+<!-- 👨‍💻 building [personal search engine](https://devpost.com/software/gerstler) to gather results from all sources in one place -->in
+👨‍💻 Exploring potential business ideas
+<!--- practicing Rust-->
 <!-- 🏊‍♂️ learning freestroke -->
 🇫🇷 Learning my 4th foreign language
 <!-- ☁️ prepare for [CKAD](https://www.cncf.io/certification/ckad/) exam (Kubernetes) -->
@@ -38,7 +38,6 @@ Berlin, Germany
 <!--🥷 become a keyboard shortcut ninja with [Keycombiner](https://keycombiner.com/) and practicing VIM -->
 
 <!--😁 [Coursera: Well-being course](https://www.coursera.org/learn/the-science-of-well-being/home/welcome) -->
-
 
 <!-- 🧘 meditate and practicing [Wim Hof breathing](https://www.wimhofmethod.com/practice-the-method) -->
 
