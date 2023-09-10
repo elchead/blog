@@ -22,11 +22,11 @@ When I'm not in the tech zone, I'm probably playing badminton, on a road trip, o
 
 </div>
 
-## ⭐ Featured Posts
+<!--## ⭐ Featured Posts
 
 A curated collection of my top articles from over the years:
 
 * [Understanding Networking in Nomad](@/posts/nomad-networking-explained.md)
 * [Using ClickHouse Keeper for Replication](@/posts/clickhouse-replication.md)
 * [Running Nomad for home server](@/posts/home-server-nomad.md)
-* [DNS Lookups in Kubernetes](@/posts/ndots-kubernetes.md)
+* [DNS Lookups in Kubernetes](@/posts/ndots-kubernetes.md)-->
