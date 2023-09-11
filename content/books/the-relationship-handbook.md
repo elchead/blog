@@ -7,7 +7,7 @@ resources:
   - name: cover
     src: cover.jpg
 ---
-![](./cover.jpg)
+![](/images/books/relationship.jpg)
 
 
 🔗 Link : [Goodreads](https://www.goodreads.com/en/book/show/2439326)
