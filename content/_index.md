@@ -8,7 +8,7 @@ title = "Home"
 
   <div class="home-content">
 
-I'm Adrian — an aspiring software craftsman and entrepreneur, linguaphile and salsero 🕺. See here what I'm doing now or my longer intro [here]. Putting myself out here to connect with new, curious people. Reachouts are welcome 👋
+I'm Adrian — an aspiring software craftsman and entrepreneur, linguaphile and salsero 🕺. See here what I'm doing [now](now) or my longer intro [here](about). Putting myself out here to connect with new, curious people. Reachouts are welcome 👋
 
   </div>
 
