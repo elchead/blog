@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://mrkaran.dev/"
+base_url = "https://main--chic-centaur-2e65ad.netlify.app/"
 title = "Adrian Stobbe"
 description = "Ramblings on programming, tech and life."
 generate_feed = false
