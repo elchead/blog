@@ -1,5 +1,7 @@
 ---
-categories: ["Second-Brain"]
+taxonomies:
+  tags:
+    - "Second-brain"
 title: "Smart file organization - How PARA works for me after 8 months"
 date: 2021-06-12
 resources:

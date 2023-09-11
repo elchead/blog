@@ -1,6 +1,9 @@
 ---
 title: How to learn a language online in 2023
-categories: [language]
+taxonomies:
+  tags:
+    - "Language"
+in_search_index: true
 resources:
   - name: "featured-image"
     src: "cover.png"

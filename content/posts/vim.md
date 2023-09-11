@@ -1,12 +1,14 @@
 ---
 title: VIM - Why geeks love it and you will too
-categories: ["Programming"]
+taxonomies:
+  tags:
+    - "Programming"
 resources:
 - name: "featured-image"
   src: "keyboard.jpg"
 featuredImagePreview: "keyboard.jpg"
 date: 2021-06-01
-lastmod: 2022-03-26
+updated: 2022-03-26
 ---
 <div style="text-align:center;">
 <img src="/images/keyboard.jpg" height="400">

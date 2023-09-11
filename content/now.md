@@ -2,7 +2,7 @@
 title: Now
 hiddenFromHomePage: true
 date: 2020-03-04T15:58:26+08:00
-lastmod: 2023-07-30
+updated: 2023-07-30
 ---
 
 ### Location

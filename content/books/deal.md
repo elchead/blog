@@ -1,5 +1,5 @@
 ---
-categories: [Book-notes]
+
 title: "Deal!: Du gibst mir, was ich will - Jack Nasher"
 date: 2021-10-01
 excerpt_separator: <!--more-->

@@ -2,7 +2,7 @@
 title: How To Live - Derek Sivers
 date: 2021-12-02
 rating: 9
-categories: [Book-notes]
+
 resources:
   - name: cover
     src: cover.jpg

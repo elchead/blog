@@ -2,7 +2,7 @@
 title: The Subtle Art of Not Giving a Fuck - Mark Manson
 date: 2021-12-14
 rating: 9
-categories: [Book-notes]
+
 resources:
   - name: cover
     src: cover.jpeg

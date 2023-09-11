@@ -1,5 +1,5 @@
 ---
-categories: [Book-notes]
+
 title: Hell Yeah or No - Derek Sivers
 date: 2020-12-07
 excerpt_separator: <!--more-->

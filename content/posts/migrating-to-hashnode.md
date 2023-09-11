@@ -1,6 +1,8 @@
 ---
 title: Migrating to Hashnode
-categories: [Programming]
+taxonomies:
+  tags:
+    - "Programming"
 resources:
   - name: "featured-image"
     src: "cover.jpg"

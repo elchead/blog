@@ -2,7 +2,7 @@
 title: "Difficult Conversations - Bruce Patton et al"
 date: 2022-07-19
 rating: 9
-categories: [Book-notes]
+
 resources:
   - name: cover
     src: cover.jpeg

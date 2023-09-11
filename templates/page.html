@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 
 {% block title %}{{ page.title }} | {{ super() }}{% endblock %}
-
 {% block main %}
   {%- if not page.extra.menu %}
     <h1>{{ page.title }}</h1>
@@ -12,6 +11,12 @@
                   <time datetime='{{ page.date | date(format='%+') }}' pubdate>
                       {{- page.date | date(format=config.extra.date_format) -}}
                   </time>
+                  {%- if page.updated %}
+                    <p>Last updated:            <time datetime='{{ page.updated | date(format='%+') }}' pubdate>
+                      {{- page.updated | date(format=config.extra.date_format) -}}
+                  </time></p>
+
+                  {%- endif %}
               </i>
       </div>
       <div class="reading-time">
@@ -20,7 +25,9 @@
           <i>{{ reading_time }} minutes ({{ word_count }} words)</i>
       </div>
       {%- endif %}
-  </div>  
+      <!--{%- if page.update %}
+      {%- endif %}-->
+  </div>
     {%- endif %}
   <main>
     {{ page.content | safe }}

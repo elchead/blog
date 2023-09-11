@@ -2,7 +2,7 @@
 title: Crucial Conversations - Tools for Talking When Stakes Are High
 date: 2022-02-24
 rating: 8
-categories: [Book-notes]
+
 resources:
   - name: cover
     src: cover.jpg

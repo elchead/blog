@@ -1,11 +1,13 @@
 ---
 title: My Life Philosophy
-categories: [Me]
+taxonomies:
+  tags:
+    - "Me"
 resources:
   - name: "featured-image"
     src: "cover.jpg"
 date: 2022-08-12
-lastmod: 2023-06-16
+updated: 2023-06-16
 ---
 
 The ancient Greek and Roman thinkers already knew it - the value of living guided by a practical philosophy. Back then the predominant schools were Stoicism, Epicureanism and Cynicism. Around the same time, we are talking about 500 BC, Confucianism, Buddhism and Taoism developed in Asia. With the rise of the world religions their popularity declined, but they have remained till today and so has the foundational value of having life principles.

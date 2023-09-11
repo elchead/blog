@@ -2,7 +2,7 @@
 title: How to Win Friends and Influence People - Dale Carnegie
 date: 2022-04-20
 rating: 6
-categories: [Book-notes]
+
 resources:
   - name: cover
     src: cover.jpg

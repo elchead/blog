@@ -1,8 +1,10 @@
 ---
 title: Unix cheatsheet - Beyond the basics
-categories: [Programming]
+taxonomies:
+  tags:
+    - "Programming"
 date: 2021-11-08
-lastmod: 2021-12-12
+updated: 2021-12-12
 ---
 
 We developers use the terminal a lot and there are a lot of tricks that can ease our work. So it's worth looking beyond the essentials of getting stuff done in the shell! The quickest way to find what you need is probably to use [`tldr`](https://tldr.sh/). But the frequently used hacks are best learned once to know about all the good stuff and work effectively. I recently found the great [The Linux Command Handbook](https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ls-command) from Freecodecamp and went over it to extract the useful bites that I didn't know.
