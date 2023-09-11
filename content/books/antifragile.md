@@ -1,5 +1,5 @@
 ---
-categories: [Book-notes]
+
 title: "Antifragile: Things That Gain from Disorder - Nassim Nicholas Taleb"
 date: 2021-08-05
 excerpt_separator: <!--more-->

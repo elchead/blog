@@ -1,6 +1,8 @@
 ---
 title: Tipps und Erfahrungen zum Führerschein in Berlin / Spanien
-categories: [Me]
+taxonomies:
+  tags:
+    - "Me"
 resources:
   - name: "featured-image"
     src: "cover.jpg"

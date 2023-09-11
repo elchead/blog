@@ -1,6 +1,8 @@
 ---
 title: Semi Annual Review 2022
-categories: [Me]
+taxonomies:
+  tags:
+    - "Me"
 resources:
   - name: "featured-image"
     src: "cover.jpg"

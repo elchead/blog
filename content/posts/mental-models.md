@@ -1,6 +1,8 @@
 ---
 title: Mental Models - How they contribute to a happy life
-categories: ["Thoughts"]
+taxonomies:
+  tags:
+    - "Thoughts"
 resources:
   - name: "featured-image"
     src: "thinking.jpeg"

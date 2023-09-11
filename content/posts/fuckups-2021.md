@@ -1,6 +1,8 @@
 ---
 title: My fuckups of 2021
-categories: [Thoughts]
+taxonomies:
+  tags:
+    - "Thoughts"
 resources:
   - name: "featured-image"
     src: "cover.jpg"

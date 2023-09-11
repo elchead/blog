@@ -2,7 +2,7 @@
 title: Principles - Ray Dalios
 date: 2022-07-25
 rating: 5
-categories: [Book-notes]
+
 resources:
   - name: cover
     src: cover.jpg

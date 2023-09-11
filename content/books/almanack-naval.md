@@ -2,7 +2,6 @@
 title: The Almanack of Naval Ravikant - Eric Jorgenson
 date: 2022-03-26
 rating: 8
-categories: [Book-notes]
 resources:
   - name: cover
     src: cover.jpg

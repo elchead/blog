@@ -1,5 +1,5 @@
 ---
-categories: [Book-notes]
+
 title: "A Guide to the Good Life: The Ancient Art of Stoic Joy - William B. Irvine"
 date: 2021-07-06
 excerpt_separator: <!--more-->

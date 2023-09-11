@@ -1,5 +1,7 @@
 ---
-categories: ["Second-Brain"]
+taxonomies:
+  tags:
+    - "Second-brain"
 title: "Notion - A powerful documenting tool for Notes, Projects, Wiki..."
 date: 2020-12-06
 resources:

@@ -1,5 +1,5 @@
 ---
-categories: [Book-notes]
+
 title: Never Split the Difference - Chris Voss
 date: 2020-09-26
 resources:

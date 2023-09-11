@@ -1,6 +1,8 @@
 ---
 title: Tools and shortcuts for MacOS
-categories: [Programming]
+taxonomies:
+  tags:
+    - "Programming"
 resources:
   - name: "featured-image"
     src: "cover.png"

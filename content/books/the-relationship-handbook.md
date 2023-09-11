@@ -1,8 +1,9 @@
 ---
 title: "The Relationship Handbook - George S. Pransky"
 date: 2023-09-02
+updated: 2023-09-04
 rating: 9
-categories: [Book-notes]
+
 resources:
   - name: cover
     src: cover.jpg

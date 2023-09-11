@@ -1,6 +1,8 @@
 ---
 title: My semester in Barcelona
-categories: [Me]
+taxonomies:
+  tags:
+    - "Me"
 resources:
   - name: "featured-image"
     src: "cover.jpeg"

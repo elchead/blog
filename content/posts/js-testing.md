@@ -1,6 +1,8 @@
 ---
 title: Testable code has few mocks
-categories: [Programming]
+taxonomies:
+  tags:
+    - "Programming"
 resources:
   - name: "featured-image"
     src: "cover.jpg"

@@ -1,5 +1,5 @@
 ---
-categories: [Book-notes]
+
 title: Atomic Habits - James Clear
 date: 2021-03-01
 excerpt_separator: <!--more-->
