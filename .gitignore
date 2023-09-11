@@ -6,6 +6,7 @@
 !static/
 !static/**/*
 !templates
+!templates/**/*
 !README.md
 !config.toml
 !netlify.toml
