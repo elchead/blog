@@ -8,16 +8,12 @@ title = "Home"
 
   <div class="home-content">
 
-I'm Adrian — but you might stumble across `@mrkaran` in some corners of the internet. I work at [Zerodha](https://zerodha.com/) where I focus mainly on backend engineering along with handling infrastructure and observability.
-
-I like to [tinker](https://github.com/mr-karan) with stuff around monitoring, networking and distributed systems.
-
-When I'm not in the tech zone, I'm probably playing badminton, on a road trip, or experimenting in the kitchen. I've got a soft spot for indie music too, and I've curated some of my favorites on [Spotify playlist](https://open.spotify.com/playlist/5dvbrw93FgUhsZdbnpF3JM).
+I'm Adrian — an aspiring software craftsman and entrepreneur, linguaphile and salsero 🕺. See here what I'm doing now or my longer intro [here]. Putting myself out here to connect with new, curious people. Reachouts are welcome 👋
 
   </div>
 
   <div class="home-image">
-    <img src="/images/website/profile.png" alt="Profile Image" class="img-rounded" />
+    <img src="/images/website/profile.jpeg" alt="Profile Image" class="img-rounded" />
   </div>
 
 </div>

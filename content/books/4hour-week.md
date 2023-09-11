@@ -3,7 +3,7 @@ title= "The 4-Hour Workweek - Tim Ferris"
 date= 2021-03-10
 +++
 
-![cover.jpeg](./cover.jpg)
+![cover.jpeg](/images/books/4hour.jpg)
 
 🔗 Link : [Goodreads](https://www.goodreads.com/book/show/368593.The_4_Hour_Workweek)
 
