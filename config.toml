@@ -13,7 +13,6 @@ minify_html = false
 build_search_index = false
 
 taxonomies = [
-  {name = "travel_tags", feed = true},
   {name = "tags", feed = true},
 ]
 
