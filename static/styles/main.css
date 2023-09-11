@@ -593,3 +593,105 @@ body[data-theme="dark"] .proj .links a:hover {
         margin-left: 0.4rem;
     }
 }
+
+/* All related to side buttons (TOC, go-up) */
+#button-container {
+    display: flex;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    flex-direction: column;
+    gap: 0.6rem;
+    z-index: 2;
+}
+
+#button-container #toc-button, #button-container #comments-button, #button-container #top-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--bg-1);
+    padding: 0.4rem;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+}
+
+#button-container #toc-button:hover, #button-container #comments-button:hover, #button-container #top-button:hover {
+    background-color: var(--bg-3);
+}
+
+#button-container #toc-button:hover svg, #button-container #comments-button:hover svg, #button-container #top-button:hover svg {
+    fill: var(--primary-color);
+}
+
+#button-container #toc-button:hover::before, #button-container #comments-button:hover::before, #button-container #top-button:hover::before {
+    background-color: transparent;
+}
+
+#button-container #toc-button svg, #button-container #comments-button svg, #button-container #top-button svg {
+    fill: var(--text-color);
+    width: 1rem;
+    height: 1rem;
+}
+
+#button-container #toc-floating-container {
+    --padding-vertical: 0.7rem;
+    --padding-horizontal: 1rem;
+}
+
+#button-container #toc-floating-container #toc-button {
+    position: relative;
+    z-index: 2;
+}
+
+#button-container #toc-floating-container .toc-container {
+    margin: 0;
+    margin-top: var(--padding-vertical);
+}
+
+#button-container #toc-floating-container .toc-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    z-index: 2;
+    margin-bottom: var(--padding-vertical);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 1px solid var(--divider-color);
+    border-radius: 5px;
+    background-color: white;
+    padding-right: var(--padding-horizontal);
+    max-height: 70vh;
+    overflow-y: auto;
+    font-size: 0.9rem;
+    text-align: left;
+    white-space: nowrap;
+}
+
+#button-container #toc-floating-container .toc-content ul {
+    padding-left: var(--padding-horizontal);
+    list-style: none;
+}
+
+#button-container #toc-floating-container .toggle {
+    display: none;
+}
+
+#button-container #toc-floating-container .toggle:checked + .overlay, #button-container #toc-floating-container .toggle:checked + .overlay + #toc-button + .toc-content {
+    display: block;
+    fill: "green";
+}
+
+#button-container #toc-floating-container .toggle:checked + .overlay + #toc-button svg {
+    fill: var(--primary-color);
+}
+
+@media (max-width: 700px) {
+    #button-container {
+        display: none !important;
+    }
+}
