@@ -8,7 +8,7 @@ title = "Home"
 
   <div class="home-content">
 
-I'm Karan — but you might stumble across `@mrkaran` in some corners of the internet. I work at [Zerodha](https://zerodha.com/) where I focus mainly on backend engineering along with handling infrastructure and observability.
+I'm Adrian — but you might stumble across `@mrkaran` in some corners of the internet. I work at [Zerodha](https://zerodha.com/) where I focus mainly on backend engineering along with handling infrastructure and observability.
 
 I like to [tinker](https://github.com/mr-karan) with stuff around monitoring, networking and distributed systems.
 

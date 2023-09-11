@@ -1,2 +1,10 @@
-public
-*.env
+*
+# ignore all files in obsidian vault except
+!.gitignore
+!content/
+!content/**/*
+!static/
+!static/**/*
+!templates
+!README.md
+!config.toml
