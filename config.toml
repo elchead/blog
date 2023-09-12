@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://adrianstobbe-blog.netlify.app/"
+base_url = "https://adrianstobbe.com/"
 title = "Adrian Stobbe"
 description = "Ramblings on programming, tech and life."
 generate_feed = false
