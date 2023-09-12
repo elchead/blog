@@ -53,7 +53,7 @@
   </main>
   {% if page.toc %}
 
-  </div>-->
+  </div>
   <div id="button-container">
     {# Button to go show a floating Table of Contents #}
     {% if page.toc %}
@@ -75,7 +75,6 @@
 
     {% endif %}
 {% endif %}
-
   <p class="tags">
     {%- if page.taxonomies %}
       {%- for name, taxon in page.taxonomies %}
@@ -86,4 +85,5 @@
       {%- endfor %}
     {%- endif %}
   </p>
+  <iframe src="https://astobbe.substack.com/embed" width="720" height="130" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 {% endblock %}
