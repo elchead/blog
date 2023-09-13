@@ -695,3 +695,15 @@ body[data-theme="dark"] .proj .links a:hover {
         display: none !important;
     }
 }
+
+@media (min-width: 700px) {
+    .mobile-toc {
+        display: none;
+    }
+}
+
+.newsletter-iframe {
+    width: 100%;
+    height: auto;
+    max-width: 720px;
+}
