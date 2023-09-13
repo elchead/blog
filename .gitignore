@@ -1,12 +1,1 @@
-*
-# ignore all files in obsidian vault except
-!.gitignore
-!content/
-!content/**/*
-!static/
-!static/**/*
-!templates
-!templates/**/*
-!README.md
-!config.toml
-!netlify.toml
+*.DS_Store
