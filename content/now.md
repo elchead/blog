@@ -9,8 +9,6 @@ updated: 2023-07-30
 
 Berlin, Germany
 
-<!-- {{< callout emoji="💯" text="This is the text that will show up in the callout. It can be as long as you like, but only one paragraph." >}} -->
-
 ### Professional status quo
 
 - Software engineer at Edgeless.Systems. Mostly contributing to [Constellation](https://github.com/edgelesssys/constellation)

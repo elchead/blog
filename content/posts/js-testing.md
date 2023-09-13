@@ -167,5 +167,3 @@ By pushing the side effects to the outer layer of the application, we can mostly
 Mocks have its place, but if it's not an external dependency it might be code smell.
 
 If you want to learn more about testing, I can highly recommend [Unit Testing Principles, Practices, and Patterns](https://www.manning.com/books/unit-testing).
-
-{{< reachout-callout emoji="💙" text="If you have any additional thoughts, feedback or you think I got something wrong, I'd like to hear from you!">}}

@@ -88,4 +88,4 @@ Other useful system shortcuts include:
 
 - `Alt+Cmd+l`: Open downloads
 
-{{< callout emoji="👨‍💻" text="I hope you found some useful new trick. If you have something to share that I missed, I'd be happy if you'd reach out on Twitter or via Email!" >}}
+{{ callout(emoji="👨‍💻" text="I hope you found some useful new trick. If you have something to share that I missed, I'd be happy if you'd reach out on Twitter or via Email!") }}

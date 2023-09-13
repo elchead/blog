@@ -36,7 +36,7 @@ This is the folder I use frequently on my drive. At the moment it doesn't captur
 In Notion, I have a complete overview of my life-areas, including those that I don't document at all - like Family or Exercise. I do that to quickly oversee everything that asks for my attention and to evaluate their status quo in my reviews.
 
 ### 3. Resources:
-{{< callout emoji="💡" text="Update: I now use it for quick access to check-soon resources. Soon means that I plan to read them in the next 3-4 weeks. It extends the purpose of my Read-Later app (articles and videos), to PDFs and websites mostly.">}}
+{{ callout(emoji="💡" text="Update: I now use it for quick access to check-soon resources. Soon means that I plan to read them in the next 3-4 weeks. It extends the purpose of my Read-Later app (articles and videos), to PDFs and websites mostly.") }}
 
 Resources is intended as a place to store information that I don't need now. I use it to store PDFs and presentations that I might want to refer to later. This can be travel inspirations, a programming book or a presentation I liked a lot and might want to share later. I try to group the material into topics, but they are generally more fine-grained than life areas. But it still happens that there also exists a folder such as Finance and this is where many people (including me) get confused in the beginning.
 
