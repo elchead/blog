@@ -29,9 +29,9 @@ date_format="%d %b, %Y"
 name = "Posts"
 url = "@/posts/_index.md"
 
-[[extra.main_menu]]
-name = "Tech Posts"
-url = "https://blog.adrianstobbe.com"
+#[[extra.main_menu]]
+#name = "Tech Posts"
+#url = "https://blog.adrianstobbe.com"
 
 [[extra.main_menu]]
 name = "Books"
@@ -61,14 +61,6 @@ url = "https://cv.adrianstobbe.com"
 #[[extra.main_menu]]
 #name = "TIL"
 #url = "@/tils/_index.md"
-
-#[[extra.main_menu]]
-#name = "Travel"
-#url = "@/travel/_index.md"
-
-#[[extra.main_menu]]
-#name = "Contact"
-#url = "@/contact.md"
 
 
 [search]

@@ -1,21 +1,19 @@
 ---
 title: Now
 hiddenFromHomePage: true
-date: 2020-03-04T15:58:26+08:00
-updated: 2023-07-30
+updated: 2023-10-13
 ---
 
 ### Location
 
-Berlin, Germany
+Valencia, Spain
 
-### Professional status quo
+### Professional
 
-- Software engineer at Edgeless.Systems. Mostly contributing to [Constellation](https://github.com/edgelesssys/constellation)
+- Software engineer at Edgeless.Systems. Mostly contributing to [Constellation](https://github.com/edgelesssys/constellation).
 
 ### My freetime
-
-👨‍💻 Exploring potential business ideas
+🧑‍💻 Exploring web technologies: Svelte, Flatter, TailwindCSS
 
 🇫🇷 Learning my 4th foreign language
 

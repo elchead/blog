@@ -5,26 +5,25 @@
   {%- if not page.extra.menu %}
     <h1>{{ page.title }}</h1>
     <div class="meta">
-      {%- if page.date %}
       <div class="post-date">
+        {%- if page.date %}
               <i>
                   <time datetime='{{ page.date | date(format='%+') }}' pubdate>
                       {{- page.date | date(format=config.extra.date_format) -}}
                   </time>
+                  {%- endif %}
                   {%- if page.updated %}
                     <p>Last updated:            <time datetime='{{ page.updated | date(format='%+') }}' pubdate>
                       {{- page.updated | date(format=config.extra.date_format) -}}
                   </time></p>
-
                   {%- endif %}
               </i>
-      </div>
+            </div>
       <div class="reading-time">
           {% set word_count = page.content | split(pat=" ") | length %}
           {% set reading_time = (word_count / 250) | round %}
           <i>{{ reading_time }} minutes ({{ word_count }} words)</i>
       </div>
-      {%- endif %}
   </div>
   {% if page.toc %}
   <div class="mobile-toc">

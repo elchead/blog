@@ -8,7 +8,13 @@ title = "Home"
 
   <div class="home-content">
 
-I'm Adrian — an aspiring software craftsman and entrepreneur, linguaphile and salsero 🕺. See here what I'm doing [now](now) or my longer intro [here](about). Putting myself out here to connect with new, curious people. Reachouts are welcome 👋
+Adrian here — an aspiring software craftsman and entrepreneur. I'm a full-stack builder, with a focus on backend development. I'm working on cloud 9 (aka K8s), and love to talk about clean code and testing.
+
+TLDR:
+
+#Kubernetes #Cloud #Web #CleanCode #TDD #Rust
+
+See here what I'm doing [now](now) or my longer intro [here](about). Putting myself out here to connect. Reachouts are welcome!
 
   </div>
 

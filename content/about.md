@@ -1,10 +1,9 @@
 ---
 title: About
-date: 2020-03-04T15:58:26+08:00
 updated: 2023-07-30
 ---
 
-# Me in 5 minutes
+# Me in 2 minutes
 
 On this page, I want to shortly introduce my humble self to let you quickly get to know me. I hope that it can be helpful to trigger interesting conversations and maybe it helps you to speed up understanding me better :)
 
