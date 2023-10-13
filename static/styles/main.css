@@ -69,10 +69,67 @@ a:hover {
     text-decoration: none;
     border: 0;
 }
+:root {
+    --common-margin: 15px;
+}
+
+.title h2.name {
+    margin: var(--common-margin);
+    margin-left: 0;
+
+}
 
 .title span {
     font-weight: 400;
 }
+
+
+.header-container {
+    display: flex;
+    align-items: center; /* this ensures they are vertically centered */
+    justify-content: space-between; /* this ensures maximum space between them */
+}
+
+.search-container {
+    position: relative;
+    flex-grow: .5;
+}
+
+/* Search input styling */
+#search {
+    width: 95%;      /* occupy full width of the parent */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+/* Container for the search results */
+.search-results {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position it just below the input */
+    left: 0;
+    width: 100%;
+    max-height: 300px; /* Set a maximum height and make it scrollable */
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a shadow for the overlay effect */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Individual search result items */
+.search-results__items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Optional: Style for highlighted search terms */
+.search-results__items mark {}
 
 nav {
     display: flex;
@@ -439,6 +496,7 @@ body[data-theme="dark"] .tags > a {
     color: var(--color-tag-text);
 }
 
+body[data-theme="dark"] .search-results,
 body[data-theme="dark"] code {
     color: var(--color-text-dark);
     background-color: var(--color-code-bg-dark);

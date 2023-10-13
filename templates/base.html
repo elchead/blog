@@ -32,9 +32,17 @@
 </head>
 <body>
 <header>
-    <a href="{{ config.base_url | safe }}" class="title">
-        <h2 class="name">{{ config.title }}</h2>
-    </a>
+    <div class="header-container">
+        <a href="{{ config.base_url | safe }}" class="title">
+            <h2 class="name">{{ config.title }}</h2>
+        </a>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search...">
+            <div class="search-results">
+                <div class="search-results__items"></div>
+            </div>
+        </div>
+    </div>
     <nav>
         <div class="nav-items">
             <a href="{{ config.base_url | safe }}">Home</a>
@@ -100,4 +108,7 @@
         }, 500);
     });
 </script>
+<script type="text/javascript" src="{{ get_url(path="elasticlunr.min.js") }}"></script>
+<script type="text/javascript" src="{{ get_url(path="search.js") }}"></script>
+</body>
 </html>
