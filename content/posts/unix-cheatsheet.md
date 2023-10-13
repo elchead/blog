@@ -2,7 +2,7 @@
 title: Unix cheatsheet - Beyond the basics
 taxonomies:
   tags:
-    - "Programming"
+    - "Tech"
 date: 2021-11-08
 updated: 2021-12-12
 ---

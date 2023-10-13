@@ -2,7 +2,7 @@
 title: "[Tutorial]: Kubernetes stateful pod migration"
 taxonomies:
   tags:
-    - "Programming"
+    - "Tech"
 date: 2022-04-06
 ---
 

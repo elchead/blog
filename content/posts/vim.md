@@ -2,7 +2,7 @@
 title: VIM - Why geeks love it and you will too
 taxonomies:
   tags:
-    - "Programming"
+    - "Tech"
 resources:
 - name: "featured-image"
   src: "keyboard.jpg"

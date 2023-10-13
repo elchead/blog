@@ -2,7 +2,7 @@
 title: Tools and shortcuts for MacOS
 taxonomies:
   tags:
-    - "Programming"
+    - "Tech"
 resources:
   - name: "featured-image"
     src: "cover.png"

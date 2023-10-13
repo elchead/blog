@@ -2,7 +2,7 @@
 title: Migrating my blog from Hugo to Zola
 taxonomies:
   tags:
-    - "Programming"
+    - "Tech"
 date: 2023-09-13
 ---
 

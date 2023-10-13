@@ -2,7 +2,7 @@
 title: Migrating to Hashnode
 taxonomies:
   tags:
-    - "Programming"
+    - "Tech"
 resources:
   - name: "featured-image"
     src: "cover.jpg"

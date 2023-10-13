@@ -2,7 +2,7 @@
 title: Testable code has few mocks
 taxonomies:
   tags:
-    - "Programming"
+    - "Tech"
 resources:
   - name: "featured-image"
     src: "cover.jpg"
