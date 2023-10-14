@@ -12,7 +12,7 @@ Valencia, Spain
 - Software engineer at Edgeless.Systems. Mostly contributing to [Constellation](https://github.com/edgelesssys/constellation).
 
 ### My freetime
-🧑‍💻 Exploring web technologies: Svelte, Flatter, TailwindCSS
+🧑‍💻 Exploring web technologies: Svelte, Flutter, TailwindCSS
 
 🇫🇷 Learning my 4th foreign language
 

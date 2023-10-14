@@ -12,7 +12,7 @@ Adrian here — an aspiring software craftsman and entrepreneur. I'm a full-stac
 
 TLDR:
 
-#Kubernetes #Cloud #Web #CleanCode #TDD #Rust
+#Cloud #Kubernetes #Web #CleanCode #TDD #Rust
 
 Putting myself out here to connect:
 

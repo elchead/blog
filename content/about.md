@@ -1,25 +1,27 @@
 ---
 title: About
-updated: 2023-07-30
+updated: 2023-10-14
 ---
 
 # Me in 2 minutes
 
-On this page, I want to shortly introduce my humble self to let you quickly get to know me. I hope that it can be helpful to trigger interesting conversations and maybe it helps you to speed up understanding me better :)
+This is about me and my interests. I hope it can help to trigger interesting conversations :)
 
-### Invitation to reach out
+## Location
 
-I have a standing invitation for you to contact me about anything that comes to your mind. I love to exchange with people who share interests and will try my best to answer questions or discuss ideas!
+Valencia, Spain
 
-You can reach me at stobbe.adrian@gmail.com , but I am also happy to talk either in person (my location is updated under [now](/now)) or on the phone.
+## Professional
+
+Software engineer at [Edgeless.Systems](https://www.edgeless.systems/). Mostly contributing to [Constellation](https://github.com/edgelesssys/constellation).
 
 
 ## My interests
 **Technical**
-
+- Web: Svelte, WebAssembly
 - Clean code and TDD
 - Kubernetes & Docker
-- Rust, Golang, C++, JavaScript, Python development
+- Rust, Go, Python
 - Linux
 - Vim
 
@@ -34,7 +36,14 @@ You can reach me at stobbe.adrian@gmail.com , but I am also happy to talk either
 - Ukulele
 - Salsa
 
-### Timeline
+### My freetime
+🧑‍💻 Exploring web technologies: Svelte, Flutter, TailwindCSS
+
+🇫🇷 Learning my 4th foreign language
+
+🎸 Learning my first instrument: Ukulele
+
+## Timeline
 
 - 1999: born in Berlin
 - 2013: first attempts to learn programming
@@ -45,15 +54,15 @@ You can reach me at stobbe.adrian@gmail.com , but I am also happy to talk either
 - 2020: deep dive into C++, web and HPC during intern at startup; get intrigued about self-improvement through [SpeedupBuddy](https://speedupbuddy.de/) mentoring
 - 2021: deep dive into Kubernetes & Cloud Computing; discovering my interest in blogging, yoga and meditation; teaching myself total immersion swimming technique; exchange semester in Barcelona
 - 2022: learning Ukulele; first digital nomad month
+- 2023: graduated from uni and moved back to Spain on a trial
 
-## About me
-### Me in pictures
 
-<img src="/images/about/thinking.jpeg" width="400">
+<!--### Me in pictures-->
+<!--<img src="/images/about/thinking.jpeg" width="400">
 <img src="/images/about/beach.jpeg" width="400">
-<img src="/images/about/active.jpeg" width="400">
+<img src="/images/about/active.jpeg" width="400">-->
 
-
+## Personality
 ### I'm a minimalist
 
 I believe that few is more and don't attach to objects emotionally. I want to be able to move my belongings in one big suitcase. Much beyond what I need feels like a burden to me.
