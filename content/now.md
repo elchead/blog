@@ -1,6 +1,5 @@
 ---
 title: Now
-hiddenFromHomePage: true
 updated: 2023-10-13
 ---
 

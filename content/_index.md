@@ -14,7 +14,16 @@ TLDR:
 
 #Kubernetes #Cloud #Web #CleanCode #TDD #Rust
 
-See here what I'm doing [now](now) or my longer intro [here](about). Putting myself out here to connect. Reachouts are welcome!
+Putting myself out here to connect:
+
+- You have an idea to work on together?
+- You just want to talk about programming?
+- You’d like to review the code of one of your projects?
+- Unsure about your career?
+
+Reachouts are welcome!
+
+Inspired by [Office hours](https://robertheaton.com/2019/12/05/why-i-have-office-hours-and-you-should-too/), I offer office hours / mentorship too!
 
   </div>
 
@@ -23,6 +32,7 @@ See here what I'm doing [now](now) or my longer intro [here](about). Putting mys
   </div>
 
 </div>
+
 
 <!--## ⭐ Featured Posts
 
