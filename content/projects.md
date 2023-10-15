@@ -11,7 +11,8 @@ description: "This is a list of my featured projects which are mostly Open Sourc
 
 ---
 
-### [Constellation](https://github.com/edgelesssys/constellation) *- the secure K8s distribution based on confidental computing*
+### [Constellation](https://github.com/edgelesssys/constellation)
+*the secure K8s distribution based on confidental computing*
 
 **Stack:** Terraform, Helm, AWS, Azure GCP
 
@@ -21,7 +22,8 @@ description: "This is a list of my featured projects which are mostly Open Sourc
 - [new API endpoint](https://github.com/edgelesssys/constellation/pull/1808) for managing Azure machine versions
 
 ---
-### [Gardener](https://github.com/gardener/gardener) *- Kubernetes as a Service platform managed by K8s*
+### [Gardener](https://github.com/gardener/gardener)
+*Kubernetes as a Service platform managed by K8s*
 
 **Stack:** Terraform, Azure
 
@@ -29,7 +31,8 @@ description: "This is a list of my featured projects which are mostly Open Sourc
 - implement an [Azure infrastructure reconciler](https://github.com/gardener/gardener-extension-provider-azure/pull/596) to replace Terraform
 
 ---
-### SAP operations team for supply-chain optimization *- resource-intense optimizations jobs running on K8s*
+### Operations for supply-chain optimization
+* resource-intense optimizations jobs running on K8s*
 
 **Stack:** Azure, containerd, Redis, influxDB
 
@@ -40,7 +43,8 @@ description: "This is a list of my featured projects which are mostly Open Sourc
 	- [simulated](https://github.com/elchead/k8s-cluster-simulator) the resource saving potential based on production data showing that cluster resources could be reduced down to 1/4
 
 ---
-### Observability at [Kyma](https://github.com/kyma-project/kyma) *- K8s project aggregating tools to deploy & manage enterprise applications*
+### Observability at [Kyma](https://github.com/kyma-project/kyma)
+*K8s project aggregating tools to deploy & manage enterprise applications*
 
 **Stack:** Helm, Prometheus, Graphana, FluentBit
 
@@ -52,7 +56,7 @@ description: "This is a list of my featured projects which are mostly Open Sourc
 ---
 
 ## Web / Apps
-### Security-focused application for a human right NGO
+### Security-first app for a human right NGO
 
 **Stack:** Svelte, Typescript, Go, SQLite, Kotlin
 
@@ -75,13 +79,16 @@ a progressive web app with offline support to add notes about people I care abou
 
 ---
 
-### [Meal planner web app](https://github.com/elchead/mealwheel) - get meal recommendations based on ML
-team lead at the [Techlabs Web Dev Track ](https://techlabs.org/web/) in Munich to build a meal planner app.
+### [Meal planner web app](https://github.com/elchead/mealwheel)
+team lead at the [Techlabs Web Dev Track ](https://techlabs.org/web/) in Munich to build a meal planner app with recommendations based on ML.
 
 **Stack:** MERN - (MongoDB, Express, React, Node), AWS S3
 
 **Contributions:**
 - in charge of backend, deployment and organization
+
+
+---
 
 ## Miscellaneous
 - built a [small library in Rust](https://github.com/CAGS295/engine-rs) on the Rusti hackathon based on the actor model for executing various trading strategies on Binance
@@ -103,3 +110,5 @@ team lead at the [Techlabs Web Dev Track ](https://techlabs.org/web/) in Munich 
 - built a new Python post-processing library interacting with C++ for application engineers to analyze and visualize CFD simulation results
 
 **Stack:** Python,  C++, Paraview
+
+---
