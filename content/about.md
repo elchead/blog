@@ -74,7 +74,7 @@ I enjoy being with and getting to know new people, but after a while I need some
 
 ### Critique > compliments
 
-I think that there is more to learn from constructive critique and don't feel attacked by it. I don't refer to shouting complaints during a quarrel (although they are still helpful right?), but rather to tactful words of concern to make us aware of our weaknesses. This type of critique is rare, because it requires courage, intimacy, and tactfulness. Moreover, they are never uttered out of courtesy (as opposed to compliments). Of course, compliments are nice to hear, but flatter me with critique please :)
+I think that there is more to learn from constructive critique and don't feel attacked by it. I don't refer to shouting complaints during a quarrel, but rather to tactful words of concern to make us aware of our weaknesses. This type of critique is rare, because it requires courage, intimacy, and tactfulness. Moreover, they are never uttered out of courtesy (as opposed to compliments). Of course, compliments are nice to hear, but flatter me with critique please :)
 
 ### Personalities are fluid
 

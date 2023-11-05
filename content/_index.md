@@ -23,7 +23,7 @@ Putting myself out here to connect:
 
 Reachouts are welcome!
 
-Inspired by [Office hours](https://robertheaton.com/2019/12/05/why-i-have-office-hours-and-you-should-too/), I offer office hours / mentorship too!
+Inspired by [Office hours](https://robertheaton.com/2019/12/05/why-i-have-office-hours-and-you-should-too/), I offer them / mentorship too!
 
   </div>
 
