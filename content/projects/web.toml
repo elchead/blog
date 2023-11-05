@@ -1,6 +1,6 @@
 [[project]]
 name = "Security-first app for a NGO"
-description = "a platform for reporting incidents and to share data across organizations based on report matches."
+description = "a platform to share incident data across organizations based on report matches."
 stack = [ "Svelte", "TypeScript", "Go", "SQLite" ]
 
 [[project]]

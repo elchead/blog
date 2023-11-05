@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://adrianstobbe.com/"
 title = "Adrian Stobbe"
-description = "Ramblings on programming, tech and life."
+description = "Writing about programming and life."
 generate_feed = false
 feed_filename = "atom.xml" # default template
 
