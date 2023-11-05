@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} | {{ super() }}{% endblock %}
+
+{% block main %}
+<h1>My Projects</h1>
+<div style="text-align: center;">
+	<a href="https://github.com/elchead" target="_blank" rel="noopener noreferrer">
+		<img src="https://github-readme-stats.vercel.app/api?username=elchead" alt="My GitHub stats">
+	</a>
+</div>
+<h2>Cloud</h2>
+<p><b>Kubernetes</b> related projects, mostly using <b>Go</b> and services from Azure, AWS, GCP.</p>
+<ul class="projects-list">
+	{% set data = load_data(path="content/projects/cloud.toml", format="toml") %}
+	{% for proj in data.project %}
+	<li class="proj">
+		<div class="project-header">
+			<p class="project-title">
+				{% if proj.url %}
+				<a href="{{ proj.url }}" target="_blank" rel="noopener noreferrer">{{ proj.name }}</a>
+				{% else %}
+				{{ proj.name }}
+				{% endif %}
+			</p>
+
+			<p><i>- {{ proj.description | trim | markdown | safe }}</i></p>
+		</div>
+		<ul class="project-stack">
+			{% for s in proj.stack %}
+			<li>{{ s }}</li>
+			{% endfor %}
+		</ul>
+		<p>Key Achievements:</p>
+		<ul class="achievements-list">
+			{% for achievement in proj.achievements %}
+			<li>{{ achievement | safe }}</li>
+			{% endfor %}
+		</ul>
+		{% endfor %}
+</ul>
+<h2>Web / Apps </h2>
+<ul class="projects-list">
+	{% set data = load_data(path="content/projects/web.toml", format="toml") %}
+	{% for proj in data.project %}
+	<li class="proj">
+		<p class="project-title">
+			{% if proj.url %}
+			<a href="{{ proj.url }}" target="_blank" rel="noopener noreferrer">{{ proj.name }}</a>
+			{% else %}
+			<span style="font-weight: bold;">{{ proj.name }}</span>
+			{% endif %}
+		<p class="desc">{{ proj.description | trim | markdown | safe }}</p>
+		<ul class="project-stack">
+			{% for s in proj.stack %}
+			<li>{{ s }}</li>
+			{% endfor %}
+		</ul>
+	</li>
+	{% endfor %}
+</ul>
+{% endblock %}

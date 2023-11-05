@@ -1,0 +1,38 @@
+[[project]]
+name = "Security-first app for a NGO"
+description = "a platform for reporting incidents and to share data across organizations based on report matches."
+stack = [ "Svelte", "TypeScript", "Go", "SQLite" ]
+
+[[project]]
+name = "Personal search engine"
+url = "https://github.com/elchead/misou"
+description = "a native desktop app that searches through different sources (local file system, browser, Readwise, Instapaper and my personal CRM - people)."
+stack = ["Go","React", "TypeScript"]
+
+[[project]]
+name = "Personal CRM"
+url = "https://github.com/elchead/people"
+description = "a progressive web app with offline support to add notes about people I care about."
+stack = ["React", "TypeScript"]
+
+[[project]]
+name = "Meal planner web app"
+url = "https://github.com/elchead/mealwheel"
+description = "team lead at the <a href='https://techlabs.org/web/'>Techlabs Web Dev Track</a> where we built a meal planner app with recommendations based on ML."
+stack = ["MongoDB", "Express", "React", "Node"]
+
+[[project]]
+name = "Trading library"
+url = "https://github.com/CAGS295/engine-rs"
+description = "built on the RustFi hackathon based on the actor model for executing various trading strategies on Binance"
+stack = ["Rust", "Actix"]
+
+[[project]]
+name = "PoC for a Function as a Service (FaaS) platform"
+description = "running Python in a serverless environment"
+stack = ["Python", "Firecracker", "Rust"]
+
+[[project]]
+name = "Post-processing library for physics simulations"
+description = "a new high-level library to conveniently analyze and visualize CFD simulation results binding to C++."
+stack = ["Python","C++", "ParaView"]

@@ -1,8 +1,10 @@
 ---
 title: Projects
-template: "projects.html"
+template: "projects_new.html"
 description: "This is a list of my featured projects which are mostly Open Source."
+
 ---
+<!-- is old text and not used anymore -->
 [![My GitHub stats](https://github-readme-stats.vercel.app/api?username=elchead)](https://github.com/elchead)
 
 ## Cloud
@@ -46,7 +48,7 @@ description: "This is a list of my featured projects which are mostly Open Sourc
 ### Observability at [Kyma](https://github.com/kyma-project/kyma)
 *K8s project aggregating tools to deploy & manage enterprise applications*
 
-**Stack:** Helm, Prometheus, Graphana, FluentBit
+**Stack:** Helm, Prometheus, Grafana, FluentBit
 
 **Contributions:**
 - set up Prometheus alerting and Grafana dashboards for SRE team

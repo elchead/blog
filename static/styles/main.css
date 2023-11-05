@@ -394,28 +394,37 @@ figure:hover {
     padding: 0;  /* Remove default padding */
     margin: 0;  /* Remove default margin */
     width: 100%;  /* Ensure it takes up full width of its container */
-    max-width: 600px;  /* Limit the maximum width */
+    /*max-width: 600px;  Limit the maximum width*/
+    width: 100%;
+
     list-style: none;  /* To remove bullet points */
     box-sizing: border-box;
+    display: flex; /* This enables flexbox */
+    flex-wrap: wrap; /* This allows items to wrap to the next line */
 }
 
+
+
 .proj {
-    border: 1px solid #eee;
+    flex: 1 1 calc(50% - 20px); /* Adjust the percentage and subtraction value based on the gap you want */
+    /*flex: 1 1 50%; This allows the item to grow and shrink but start at 50% of the container's width*/
+    box-sizing: border-box; /* This includes padding and border in the element's total width and height */
+    justify-content: center;
+
+    /*box-shadow: 0 2px 5px rgba(0,0,0,0.1);*/
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+
+    border: 1px solid  #DDDDDD;
+    border-radius: 5px;
     padding: 1rem;
-    margin-bottom: 1rem;
-    position: relative;
-    background-color: #f9f9f9;  /* Light gray background for a bit of distinction */
-    transition: background-color 0.2s ease; /* Smooth transition for hover effects */
+    margin: 0.6rem;
+    transition: background-color 0.2s ease;
 }
 
 .proj .name {
     font-weight: bold;
     font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-}
-
-.proj .desc {
-    margin-bottom: 1rem;
 }
 
 .proj .links a {
@@ -795,3 +804,61 @@ body[data-theme="dark"] #callout {
     border: 1px solid #f5f5f5;
 
 }
+
+
+.achievements-list {
+    display: inline-block;
+    /*list-style-type: none;*/
+    padding: 0;
+    margin: 0 0 0.8em 0;
+    text-align: left;
+    /*margin: 0 5px 5px 0;*/
+    /*padding: 5px 10px;*/
+    /*border-radius: 4px;*/
+    /*font-size: 0.8em;*/
+  }
+
+  .achievements-list li {
+    /*background: url('path-to-check-icon.png') no-repeat left center; icon to signify achievement*/
+    /*padding-left: 30px; space for the icon*/
+    margin-bottom: 5px;
+    font-size: 13px; /* slightly smaller font size for the list */
+    padding: 0;
+  }
+
+  .project-stack {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+
+  .project-stack li {
+    display: inline-block;
+    background: #e1e1e1;
+    margin: 0 5px 5px 0;
+    padding: 3px 7px;
+    background: #444; /* Darker background for the tags */
+    color: #ddd; /* Lighter text color for readability */
+    border-radius: 4px;
+    font-size: 0.8em;
+  }
+  .project-header {
+display: flex; /* This will arrange the child elements in a row */
+align-items: center; /* This will vertically align the child elements in the middle */
+justify-content: space-between; /* This will put maximum space between the title and description */
+}
+
+.project-title, .project-description {
+margin: 0;
+}
+
+.project-description {
+font-style: italic;
+margin-left: 5px;
+}
+
+  @media (max-width: 600px) {
+    .projects {
+      grid-template-columns: 1fr;
+    }
+  }
