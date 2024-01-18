@@ -50,6 +50,9 @@
 			{% else %}
 			<span style="font-weight: bold;">{{ proj.name }}</span>
 			{% endif %}
+		{% if proj.date %}
+		<p class="project-date">{{ proj.date }}</p>
+		{% endif %}
 		<p class="desc">{{ proj.description | trim | markdown | safe }}</p>
 		<ul class="project-stack">
 			{% for s in proj.stack %}

@@ -819,6 +819,13 @@ body[data-theme="dark"] #callout {
     padding: 0;
   }
 
+  .project-date {
+    font-size: 0.8em; /* Smaller font size for the date */
+    color: #666; /* Lighter text color for the date */
+    margin-top: 5px; /* Space above the date */
+    margin-bottom: 0px; /* Space below the date */
+}
+
   .project-stack {
     list-style-type: none;
     padding: 0;

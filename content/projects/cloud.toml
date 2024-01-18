@@ -3,7 +3,7 @@ name = "Constellation"
 url = "https://github.com/edgelesssys/constellation"
 description = "secure K8s through confidential computing"
 stack = [ "Terraform", "Helm", "AWS", "GCP", "Azure"]
-achievements = ['refactor CLI to make it declarative for reliable cluster upgrades (e.g <a href="https://github.com/edgelesssys/constellation/pull/2244" target="_blank" rel="noopener noreferrer">helm</a>)','packaging as <a href="https://github.com/edgelesssys/constellation/pull/2503/">Terraform module</a> to declaratively manage the cluster in TF']
+achievements = ['refactor CLI to make it declarative for reliable cluster upgrades (e.g <a href="https://github.com/edgelesssys/constellation/pull/2244" target="_blank" rel="noopener noreferrer">helm</a>)','development of a <a href="https://www.edgeless.systems/blog/the-always-encrypted-kubernetes-now-comes-with-a-terraform-provider">Terraform provider</a>']
 
 [[project]]
 name = "Gardener"
