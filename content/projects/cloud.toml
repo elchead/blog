@@ -1,27 +1,49 @@
 [[project]]
+name = "Continuum"
+url = "https://www.edgeless.systems/products/continuum"
+description = "protecting prompt & model weights through confidential computing"
+stack = ["Nvidia GPU", "Docker", "gVisor", "vLLM", "Svelte"]
+achievements = [
+	'build the workload scheduling API and proxy to forward decrypted prompts securely to the workload sandbox',
+	'build the <a href="https://www.youtube.com/watch?v=tn7zGgPHNq4&t=1s&ab_channel=EdgelessSystems">demo app</a>',
+]
+
+[[project]]
 name = "Constellation"
 url = "https://github.com/edgelesssys/constellation"
 description = "secure K8s through confidential computing"
-stack = [ "Terraform", "Helm", "AWS", "GCP", "Azure"]
-achievements = ['refactor CLI to make it declarative for reliable cluster upgrades (e.g <a href="https://github.com/edgelesssys/constellation/pull/2244" target="_blank" rel="noopener noreferrer">helm</a>)','development of a <a href="https://www.edgeless.systems/blog/the-always-encrypted-kubernetes-now-comes-with-a-terraform-provider">Terraform provider</a>']
+stack = ["Terraform", "Helm", "AWS", "GCP", "Azure"]
+achievements = [
+	'refactor CLI to make it declarative for reliable cluster upgrades (e.g <a href="https://github.com/edgelesssys/constellation/pull/2244" target="_blank" rel="noopener noreferrer">helm</a>)',
+	'development of a <a href="https://www.edgeless.systems/blog/the-always-encrypted-kubernetes-now-comes-with-a-terraform-provider">Terraform provider</a>',
+]
 
 [[project]]
 name = "Gardener"
 url = "https://github.com/gardener/gardener"
 description = "K8s as a Service platform managed by K8s"
-stack = ["Terraform","Azure"]
-achievements = ['implement an <a href="https://github.com/gardener/gardener-extension-provider-azure/pull/596">Azure infrastructure reconciler</a> to replace Terraform']
+stack = ["Terraform", "Azure"]
+achievements = [
+	'implement an <a href="https://github.com/gardener/gardener-extension-provider-azure/pull/596">Azure infrastructure reconciler</a> to replace Terraform',
+]
 
 [[project]]
 name = "Master's Thesis"
 url = "https://blog.adrianstobbe.com/the-potential-of-pod-migrations-in-kubernetes"
 description = "optimizing K8s for memory-hungry optimizations jobs"
-stack = ["Azure","containerd","Redis","Go","influxDB"]
-achievements = ['built a PoC to migrate stateful workloads for containers with 100+ GB of memory','developed a <a href="https://github.com/elchead/k8s-migration-controller">K8s controller</a> to preemptively migrate workloads before exhausting node memory']
+stack = ["Azure", "containerd", "Redis", "Go", "influxDB"]
+achievements = [
+	'built a PoC to migrate stateful workloads for containers with 100+ GB of memory',
+	'developed a <a href="https://github.com/elchead/k8s-migration-controller">K8s controller</a> to preemptively migrate workloads before exhausting node memory',
+]
 
 [[project]]
 name = "Observability at Kyma"
 url = "https://github.com/kyma-project/kyma"
 description = "K8s stack for enterprise applications"
-stack = ["Helm","Prometheus","Grafana","FluentBit"]
-achievements = ["set up Prometheus alerting and Grafana dashboards for SRE team","build CI/CD pipeline","observability stack & CLI contributions"]
+stack = ["Helm", "Prometheus", "Grafana", "FluentBit"]
+achievements = [
+	"set up Prometheus alerting and Grafana dashboards for SRE team",
+	"build CI/CD pipeline",
+	"observability stack & CLI contributions",
+]
