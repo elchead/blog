@@ -2,13 +2,13 @@
 name = "Nutri - nutrient insights from your grocery receipt"
 url = "https://nutri.adrianstobbe.com"
 description = "[featured on HN frontpage with more than 6k users](https://news.ycombinator.com/item?id=39077428). Upload your grocery receipts for food tips to enhance your diet for lacking nutrients."
-stack = [ "SvelteKit", "LLM", "Cloudfare" ]
+stack = ["SvelteKit", "LLM", "Cloudfare"]
 date = "2024"
 
 [[project]]
 name = "Security-first app for a NGO"
-description = "a platform to share incident data across organizations based on report matches."
-stack = [ "SvelteKit", "TypeScript", "Go", "SQLite" ]
+description = "a platform to share incident data across organizations based on report matches. The library developed to build the platform was open-sourced and is on [GitHub](https://github.com/edgelesssys/ego-mpc). A [presentation](https://youtu.be/cCEAG8vffAo?feature=shared&t=731) of the platform was shown at the OC3 conference."
+stack = ["SvelteKit", "TypeScript", "Go", "SQLite"]
 date = "2023"
 
 
@@ -16,7 +16,7 @@ date = "2023"
 name = "Personal search engine"
 url = "https://github.com/elchead/misou"
 description = "a native desktop app that searches through different sources (local file system, browser, Readwise, Instapaper and my personal CRM - people)."
-stack = ["Go","React", "TypeScript"]
+stack = ["Go", "React", "TypeScript"]
 date = "2022"
 
 [[project]]
@@ -49,5 +49,5 @@ date = "2022"
 [[project]]
 name = "Post-processing library for physics simulations"
 description = "a new high-level library to conveniently analyze and visualize CFD simulation results binding to C++."
-stack = ["Python","C++", "ParaView"]
+stack = ["Python", "C++", "ParaView"]
 date = "2020"
