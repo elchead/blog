@@ -2,7 +2,7 @@
 name = "Nutri - nutrient insights from your grocery receipt"
 url = "https://nutri.adrianstobbe.com"
 description = "[featured on HN frontpage with more than 6k users](https://news.ycombinator.com/item?id=39077428). Upload your grocery receipts for food tips to enhance your diet for lacking nutrients."
-stack = ["SvelteKit", "LLM", "Cloudfare"]
+stack = ["SvelteKit", "TypeScript", "LLM", "Cloudfare"]
 date = "2024"
 
 [[project]]
