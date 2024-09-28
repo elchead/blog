@@ -1,11 +1,11 @@
 ---
 title: About
-updated: 2023-10-14
+updated: 2024-09-28
 ---
 
 # Me in 2 minutes
 
-This is about me and my interests. I hope it can help to trigger interesting conversations :)
+This is about my background and interests. I hope it can help trigger interesting conversations :)
 
 ## Location
 
@@ -13,35 +13,26 @@ Valencia, Spain
 
 ## Professional
 
-Software engineer at [Edgeless.Systems](https://www.edgeless.systems/). Mostly contributing to [Constellation](https://github.com/edgelesssys/constellation).
+Software engineer at [Edgeless.Systems](https://www.edgeless.systems/). Find out more about my projects [here](../projects).
 
 
 ## My interests
 **Technical**
-- Web: Svelte, WebAssembly
+- Web: Svelte, NextJS, WebAssembly
 - Clean code and TDD
 - Kubernetes & Docker
-- Rust, Go, Python
+- Go, Typescript, Python, Rust
 - Linux
 - Vim
 
 **Non-technical**
 
-- Writing & Blogging
-- self-organization (weekly reviews, journaling, GTD...)
-- note taking with Obsidian
-- Language learning: Chinese (B2), Spanish (C1), English (C1), ...
-- Books that can be applied to everyday life ([my book notes](/books))
-- Yoga & Meditation
+- writing & blogging
+- language learning: Chinese (B2), Spanish (C1), English (C1), ...
+- books that can be applied to everyday life ([my book notes](/books))
+- yoga & meditation
 - Ukulele
 - Salsa
-
-### My freetime
-🧑‍💻 Exploring web technologies: Svelte, Flutter, TailwindCSS
-
-🇫🇷 Learning my 4th foreign language
-
-🎸 Learning my first instrument: Ukulele
 
 ## Timeline
 

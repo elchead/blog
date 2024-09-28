@@ -1,11 +1,11 @@
 [[project]]
 name = "Continuum"
 url = "https://www.edgeless.systems/products/continuum"
-description = "protecting prompt & model weights through confidential computing"
+description = "The LLM as a Service with protected prompts"
 stack = ["Nvidia GPU", "Docker", "gVisor", "vLLM", "Svelte"]
 achievements = [
         'built the workload scheduling API and proxy to forward decrypted prompts securely to the workload sandbox',
-        'built the <a href="https://www.youtube.com/watch?v=tn7zGgPHNq4&t=1s&ab_channel=EdgelessSystems">demo app</a>',
+        'built the <a href="https://www.youtube.com/watch?v=tn7zGgPHNq4&t=1s&ab_channel=EdgelessSystems">demo app</a> and the successor <a href="https://ai.confidential.cloud/">web app</a>',
 ]
 
 [[project]]

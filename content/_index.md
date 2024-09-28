@@ -8,11 +8,13 @@ title = "Home"
 
   <div class="home-content">
 
-Adrian here — an aspiring software craftsman and entrepreneur. I'm a full-stack builder, with a focus on backend development. I'm working on cloud 9 (aka K8s), and love to talk about clean code and testing.
+Adrian here — a software craftsman passionate about solving painful real world problems.
 
-TLDR:
+I have a background in Full-Stack, Cloud & AI to build solutions end-to-end.
 
-#Cloud #Kubernetes #Web #CleanCode #TDD #Rust
+For tech folks, my keywords are:
+
+#Kubernetes #Web #CleanCode #LLM
 
 Putting myself out here to connect:
 

@@ -5,61 +5,75 @@
 {% block main %}
 <h1>My Projects</h1>
 <div style="text-align: center;">
-	<a href="https://www.githubwrapped.io/elchead/2023" target="_blank" rel="noopener noreferrer">
-		<img src="https://github-readme-stats.vercel.app/api?username=elchead" alt="My GitHub stats">
-	</a>
+    <a href="https://www.githubwrapped.io/elchead/2023" target="_blank" rel="noopener noreferrer">
+        <img src="https://github-readme-stats.vercel.app/api?username=elchead" alt="My GitHub stats">
+    </a>
 </div>
-<h2>Cloud</h2>
+
+
+<!-- Add table of contents -->
+Jump to the category:
+<nav class="toc">
+    <ul>
+        <li><a href="#cloud">Cloud</a></li>
+        <li><a href="#web-apps">Web / Apps</a></li>
+    </ul>
+</nav>
+
+
+<h2 id="cloud">Cloud</h2>
 <p><b>Kubernetes</b> related projects, mostly using <b>Go</b> and services from Azure, AWS, GCP.</p>
 <ul class="projects-list">
-	{% set data = load_data(path="content/projects/cloud.toml", format="toml") %}
-	{% for proj in data.project %}
-	<li class="proj">
-		<div class="project-header">
-			<p class="project-title">
-				{% if proj.url %}
-				<a href="{{ proj.url }}" target="_blank" rel="noopener noreferrer">{{ proj.name }}</a>
-				{% else %}
-				{{ proj.name }}
-				{% endif %}
-			</p>
+    {% set data = load_data(path="content/projects/cloud.toml", format="toml") %}
+    {% for proj in data.project %}
+    <li class="proj">
+        <div class="project-header">
+            <p class="project-title">
+                {% if proj.url %}
+                <a href="{{ proj.url }}" target="_blank" rel="noopener noreferrer">{{ proj.name }}</a>
+                {% else %}
+                {{ proj.name }}
+                {% endif %}
+            </p>
 
-			<p><i>- {{ proj.description | trim | markdown | safe }}</i></p>
-		</div>
-		<ul class="project-stack">
-			{% for s in proj.stack %}
-			<li>{{ s }}</li>
-			{% endfor %}
-		</ul>
-		<p>Key Achievements:</p>
-		<ul class="achievements-list">
-			{% for achievement in proj.achievements %}
-			<li>{{ achievement | safe }}</li>
-			{% endfor %}
-		</ul>
-		{% endfor %}
+            <p><i>- {{ proj.description | trim | markdown | safe }}</i></p>
+        </div>
+        <ul class="project-stack">
+            {% for s in proj.stack %}
+            <li>{{ s }}</li>
+            {% endfor %}
+        </ul>
+        <p>Key Achievements:</p>
+        <ul class="achievements-list">
+            {% for achievement in proj.achievements %}
+            <li>{{ achievement | safe }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
 </ul>
-<h2>Web / Apps </h2>
+
+<h2 id="web-apps">Web / Apps</h2>
 <ul class="projects-list">
-	{% set data = load_data(path="content/projects/web.toml", format="toml") %}
-	{% for proj in data.project %}
-	<li class="proj">
-		<p class="project-title">
-			{% if proj.url %}
-			<a href="{{ proj.url }}" target="_blank" rel="noopener noreferrer">{{ proj.name }}</a>
-			{% else %}
-			<span style="font-weight: bold;">{{ proj.name }}</span>
-			{% endif %}
-		{% if proj.date %}
-		<p class="project-date">{{ proj.date }}</p>
-		{% endif %}
-		<p class="desc">{{ proj.description | trim | markdown | safe }}</p>
-		<ul class="project-stack">
-			{% for s in proj.stack %}
-			<li>{{ s }}</li>
-			{% endfor %}
-		</ul>
-	</li>
-	{% endfor %}
+    {% set data = load_data(path="content/projects/web.toml", format="toml") %}
+    {% for proj in data.project %}
+    <li class="proj">
+        <p class="project-title">
+            {% if proj.url %}
+            <a href="{{ proj.url }}" target="_blank" rel="noopener noreferrer">{{ proj.name }}</a>
+            {% else %}
+            <span style="font-weight: bold;">{{ proj.name }}</span>
+            {% endif %}
+        {% if proj.date %}
+        <p class="project-date">{{ proj.date }}</p>
+        {% endif %}
+        <p class="desc">{{ proj.description | trim | markdown | safe }}</p>
+        <ul class="project-stack">
+            {% for s in proj.stack %}
+            <li>{{ s }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
 </ul>
 {% endblock %}

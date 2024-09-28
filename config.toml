@@ -36,15 +36,6 @@ url = "@/posts/_index.md"
 name = "Books"
 url = "@/books/_index.md"
 
-
-#[[extra.main_menu]]
-#name = "Now"
-#url = "@/now.md"
-
-[[extra.main_menu]]
-name = "About"
-url = "@/about.md"
-
 [[extra.main_menu]]
 name = "Projects"
 url = "/projects"
@@ -53,15 +44,17 @@ url = "/projects"
 name = "CV"
 url = "https://cv.adrianstobbe.com"
 
+#[[extra.main_menu]] # was moved to about
+#name = "Now"
+#url = "@/now.md"
 
-#[[extra.main_menu]]
-#name = "Talks"
-#url = "@/talks.md"
+[[extra.main_menu]]
+name = "About"
+url = "@/about.md"
 
 #[[extra.main_menu]]
 #name = "TIL"
 #url = "@/tils/_index.md"
-
 
 [search]
 index_format = "elasticlunr_json"
