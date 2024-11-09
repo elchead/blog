@@ -48,9 +48,9 @@ url = "https://cv.adrianstobbe.com"
 #name = "Now"
 #url = "@/now.md"
 
-[[extra.main_menu]]
-name = "About"
-url = "@/about.md"
+#[[extra.main_menu]]
+#name = "About"
+#url = "@/about.md"
 
 #[[extra.main_menu]]
 #name = "TIL"
