@@ -1,4 +1,11 @@
 [[project]]
+name = "Apiwizard - AI-powered Admin Panel for internal APIs"
+url = "https://www.loom.com/share/385eed039a7f4937beabfdbe03b9c086?sid=ab4774bc-bb23-4371-8c08-c008cf3a4f9e"
+description = "an AI-powered admin panel to interact with internal APIs based on an OpenAPI spec."
+stack = ["NextJS", "TypeScript", "LLM"]
+date = "2024"
+
+[[project]]
 name = "Nutri - nutrient insights from your grocery receipt"
 url = "https://nutri.adrianstobbe.com"
 description = "[featured on HN frontpage with more than 6k users](https://news.ycombinator.com/item?id=39077428). Upload your grocery receipts for food tips to enhance your diet for lacking nutrients."
@@ -10,7 +17,6 @@ name = "Security-first app for a NGO"
 description = "a platform to share incident data across organizations based on report matches. The library developed to build the platform was open-sourced and is on [GitHub](https://github.com/edgelesssys/ego-mpc). A [presentation](https://youtu.be/cCEAG8vffAo?feature=shared&t=731) of the platform was shown at the OC3 conference."
 stack = ["SvelteKit", "TypeScript", "Go", "SQLite"]
 date = "2023"
-
 
 [[project]]
 name = "Personal search engine"
