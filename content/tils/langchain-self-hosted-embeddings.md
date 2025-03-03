@@ -2,8 +2,8 @@
 title: LangChain's Quirks with Self-Hosted Embeddings
 taxonomies:
   tags:
-    - ""
-date: 2023-10-13
+    - "TIL"
+date: 2025-03-03
 ---
 While integrating a self-hosted embeddings model with LangChain, which I hosted through Hugging Face's [Text Embedding Inference (TEI)](https://github.com/huggingface/text-embeddings-inference), I encountered an issue where the `OpenAIEmbeddings` client automatically tokenized my input using the OpenAI model tokenizer. This wasn’t a compatibility issue, but it confused me with very poor results because the wrong tokenizer was applied without warning.
 
