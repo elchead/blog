@@ -1,4 +1,11 @@
 [[project]]
+name = "Tuties - an AI-powered learning platform"
+url = "https://tuties.com"
+description = "a community platform with short-sized lessons about leveraging AI for productivity at work."
+stack = ["React", "TypeScript", "Supabase", "Strapi"]
+date = "2025"
+
+[[project]]
 name = "Apiwizard - AI-powered Admin Panel for internal APIs"
 url = "https://www.loom.com/share/385eed039a7f4937beabfdbe03b9c086?sid=ab4774bc-bb23-4371-8c08-c008cf3a4f9e"
 description = "an AI-powered admin panel to interact with internal APIs based on an OpenAPI spec."
