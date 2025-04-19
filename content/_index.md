@@ -12,10 +12,6 @@ Adrian here — a software craftsman passionate about solving painful real world
 
 I have a background in Full-Stack, Cloud & AI to build solutions end-to-end.
 
-For tech folks, my keywords are:
-
-#Kubernetes #Web #CleanCode #LLM
-
 Putting myself out here to connect:
 
 - You have an idea to work on together?
