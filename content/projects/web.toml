@@ -1,4 +1,10 @@
 [[project]]
+name = "Immersive Assessments - an AI voice agent powered assessment platform"
+description = "Cinematic videos put participants into realistic roleplay scenarios to test their decision making via voice agent interactions"
+stack = ["NextJS", "TypeScript", "Supabase", "Sanity"]
+date = "2025"
+
+[[project]]
 name = "Tuties - an AI-powered learning platform"
 url = "https://tuties.com"
 description = "a community platform with short-sized lessons about leveraging AI for productivity at work."

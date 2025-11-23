@@ -15,10 +15,34 @@
 Jump to the category:
 <nav class="toc">
     <ul>
-        <li><a href="#cloud">Cloud</a></li>
         <li><a href="#web-apps">Web / Apps</a></li>
+        <li><a href="#cloud">Cloud</a></li>
     </ul>
 </nav>
+
+<h2 id="web-apps">Web / Apps</h2>
+<ul class="projects-list">
+    {% set data = load_data(path="content/projects/web.toml", format="toml") %}
+    {% for proj in data.project %}
+    <li class="proj">
+        <p class="project-title">
+            {% if proj.url %}
+            <a href="{{ proj.url }}" target="_blank" rel="noopener noreferrer">{{ proj.name }}</a>
+            {% else %}
+            <span style="font-weight: bold;">{{ proj.name }}</span>
+            {% endif %}
+        {% if proj.date %}
+        <p class="project-date">{{ proj.date }}</p>
+        {% endif %}
+        <p class="desc">{{ proj.description | trim | markdown | safe }}</p>
+        <ul class="project-stack">
+            {% for s in proj.stack %}
+            <li>{{ s }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
 
 
 <h2 id="cloud">Cloud</h2>
@@ -47,30 +71,6 @@ Jump to the category:
         <ul class="achievements-list">
             {% for achievement in proj.achievements %}
             <li>{{ achievement | safe }}</li>
-            {% endfor %}
-        </ul>
-    </li>
-    {% endfor %}
-</ul>
-
-<h2 id="web-apps">Web / Apps</h2>
-<ul class="projects-list">
-    {% set data = load_data(path="content/projects/web.toml", format="toml") %}
-    {% for proj in data.project %}
-    <li class="proj">
-        <p class="project-title">
-            {% if proj.url %}
-            <a href="{{ proj.url }}" target="_blank" rel="noopener noreferrer">{{ proj.name }}</a>
-            {% else %}
-            <span style="font-weight: bold;">{{ proj.name }}</span>
-            {% endif %}
-        {% if proj.date %}
-        <p class="project-date">{{ proj.date }}</p>
-        {% endif %}
-        <p class="desc">{{ proj.description | trim | markdown | safe }}</p>
-        <ul class="project-stack">
-            {% for s in proj.stack %}
-            <li>{{ s }}</li>
             {% endfor %}
         </ul>
     </li>
