@@ -6,7 +6,7 @@ date = "2025"
 
 [[project]]
 name = "Tuties - an AI-powered learning platform"
-url = "https://tuties.com"
+url = "https://youtu.be/t6WLW_fS0I0"
 description = "a community platform with short-sized lessons about leveraging AI for productivity at work."
 stack = ["React", "TypeScript", "Supabase", "Strapi"]
 date = "2025"
