@@ -8,25 +8,25 @@ title = "Home"
 
   <div class="home-content">
 
-Adrian here — a software craftsman passionate about solving painful real world problems.
+I specialize in rapid prototyping — helping businesses and founders turn software ideas into working products.
 
-I have a background in Full-Stack, Cloud & AI to build solutions end-to-end.
+With a background in Full-Stack and AI, I build end-to-end solutions from concept to deployment.
 
-Putting myself out here to connect:
+I'm passionate about my craft and happy to help others master it.
+Embracing the [Office Hours](https://robertheaton.com/2019/12/05/why-i-have-office-hours-and-you-should-too/) philosophy, I offer them too.
 
-- You have an idea to work on together?
-- You just want to talk about programming?
-- You’d like to review the code of one of your projects?
-- Unsure about your career?
 
-Reachouts are welcome!
+**Definitely reach out if**
 
-Inspired by [Office hours](https://robertheaton.com/2019/12/05/why-i-have-office-hours-and-you-should-too/), I offer them / mentorship too!
+- You have a project idea you want to bring alive
+- You are young and seek guidance on your career / technical problems
+
+Looking forward to hearing from you!
 
   </div>
 
   <div class="home-image">
-    <img src="/images/website/profile.jpeg" alt="Profile Image" class="img-rounded" />
+    <img src="/images/profileNew.jpg" alt="Profile Image" class="img-rounded" />
   </div>
 
 </div>

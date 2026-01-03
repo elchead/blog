@@ -15,7 +15,9 @@ Allrounded Software engineer. Find out more about my projects [here](../projects
 
 ## Interests
 
-- Language learning: Currently learning French, speak some Chinese ([hear me on this podcast](https://creators.spotify.com/pod/profile/speakchinesenaturally/episodes/2001Adrian-ecv1cn) | [audio backup](/audio/chinese-podcast.mp3)), Spanish (C1), English (C1)
+- Language learning: Currently learning French, speak some Chinese ([me on a podcast](https://creators.spotify.com/pod/profile/speakchinesenaturally/episodes/2001Adrian-ecv1cn)), Spanish (C1), English (C1)
+<!--  | [audio backup](/audio/chinese-podcast.mp3) -->
+
 - Salsa
 - Books that can be applied to everyday life ([my book notes](/books))
 - Meditation
