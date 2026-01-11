@@ -391,35 +391,50 @@ figure:hover {
 }
 
 .projects-list {
-    padding: 0;  /* Remove default padding */
-    margin: 0;  /* Remove default margin */
-    width: 100%;  /* Ensure it takes up full width of its container */
-    /*max-width: 600px;  Limit the maximum width*/
+    padding: 0;
+    margin: 0;
     width: 100%;
-
-    list-style: none;  /* To remove bullet points */
+    list-style: none;
     box-sizing: border-box;
-    display: flex; /* This enables flexbox */
-    flex-wrap: wrap; /* This allows items to wrap to the next line */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
 }
 
-
-
 .proj {
-    flex: 1 1 calc(50% - 20px); /* Adjust the percentage and subtraction value based on the gap you want */
-    /*flex: 1 1 50%; This allows the item to grow and shrink but start at 50% of the container's width*/
-    box-sizing: border-box; /* This includes padding and border in the element's total width and height */
-    justify-content: center;
+    flex: 1 1 calc(50% - 0.75rem);
+    min-width: 280px;
+    box-sizing: border-box;
+    text-align: left;
+    background: var(--color-background);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.08),
+        0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
 
-    /*box-shadow: 0 2px 5px rgba(0,0,0,0.1);*/
-    text-align: center;
-    transition: transform 0.2s ease-in-out;
+.proj:hover {
+    transform: translateY(-3px);
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.1),
+        0 8px 24px rgba(0, 0, 0, 0.08);
+}
 
-    border: 1px solid  #DDDDDD;
-    border-radius: 5px;
-    padding: 1rem;
-    margin: 0.6rem;
-    transition: background-color 0.2s ease;
+body[data-theme="dark"] .proj {
+    background: #3a3a3a;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.2),
+        0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+body[data-theme="dark"] .proj:hover {
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.25),
+        0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
 .proj .name {
@@ -445,9 +460,6 @@ figure:hover {
     right: 10px;
 }
 
-.proj:hover {
-    background-color: #f5f5f5; /* Slightly lighter background on hover */
-}
 
 .section-header {
     border-bottom: 1px dashed #6b7280;
@@ -820,27 +832,70 @@ body[data-theme="dark"] #callout {
   }
 
   .project-date {
-    font-size: 0.8em; /* Smaller font size for the date */
-    color: #666; /* Lighter text color for the date */
-    margin-top: 5px; /* Space above the date */
-    margin-bottom: 0px; /* Space below the date */
-}
+    font-size: 0.75em;
+    color: #9ca3af;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  body[data-theme="dark"] .project-date {
+    color: #9ca3af;
+  }
+
+  .project-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 0 0 0.25rem 0;
+    line-height: 1.4;
+  }
+
+  .project-title a {
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .project-title a:hover {
+    text-decoration: underline;
+  }
+
+  .desc {
+    color: #6b7280;
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin: 0.5rem 0 0 0;
+  }
+
+  .desc p {
+    margin: 0;
+  }
+
+  body[data-theme="dark"] .desc {
+    color: #9ca3af;
+  }
 
   .project-stack {
     list-style-type: none;
     padding: 0;
-    text-align: left;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
 
   .project-stack li {
     display: inline-block;
-    background: #e1e1e1;
-    margin: 0 5px 5px 0;
-    padding: 3px 7px;
-    background: #444; /* Darker background for the tags */
-    color: #ddd; /* Lighter text color for readability */
-    border-radius: 4px;
-    font-size: 0.8em;
+    background: #f3f4f6;
+    color: #4b5563;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.75em;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+
+  body[data-theme="dark"] .project-stack li {
+    background: #4a4a4a;
+    color: #d1d5db;
   }
   .project-header {
 display: flex; /* This will arrange the child elements in a row */
@@ -857,8 +912,13 @@ font-style: italic;
 margin-left: 5px;
 }
 
-  @media (max-width: 600px) {
-    .projects {
-      grid-template-columns: 1fr;
+  @media (max-width: 640px) {
+    .projects-list {
+      gap: 1rem;
+    }
+
+    .proj {
+      flex: 1 1 100%;
+      padding: 1.25rem;
     }
   }

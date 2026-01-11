@@ -19,16 +19,17 @@
     {% set data = load_data(path="content/projects/web.toml", format="toml") %}
     {% for proj in data.project %}
     <li class="proj">
+        {% if proj.date %}
+        <p class="project-date">{{ proj.date }}</p>
+        {% endif %}
         <p class="project-title">
             {% if proj.url %}
             <a href="{{ proj.url }}" target="_blank" rel="noopener noreferrer">{{ proj.name }}</a>
             {% else %}
-            <span style="font-weight: bold;">{{ proj.name }}</span>
+            {{ proj.name }}
             {% endif %}
-        {% if proj.date %}
-        <p class="project-date">{{ proj.date }}</p>
-        {% endif %}
-        <p class="desc">{{ proj.description | trim | markdown | safe }}</p>
+        </p>
+        <div class="desc">{{ proj.description | trim | markdown | safe }}</div>
         <ul class="project-stack">
             {% for s in proj.stack %}
             <li>{{ s }}</li>
