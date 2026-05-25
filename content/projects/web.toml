@@ -1,6 +1,7 @@
 [[project]]
-name = "Immersive Assessments - an AI voice agent powered assessment platform"
-description = "Cinematic videos put participants into realistic roleplay scenarios to test their decision making via voice agent interactions"
+name = "Immersive assessments powered by voice agents"
+url = "https://portal.insiderisk.com/demo"
+description = "Cinematic videos put participants into realistic roleplay scenarios to test their decision making via voice agent interactions. [Watch the talk](https://youtu.be/byK7_yWtfFE) — chosen as a [#1 top global demo](https://www.linkedin.com/feed/update/urn:li:activity:7457313630196260865/) in the AI Tinkerers community."
 stack = ["NextJS", "TypeScript", "Supabase", "Sanity"]
 date = "2025"
 
